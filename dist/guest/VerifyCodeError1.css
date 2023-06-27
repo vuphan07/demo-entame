@@ -284,7 +284,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
-  width: 318px;
   height: 14px;
   flex-shrink: 0;
 }
