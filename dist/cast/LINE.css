@@ -1,0 +1,118 @@
+.bg6 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 187.5px);
+  background-color: var(--neutral-white);
+  width: 375px;
+  height: 812px;
+}
+.frame-inner,
+.frame-item {
+  position: relative;
+  width: 68.69px;
+  height: 24px;
+}
+.frame-inner {
+  width: 78px;
+  height: 78px;
+}
+.div47,
+.michi {
+  position: relative;
+  line-height: 169%;
+}
+.michi {
+  font-size: var(--jp-body-regular-11-size);
+}
+.group-parent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.button-login-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: #04bb00;
+  width: 327px;
+  height: 44px;
+}
+.div48 {
+  position: absolute;
+  top: 13px;
+  left: 142px;
+  line-height: 169%;
+}
+.button-login {
+  position: relative;
+  width: 327px;
+  height: 44px;
+  cursor: pointer;
+  font-size: var(--jp-body-regular-11-size);
+  color: var(--neutral-white);
+}
+.div49 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  line-height: 169%;
+  color: #48aedf;
+}
+.frame-parent6 {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.frame-parent6,
+.group-parent1,
+.line-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.group-parent1 {
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+.line-parent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-2xl);
+}
+.line-corporation {
+  position: relative;
+  line-height: 169%;
+  color: #c7d0da;
+}
+.frame-parent5,
+.frame-parent7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-parent7 {
+  gap: var(--gap-sm);
+  font-size: var(--font-size-6xs);
+  color: var(--color-slategray-100);
+}
+.frame-parent5 {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 163.5px);
+  gap: 206px;
+}
+.line- {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 968px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  font-size: 9px;
+  color: var(--color-darkslategray-100);
+  font-family: var(--body-input);
+}

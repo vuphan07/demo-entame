@@ -1,0 +1,325 @@
+.bg12 {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 187.5px);
+  background-color: var(--color-aliceblue-100);
+  width: 375px;
+  height: 762px;
+}
+.icon24arrow-back9 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.icon24none-child6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.icon-left9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.icon24bell-child7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  display: none;
+}
+.bell-light-icon9 {
+  position: absolute;
+  height: 91.67%;
+  width: 80.38%;
+  top: 4.17%;
+  right: 9.81%;
+  bottom: 4.17%;
+  left: 9.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon24bell9,
+.rectangle-7-copy9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+.rectangle-7-copy9 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--secondary-pnik-accent);
+}
+.b20 {
+  position: absolute;
+  width: 75%;
+  top: calc(50% - 6px);
+  left: 12.5%;
+  letter-spacing: 0.02em;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12px;
+}
+.icon16badges-169 {
+  position: absolute;
+  height: 66.67%;
+  width: 53.33%;
+  top: 33.33%;
+  right: 0;
+  bottom: 0;
+  left: 46.67%;
+}
+.icon-bell-badges9 {
+  position: relative;
+  width: 30px;
+  height: 24px;
+}
+.magnifying-glass-light-icon9 {
+  position: absolute;
+  height: 91.45%;
+  width: 91.67%;
+  top: 4.27%;
+  right: 4.17%;
+  bottom: 4.27%;
+  left: 4.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-right9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  opacity: 0;
+}
+.frame-child6,
+.navigation-bar9 {
+  background-color: var(--white);
+  width: 375px;
+  height: 50px;
+}
+.navigation-bar9 {
+  box-shadow: var(--line-menu);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.frame-child6 {
+  position: relative;
+  display: none;
+}
+.div97 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  display: inline-block;
+  width: 343px;
+}
+.title8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+}
+.input-field8 {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 327px;
+  height: 48px;
+  display: none;
+}
+.label25 {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+}
+.input-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon24card-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.credit-card-front-solid-icon {
+  position: absolute;
+  height: 75%;
+  width: 96.43%;
+  top: 12.5%;
+  right: 1.79%;
+  bottom: 12.5%;
+  left: 1.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon24card {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.text21 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  border: 1px solid var(--neutral-gray-3);
+  box-sizing: border-box;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-5xs) var(--padding-sm)
+    var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.conditional-hint-message {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 16px;
+}
+.input-field-textfields,
+.input-label1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input-label1 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  font-size: var(--jp-body-regular-12-size);
+}
+.input-field-textfields {
+  width: 341px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.p26 {
+  margin: 0;
+}
+.input-field-textfields2,
+.input-label5,
+.title-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input-label5 {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: var(--jp-body-regular-12-size);
+}
+.input-field-textfields2,
+.title-parent1 {
+  flex-direction: column;
+}
+.input-field-textfields2 {
+  width: 327px;
+  gap: var(--gap-5xs);
+}
+.title-parent1 {
+  gap: var(--gap-5xl);
+}
+.default14 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 247px;
+}
+.button-l14 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--primary-blue-300);
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-29xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.button-l-container {
+  position: relative;
+  width: 343px;
+  height: 44px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+}
+.frame-parent24,
+.navigation-bar-parent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-parent24 {
+  gap: var(--gap-81xl);
+  text-align: left;
+  font-size: var(--body-input-size);
+  color: var(--neutral-dark-text);
+}
+.navigation-bar-parent3 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 187.5px);
+  gap: var(--gap-101xl);
+}
+.div96 {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 968px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--jp-body-regular-12-size);
+  color: var(--white);
+  font-family: var(--body-input);
+}
