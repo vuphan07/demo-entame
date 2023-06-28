@@ -1,0 +1,45 @@
+.left-menu-icon {
+    position: fixed;
+    left: 30px;
+    top: 20px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 101;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.left-menu-list {
+    display: none;
+    position: fixed;
+    left: 30px;
+    top: 16px;
+    background-color: #728b92;
+    gap: 3px;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 14px;
+    padding-top: 40px;
+    padding-right: 20px;
+    z-index: 100;
+    border-radius: 5px;
+}
+
+.left-menu-list_on {
+    overflow-y: auto;
+    display: flex;
+}
+
+.link-item {
+    font-size: 15px;
+    color: white;
+    height: 26px;
+    background-color: #28598a;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
