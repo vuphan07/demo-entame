@@ -18,7 +18,7 @@
     left: 30px;
     top: 16px;
     background-color: #728b92;
-    gap: 3px;
+    gap: 5px;
     align-items: flex-start;
     flex-direction: column;
     padding: 14px;
@@ -26,6 +26,8 @@
     padding-right: 20px;
     z-index: 100;
     border-radius: 5px;
+    max-height: 94vh;
+    overflow-y: auto;
 }
 
 .left-menu-list_on {
@@ -36,10 +38,10 @@
 .link-item {
     font-size: 15px;
     color: white;
-    height: 26px;
+    height: 40px;
     background-color: #28598a;
     width: 100%;
     border-radius: 5px;
-    padding-top: 8px;
+    padding-top: 6px;
     padding-left: 8px;
 }
