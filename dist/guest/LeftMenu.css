@@ -1,3 +1,11 @@
+.left-menu-container {
+    display: none;
+}
+
+.left-menu-container_on {
+    display: block;
+}
+
 .left-menu-icon {
     position: fixed;
     left: 30px;
@@ -13,7 +21,7 @@
 }
 
 .left-menu-list {
-    display: none;
+    display: flex;
     position: fixed;
     left: 30px;
     top: 16px;
@@ -23,16 +31,39 @@
     flex-direction: column;
     padding: 14px;
     padding-top: 40px;
-    padding-right: 20px;
+    padding-right: 14px;
     z-index: 100;
     border-radius: 5px;
     max-height: 90vh;
     overflow-y: auto;
     overflow-x: hidden;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.15s ease;
 }
 
 .left-menu-list_on {
+    transform: scaleY(1);
+}
+
+.left-menu-list_guest {
+    transition: height 0.2s ease;
     display: flex;
+    height: 0px;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 20px;
+}
+
+.left-menu-list_guest_on {
+    height: 800px;
+}
+
+.left-menu-list-header_guest {
+    cursor: pointer;
 }
 
 .link-item {
