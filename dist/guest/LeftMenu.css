@@ -3,7 +3,7 @@
 }
 
 .left-menu-container_on {
-    display: block;
+    display: block !important;
 }
 
 .left-menu-icon {

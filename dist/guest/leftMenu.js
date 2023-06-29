@@ -1,4 +1,4 @@
-const block = `<div id="humbeger" class="left-menu-container">
+const block = `<div style="display: none;" id="humbeger" class="left-menu-container" >
 <div class="left-menu-icon" id="iconLeftMenu">
   <img class="icon-line-2" alt="" src="./public/menu-svgrepo-com.svg" />
 </div>
@@ -111,11 +111,11 @@ function insertHumbeger() {
       link: "./LoginByPhone.html",
     },
     {
-      label: "MyPage",
+      label: "マイページ",
       link: "./MyPage.html",
     },
     {
-      label: "PopupLogOut",
+      label: "ログアウト確認ポップアップ",
       link: "./PopupLogOut.html",
     },
     // {
@@ -151,24 +151,23 @@ function insertHumbeger() {
     //   link: "./VerifyLoginPhoneError2.html",
     // },
   ];
-  var leftMenuIcon = document.getElementById("iconLeftMenu");
-  var leftMenuList = document.getElementById("leftMenuList");
-  var leftMenuGuestList = document.getElementById("leftMenuGuestList");
-  var leftMenuContainer = document.getElementById("humbeger");
-  var leftMenuHeaderGuestList = document.getElementById(
-    "leftMenuHeaderGuestList"
-  );
-
-  leftMenuData.forEach(function (item) {
-    var linkElement = document.createElement("a");
-    linkElement.textContent = item.label;
-    linkElement.href = item.link;
-    linkElement.classList.add("link-item");
-    leftMenuGuestList.appendChild(linkElement);
-  });
-
+  
   // delay render
-  window.addEventListener("load", function () {
+    var leftMenuIcon = document.getElementById("iconLeftMenu");
+    var leftMenuList = document.getElementById("leftMenuList");
+    var leftMenuGuestList = document.getElementById("leftMenuGuestList");
+    var leftMenuContainer = document.getElementById("humbeger");
+    leftMenuContainer.classList.toggle("left-menu-container_on");
+    var leftMenuHeaderGuestList = document.getElementById(
+      "leftMenuHeaderGuestList"
+    );
+    leftMenuData.forEach(function (item) {
+      var linkElement = document.createElement("a");
+      linkElement.textContent = item.label;
+      linkElement.href = item.link;
+      linkElement.classList.add("link-item");
+      leftMenuGuestList.appendChild(linkElement);
+    });
     leftMenuHeaderGuestList.addEventListener("click", function () {
       leftMenuGuestList.classList.toggle("left-menu-list_guest_on");
     });
@@ -186,8 +185,6 @@ function insertHumbeger() {
         leftMenuList.classList.remove("left-menu-list_on");
       }
     });
-    leftMenuContainer.classList.toggle("left-menu-container_on");
-  });
 }
 
-insertHumbeger();
+  insertHumbeger();
