@@ -110,6 +110,14 @@ function insertHumbeger() {
       label: "電話番号でのログイン",
       link: "./LoginByPhone.html",
     },
+    {
+      label: "MyPage",
+      link: "./MyPage.html",
+    },
+    {
+      label: "PopupLogOut",
+      link: "./PopupLogOut.html",
+    },
     // {
     //   label: "LoginByPhoneConfirm",
     //   link: "./LoginByPhoneConfirm.html",
