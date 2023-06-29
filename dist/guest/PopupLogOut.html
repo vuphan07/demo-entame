@@ -151,12 +151,12 @@
                   <img
                     class="iconexplore"
                     alt=""
-                    src="./public/icon24arrow--back.svg"
+                    src="./public/icon24arrow--back4.svg"
                   />
                 </div>
                 <div class="title1">
                   <div class="name">
-                    <b class="a">マイページ</b>
+                    <b class="a"  style="font-size: 18px;">マイページ</b>
                     <div class="tag">
                       <div class="online">ONLINE</div>
                     </div>
@@ -203,7 +203,7 @@
               />
 
               <div class="name1">ゲストA</div>
-              <img class="avt-icon" alt="" src="./public/avt.svg" id="avt" />
+              <img class="avt-icon" alt="" src="./public/avt_guest.svg" id="avt" />
             </div>
           </div>
         </div>
@@ -360,7 +360,7 @@
           </div>
         </div>
         <div class="wrapper" >
-          <div id="confirmLogOut" class="div16">ログアウト</div>
+          <div class="div16">ログアウト</div>
         </div>
         <div class="footer">
           <div class="tabs1">
@@ -402,11 +402,11 @@
               <div class="group-container">
                 <div class="rectangle-group">
                   <div class="rectangle-div"></div>
-                  <div class="div18">戻る</div>
+                  <div class="div18" id="cancelLogOut"  style="cursor: pointer;">戻る</div>
                 </div>
                 <div class="rectangle-container">
                   <div class="group-child1"></div>
-                  <div class="div19">ログアウト</div>
+                  <div class="div19" id="confirmLogOut" style="cursor: pointer;">ログアウト</div>
                 </div>
               </div>
             </div>
@@ -471,6 +471,12 @@
     var confirmLogOut = document.getElementById("confirmLogOut");
     if (confirmLogOut) {
         confirmLogOut.addEventListener("click", function (e) {
+        window.location.href = "./";
+      });
+    }
+    var cancelLogOut = document.getElementById("cancelLogOut");
+    if (cancelLogOut) {
+        cancelLogOut.addEventListener("click", function (e) {
         window.location.href = "./MyPage.html";
       });
     }

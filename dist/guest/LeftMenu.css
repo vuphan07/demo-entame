@@ -26,11 +26,11 @@
     left: 30px;
     top: 16px;
     background-color: #728b92;
-    gap: 5px;
+    gap: 10px;
     align-items: flex-start;
     flex-direction: column;
     padding: 14px;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-right: 14px;
     z-index: 100;
     border-radius: 5px;
@@ -64,6 +64,13 @@
 
 .left-menu-list-header_guest {
     cursor: pointer;
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
 }
 
 .link-item {
