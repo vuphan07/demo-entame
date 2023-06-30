@@ -118,6 +118,43 @@ function insertHumbeger() {
       label: "ログアウト確認ポップアップ",
       link: "./PopupLogOut.html",
     },
+
+    {
+      label: "検索",
+      link: "./Search.html",
+    },
+    {
+      label: "お気に入り",
+      link: "./Favorite.html",
+    },
+    {
+      label: "ランキング",
+      link: "./Ranking.html",
+    },
+    {
+      label: "縁ため日",
+      link: "./EntameDay.html",
+    },
+    {
+      label: "縁ためリスト",
+      link: "./EntameList.html",
+    },
+    {
+      label: "メッセージ一覧",
+      link: "./ChatList.html",
+    },
+    {
+      label: "通知",
+      link: "./Noti.html",
+    },
+    {
+      label: "クーポン/無償ポイント",
+      link: "./CouponFreePoint.html",
+    },
+    {
+      label: "キャストプロフィール",
+      link: "./CastProfile.html",
+    },
     // {
     //   label: "LoginByPhoneConfirm",
     //   link: "./LoginByPhoneConfirm.html",

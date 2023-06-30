@@ -28,13 +28,13 @@
             <div class="explore">
               <img class="iconexplore" alt="" src="./public/iconexplore1.svg" />
             </div>
-            <div class="explore">
+            <div class="explore" id="searchIcon" style="cursor: pointer;">
               <img class="search-icon" alt="" src="./public/search.svg" />
             </div>
-            <div class="explore">
+            <div class="explore" id="favoriteIcon" style="cursor: pointer;">
               <img class="favorite-icon" alt="" src="./public/favorite2.svg" />
             </div>
-            <div class="explore">
+            <div class="explore" id="rankingIcon" style="cursor: pointer;">
               <img class="favorite-icon" alt="" src="./public/favorite311.svg" />
             </div>
             <div class="favorite-parent">
@@ -46,7 +46,7 @@
         </div>
       </div>
       <div class="body">
-        <div class="banner">
+        <div class="banner" id="bannerIcon" style="cursor: pointer;">
           <div class="bg2">
             <img class="banner-icon" alt="" src="./public/banner@2x.png" />
           </div>
@@ -147,7 +147,7 @@
               </div>
             </div>
           </div>
-          <div class="all-cast">
+          <div class="all-cast" id="allCard" style="cursor: pointer;">
             <div class="heading2">
               <b class="top-favourite-cast">All Cast</b>
               <b class="see-all2">See all</b>
@@ -319,18 +319,18 @@
         <div class="tabbar">
           <div class="tabs1">
             <div class="explore">
-              <div class="iconexplore">
+              <div class="iconexplore" id="entameDay" style="cursor: pointer;">
                 <div class="bg3"></div>
                 <b class="b3">縁</b>
               </div>
             </div>
-            <div class="explore">
+            <div class="explore" id="entameList" style="cursor: pointer;">
               <img class="favorite-icon" alt="" src="./public/favorite111.svg" />
             </div>
-            <div class="explore">
+            <div class="explore" id="chatList" style="cursor: pointer;">
               <img class="favorite-icon" alt="" src="./public/commenttextmultiple1.svg" />
             </div>
-            <div class="explore">
+            <div class="explore" id="notiList" style="cursor: pointer;">
               <img class="iconexplore" alt="" src="./public/group-5076111.svg" />
             </div>
             <div class="explore" id="accountCircle" style="cursor: pointer;">
@@ -392,10 +392,67 @@
     </div>
   </div>
   <script>
-    var container = document.getElementById("accountCircle");
-    if (container) {
-      container.addEventListener("click", function (e) {
+    var allCard = document.getElementById("allCard");
+    if (allCard) {
+      allCard.addEventListener("click", function (e) {
+        window.location.href = "./CastProfile.html";
+      });
+    }
+
+    if (bannerIcon) {
+      bannerIcon.addEventListener("click", function (e) {
+        window.location.href = "./CouponFreePoint.html";
+      });
+    }
+
+    var accountCircle = document.getElementById("accountCircle");
+    if (accountCircle) {
+      accountCircle.addEventListener("click", function (e) {
         window.location.href = "./MyPage.html";
+      });
+    }
+
+    var searchIcon = document.getElementById("searchIcon");
+    if (searchIcon) {
+      searchIcon.addEventListener("click", function (e) {
+        window.location.href = "./Search.html";
+      });
+    }
+
+    var favoriteIcon = document.getElementById("favoriteIcon");
+    if (favoriteIcon) {
+      favoriteIcon.addEventListener("click", function (e) {
+        window.location.href = "./Favorite.html";
+      });
+    }
+    var rankingIcon = document.getElementById("rankingIcon");
+    if (rankingIcon) {
+      rankingIcon.addEventListener("click", function (e) {
+        window.location.href = "./Ranking.html";
+      });
+    }
+    var entameDay = document.getElementById("entameDay");
+    if (entameDay) {
+      entameDay.addEventListener("click", function (e) {
+        window.location.href = "./EntameDay.html";
+      });
+    }
+    var entameList = document.getElementById("entameList");
+    if (entameList) {
+      entameList.addEventListener("click", function (e) {
+        window.location.href = "./EntameList.html";
+      });
+    }
+    var chatList = document.getElementById("chatList");
+    if (chatList) {
+      chatList.addEventListener("click", function (e) {
+        window.location.href = "./ChatList.html";
+      });
+    }
+    var notiList = document.getElementById("notiList");
+    if (notiList) {
+      notiList.addEventListener("click", function (e) {
+        window.location.href = "./Noti.html";
       });
     }
 
