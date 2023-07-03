@@ -155,6 +155,10 @@ function insertHumbeger() {
       label: "キャストプロフィール",
       link: "./CastProfile.html",
     },
+    {
+      label: "CreateRequest",
+      link: "./CreateNewRequest.html",
+    },
     // {
     //   label: "LoginByPhoneConfirm",
     //   link: "./LoginByPhoneConfirm.html",

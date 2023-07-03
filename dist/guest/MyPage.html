@@ -141,8 +141,8 @@
                 </div>
                 <img class="icon16chevron-right" alt="" src="./public/icon16chevronright.svg" />
               </div>
-              <div class="itemchoose1" id="itemchooseContainer1">
-                <div class="text-parent">
+              <div class="itemchoose1" id="payInfo">
+                <div class="text-parent" style="cursor: pointer;" id="payInfo">
                   <div class="text1">
                     <img class="favorite-icon" alt="" src="./public/icon24banner.svg" />
 
@@ -265,6 +265,13 @@
     if (backIcon) {
       backIcon.addEventListener("click", function (e) {
         window.location.href = "./Component2121.html";
+      });
+    }
+
+    var payInfo = document.getElementById("payInfo");
+    if (payInfo) {
+      payInfo.addEventListener("click", function (e) {
+        window.location.href = "./HoldingPoint.html";
       });
     }
 

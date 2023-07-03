@@ -102,7 +102,7 @@
                     <b class="a6">キャストA</b>
                   </div>
                 </div>
-                <div class="default8">
+                <div class="default8" style="cursor: pointer;" id="nextStep">
                   <b class="b49">チャット&ギフト</b>
                 </div>
               </div>
@@ -173,7 +173,7 @@
               <div class="date28">
                 <b class="div104">Alice Bar</b>
               </div>
-              <div class="default12">
+              <div class="default12" style="cursor: pointer;">
                 <b class="b54">店舗情報</b>
               </div>
             </div>
@@ -254,7 +254,7 @@
                 </div>
               </div>
             </div>
-            <div class="explore"  id="entameList" style="cursor: pointer;">
+            <div class="explore" id="entameList" style="cursor: pointer;">
               <img class="favorite-icon" alt="" src="./public/favorite111.svg" />
             </div>
             <div class="explore" id="chatList" style="cursor: pointer;">
@@ -272,6 +272,13 @@
     </div>
   </div>
   <script>
+ var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./PopUpCastInfo.html";
+      });
+    }
+
     var homeIcon = document.getElementById("homeIcon");
     if (homeIcon) {
       homeIcon.addEventListener("click", function (e) {
