@@ -159,38 +159,50 @@ function insertHumbeger() {
       label: "CreateRequest",
       link: "./CreateNewRequest.html",
     },
-    // {
-    //   label: "LoginByPhoneConfirm",
-    //   link: "./LoginByPhoneConfirm.html",
-    // },
-    // {
-    //   label: "LoginByPhoneConfirmChecked",
-    //   link: "./LoginByPhoneConfirmChecked.html",
-    // },
-    // {
-    //   label: "LoginByPhoneError",
-    //   link: "./LoginByPhoneError.html",
-    // },
-    // {
-    //   label: "VerifyCodeError1",
-    //   link: "./VerifyCodeError1.html",
-    // },
-    // {
-    //   label: "VerifyCodeError2",
-    //   link: "./VerifyCodeError2.html",
-    // },
-    // {
-    //   label: "VerifyLoginPhone",
-    //   link: "./VerifyLoginPhone.html",
-    // },
-    // {
-    //   label: "VerifyLoginPhoneError",
-    //   link: "./VerifyLoginPhoneError.html",
-    // },
-    // {
-    //   label: "VerifyLoginPhoneError2",
-    //   link: "./VerifyLoginPhoneError2.html",
-    // },
+
+
+
+
+    {
+      label: "HoldingPoint",
+      link: "./HoldingPoint.html",
+    },
+    {
+      label: "InputPoint1",
+      link: "./InputPoint1.html",
+    },
+    {
+      label: "InputPoint2",
+      link: "./InputPoint2.html",
+    },
+    {
+      label: "ConfirmPoint",
+      link: "./ConfirmPoint.html",
+    },
+    {
+      label: "InputCard",
+      link: "./InputCard.html",
+    },
+    {
+      label: "ConfirmPayPoint",
+      link: "./ConfirmPayPoint.html",
+    },
+    {
+      label: "CurrentPoint",
+      link: "./CurrentPoint.html",
+    },
+    {
+      label: "PopUpCastInfo",
+      link: "./PopUpCastInfo.html",
+    },
+    {
+      label: "EntameDay2",
+      link: "./EntameDay2.html",
+    },
+    {
+      label: "EntameDay3",
+      link: "./EntameDay3.html",
+    },
   ];
   
   // delay render
