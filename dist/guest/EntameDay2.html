@@ -31,15 +31,15 @@
           </div>
           <div class="heder-menu4">
             <div class="tabs7">
-              <div class="explore12"  id="homeIcon" style="cursor: pointer;">
+              <div class="explore12" id="homeIcon" style="cursor: pointer;">
                 <img class="iconfillstar" alt="" src="./public/iconexplore211.svg" />
               </div>
-              <div class="explore12"  id="searchIcon" style="cursor: pointer;">
+              <div class="explore12" id="searchIcon" style="cursor: pointer;">
                 <img class="search-icon10" alt="" src="./public/search211.svg" />
               </div>
-              <img class="vector-icon7" alt="" src="./public/vector6.svg" id="favoriteIcon" style="cursor: pointer;"/>
+              <img class="vector-icon7" alt="" src="./public/vector6.svg" id="favoriteIcon" style="cursor: pointer;" />
 
-              <img class="vector-icon8" alt="" src="./public/vector7.svg" id="rankingIcon" style="cursor: pointer;"/>
+              <img class="vector-icon8" alt="" src="./public/vector7.svg" id="rankingIcon" style="cursor: pointer;" />
 
               <div class="favorite-parent2">
                 <img class="favorite-icon7" alt="" src="./public/favorite4.svg" />
@@ -84,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div class="frame-parent11">
+      <div class="frame-parent11" id="contentContainer" style="cursor: pointer;">
         <div class="body-group">
           <div class="body3">
             <div class="info24">
@@ -410,7 +410,7 @@
         </div>
         <div class="footer3">
           <div class="tabs8">
-            <div class="explore4"  id="entameDay"  style="cursor: pointer;">
+            <div class="explore4" id="entameDay" style="cursor: pointer;">
               <div class="lv0-icon-notification-parent1">
                 <div class="icon24bell4">
                   <div class="bg8"></div>
@@ -440,6 +440,72 @@
       </div>
     </div>
   </div>
+  <script>
+    var nextStep = document.getElementById("contentContainer");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./EntameDay3.html";
+      });
+    }
+
+    var homeIcon = document.getElementById("homeIcon");
+    if (homeIcon) {
+      homeIcon.addEventListener("click", function (e) {
+        window.location.href = "./Component2121.html";
+      });
+    }
+
+    var accountCircle = document.getElementById("accountCircle");
+    if (accountCircle) {
+      accountCircle.addEventListener("click", function (e) {
+        window.location.href = "./MyPage.html";
+      });
+    }
+
+    var searchIcon = document.getElementById("searchIcon");
+    if (searchIcon) {
+      searchIcon.addEventListener("click", function (e) {
+        window.location.href = "./Search.html";
+      });
+    }
+
+    var favoriteIcon = document.getElementById("favoriteIcon");
+    if (favoriteIcon) {
+      favoriteIcon.addEventListener("click", function (e) {
+        window.location.href = "./Favorite.html";
+      });
+    }
+    var rankingIcon = document.getElementById("rankingIcon");
+    if (rankingIcon) {
+      rankingIcon.addEventListener("click", function (e) {
+        window.location.href = "./Ranking.html";
+      });
+    }
+    var entameDay = document.getElementById("entameDay");
+    if (entameDay) {
+      entameDay.addEventListener("click", function (e) {
+        window.location.href = "./EntameDay.html";
+      });
+    }
+    var entameList = document.getElementById("entameList");
+    if (entameList) {
+      entameList.addEventListener("click", function (e) {
+        window.location.href = "./EntameList.html";
+      });
+    }
+    var chatList = document.getElementById("chatList");
+    if (chatList) {
+      chatList.addEventListener("click", function (e) {
+        window.location.href = "./ChatList.html";
+      });
+    }
+    var notiList = document.getElementById("notiList");
+    if (notiList) {
+      notiList.addEventListener("click", function (e) {
+        window.location.href = "./Noti.html";
+      });
+    }
+  </script>
 </body>
 
 </html>
