@@ -118,7 +118,6 @@ function insertHumbeger() {
       label: "ログアウト確認ポップアップ",
       link: "./PopupLogOut.html",
     },
-
     {
       label: "検索",
       link: "./Search.html",
@@ -156,43 +155,39 @@ function insertHumbeger() {
       link: "./CastProfile.html",
     },
     {
-      label: "CreateRequest",
+      label: "キャストプロフィール",
       link: "./CreateNewRequest.html",
     },
-
-
-
-
     {
-      label: "HoldingPoint",
+      label: "保持ポイント",
       link: "./HoldingPoint.html",
     },
     {
-      label: "InputPoint1",
+      label: "ポイント入力①",
       link: "./InputPoint1.html",
     },
     {
-      label: "InputPoint2",
+      label: "ポイント入力②",
       link: "./InputPoint2.html",
     },
     {
-      label: "ConfirmPoint",
+      label: "ポイント確認",
       link: "./ConfirmPoint.html",
     },
     {
-      label: "InputCard",
+      label: "カード選択",
       link: "./InputCard.html",
     },
     {
-      label: "ConfirmPayPoint",
+      label: "購入確認",
       link: "./ConfirmPayPoint.html",
     },
     {
-      label: "CurrentPoint",
+      label: "ポイント詳細",
       link: "./CurrentPoint.html",
     },
     {
-      label: "PopUpCastInfo",
+      label: "店舗情報ポップアップ",
       link: "./PopUpCastInfo.html",
     },
     {
@@ -204,31 +199,31 @@ function insertHumbeger() {
       link: "./EntameDay3.html",
     },
     {
-      label: "SelectRoleErrorLINE",
+      label: "アカウントエラー",
       link: "./SelectRoleErrorLINE.html",
     },
     {
-      label: "EditProfile",
+      label: "プロフィール編集",
       link: "./EditProfile.html",
     },
     {
-      label: "CardInfo",
+      label: "お支払い情報",
       link: "./CardInfo.html",
     },
     {
-      label: "PointHistory",
+      label: "ポイント利用履歴",
       link: "./PointHistory.html",
     },
     {
-      label: "Help",
+      label: "ヘルプ",
       link: "./Help.html",
     },
     {
-      label: "ChangeTelNumber",
+      label: "電話番号変更",
       link: "./ChangeTelNumber.html",
     },
     {
-      label: "Setting",
+      label: "設定",
       link: "./Setting.html",
     },
   ];
