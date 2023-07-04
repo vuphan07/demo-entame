@@ -525,6 +525,7 @@
   height: 16px;
 }
 .itemchoose {
+  cursor: pointer;
   align-self: stretch;
   background-color: var(--neutral-white);
   box-shadow: var(--line-menu);

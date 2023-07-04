@@ -79,15 +79,18 @@
           </div>
           <div class="heder-menu9">
             <div class="tabs18">
-              <div class="explore13" style="cursor: pointer;" id="homeIcon">
-                <img class="iconexplore13" alt="" src="./public/iconexplore211.svg" />
+              <div class="explore12"  id="homeIcon" style="cursor: pointer;">
+                <img class="iconfillstar" alt="" src="./public/iconexplore211.svg" />
               </div>
-              <div class="explore13">
-                <img class="search-icon11" alt="" src="./public/search1.svg" />
+              <div class="explore12"  id="searchIcon" style="cursor: pointer;">
+                <img class="search-icon10" alt="" src="./public/search211.svg" />
               </div>
-              <img class="vector-icon22" alt="" src="./public/vector3.svg" />
-
-              <img class="vector-icon23" alt="" src="./public/vector41.svg" />
+              <div class="explore10" id="favoriteIcon" style="cursor: pointer;">
+                <img class="icon24add" alt="" src="./public/favorite21.svg" />
+              </div>
+              <div class="explore10" id="rankingIcon" style="cursor: pointer;">
+                <img class="icon24add" alt="" src="./public/favorite311.svg" />
+              </div>
 
               <div class="favorite-parent11">
                 <img class="radio-button-unchecked-black-2-icon" alt="" src="./public/favorite4.svg" />
@@ -372,20 +375,23 @@
         <div class="tabs19">
           <div class="explore13">
             <div class="icon24arrowup2" id="entameDay">
-              <div class="bg14" style="border: 1px solid #B4CCE2; height: 24px; width: 24px; position: absolute; top: 2px; left: 10px; border-radius: 50%;"></div>
+              <div class="bg14"
+                style="border: 1px solid #B4CCE2; height: 24px; width: 24px; position: absolute; top: 2px; left: 10px; border-radius: 50%;">
+              </div>
               <b class="b106" style=" color: #B4CCE2;">縁</b>
             </div>
           </div>
-          <div class="explore13">
+
+          <div class="explore10" id="entameList" style="cursor: pointer;">
             <img class="radio-button-unchecked-black-2-icon" alt="" src="./public/favorite3.svg" />
           </div>
-          <div class="explore13">
+          <div class="explore10" id="chatList" style="cursor: pointer;">
             <img class="radio-button-unchecked-black-2-icon" alt="" src="./public/commenttextmultiple1.svg" />
           </div>
-          <div class="explore13">
+          <div class="explore10" id="notiList" style="cursor: pointer;">
             <img class="iconexplore13" alt="" src="./public/group-50761111.svg" />
           </div>
-          <div class="explore13" id="accountCircle" style="cursor: pointer;">
+          <div class="explore10" id="accountCircle" style="cursor: pointer;">
             <img class="radio-button-unchecked-black-2-icon" alt="" src="./public/account-circle11.svg" />
           </div>
         </div>
@@ -393,6 +399,13 @@
     </div>
   </div>
   <script>
+    var homeIcon = document.getElementById("homeIcon");
+    if (homeIcon) {
+      homeIcon.addEventListener("click", function (e) {
+        window.location.href = "./Component2121.html";
+      });
+    }
+
     var accountCircle = document.getElementById("accountCircle");
     if (accountCircle) {
       accountCircle.addEventListener("click", function (e) {
@@ -400,10 +413,47 @@
       });
     }
 
-    var homeIcon = document.getElementById("homeIcon");
-    if (homeIcon) {
-      homeIcon.addEventListener("click", function (e) {
-        window.location.href = "./Component2121.html";
+    var searchIcon = document.getElementById("searchIcon");
+    if (searchIcon) {
+      searchIcon.addEventListener("click", function (e) {
+        window.location.href = "./Search.html";
+      });
+    }
+
+    var favoriteIcon = document.getElementById("favoriteIcon");
+    if (favoriteIcon) {
+      favoriteIcon.addEventListener("click", function (e) {
+        window.location.href = "./Favorite.html";
+      });
+    }
+    var rankingIcon = document.getElementById("rankingIcon");
+    if (rankingIcon) {
+      rankingIcon.addEventListener("click", function (e) {
+        window.location.href = "./Ranking.html";
+      });
+    }
+    var entameDay = document.getElementById("entameDay");
+    if (entameDay) {
+      entameDay.addEventListener("click", function (e) {
+        window.location.href = "./EntameDay.html";
+      });
+    }
+    var entameList = document.getElementById("entameList");
+    if (entameList) {
+      entameList.addEventListener("click", function (e) {
+        window.location.href = "./EntameList.html";
+      });
+    }
+    var chatList = document.getElementById("chatList");
+    if (chatList) {
+      chatList.addEventListener("click", function (e) {
+        window.location.href = "./ChatList.html";
+      });
+    }
+    var notiList = document.getElementById("notiList");
+    if (notiList) {
+      notiList.addEventListener("click", function (e) {
+        window.location.href = "./Noti.html";
       });
     }
   </script>

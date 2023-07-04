@@ -75,10 +75,10 @@
             <div class="explore12"  id="searchIcon" style="cursor: pointer;">
               <img class="search-icon10" alt="" src="./public/search211.svg" />
             </div>
-            <div class="explore">
+            <div class="explore" id="favoriteIcon" style="cursor: pointer;">
               <img class="favorite-icon" alt="" src="./public/favorite2.svg" />
             </div>
-            <div class="explore">
+            <div class="explore" id="rankingIcon" style="cursor: pointer;">
               <img class="favorite-icon" alt="" src="./public/favorite311.svg" />
             </div>
             <div class="favorite-parent">
@@ -133,7 +133,7 @@
         <div class="page-admin-parent">
           <div class="page-admin">
             <div class="items" style="font-size: 14px;">
-              <div class="itemchoose">
+              <div class="itemchoose" id="editProfile">
                 <div class="text">
                   <img class="favorite-icon" alt="" src="./public/pencil.svg" />
 
@@ -165,7 +165,7 @@
                   <img class="icon16chevron-right1" alt="" src="./public/icon16chevronright1.svg" />
                 </div>
               </div>
-              <div class="itemchoose">
+              <div class="itemchoose" id="cardInfo">
                 <div class="text">
                   <img class="favorite-icon" alt="" src="./public/icon24description.svg" />
 
@@ -173,7 +173,7 @@
                 </div>
                 <img class="icon16chevron-right" alt="" src="./public/icon16chevronright.svg" />
               </div>
-              <div class="itemchoose">
+              <div class="itemchoose" id="pointHistory">
                 <div class="text">
                   <img class="favorite-icon" alt="" src="./public/gridiconshistory.svg" />
 
@@ -181,7 +181,7 @@
                 </div>
                 <img class="icon16chevron-right" alt="" src="./public/icon16chevronright.svg" />
               </div>
-              <div class="itemchoose4">
+              <div class="itemchoose4"  id="coupon">
                 <img class="favorite-icon" alt="" src="./public/ticketpercentoutline.svg" />
 
                 <div class="text4">
@@ -189,7 +189,7 @@
                 </div>
                 <img class="icon16chevron-right" alt="" src="./public/icon16chevronright.svg" />
               </div>
-              <div class="itemchoose">
+              <div class="itemchoose" id="help">
                 <div class="text">
                   <img class="favorite-icon" alt="" src="./public/bxhelpcircle.svg" />
 
@@ -197,7 +197,7 @@
                 </div>
                 <img class="icon16chevron-right" alt="" src="./public/icon16chevronright.svg" />
               </div>
-              <div class="itemchoose4">
+              <div class="itemchoose4"  id="entameHowToUse">
                 <img class="favorite-icon" alt="" src="./public/security.svg" />
 
                 <div class="text6">
@@ -205,7 +205,15 @@
                 </div>
                 <img class="icon16chevron-right" alt="" src="./public/icon16chevronright.svg" />
               </div>
-              <div class="itemchoose4">
+              <div class="itemchoose4" id="changeTelNumber">
+                <img class="favorite-icon" alt="" src="./public/account-convert.svg" />
+
+                <div class="text6">
+                  <div class="div7">電話番号変更</div>
+                </div>
+                <img class="icon16chevron-right" alt="" src="./public/icon16chevronright.svg" />
+              </div>
+              <div class="itemchoose4" id="setting">
                 <img class="favorite-icon" alt="" src="./public/cog.svg" />
 
                 <div class="text6">
@@ -228,16 +236,16 @@
                   <b class="b106" style=" color: #B4CCE2;">縁</b>
                 </div>
               </div>
-              <div class="explore">
-                <img class="favorite-icon" alt="" src="./public/favorite11.svg" />
+              <div class="explore10" id="entameList" style="cursor: pointer;">
+                <img class="radio-button-unchecked-black-2-icon" alt="" src="./public/favorite3.svg" />
               </div>
-              <div class="explore">
-                <img class="favorite-icon" alt="" src="./public/commenttextmultiple21.svg" />
+              <div class="explore10" id="chatList" style="cursor: pointer;">
+                <img class="radio-button-unchecked-black-2-icon" alt="" src="./public/commenttextmultiple1.svg" />
               </div>
-              <div class="explore">
-                <img class="iconexplore" alt="" src="./public/group-507612.svg" />
+              <div class="explore10" id="notiList" style="cursor: pointer;">
+                <img class="iconexplore13" alt="" src="./public/group-50761111.svg" />
               </div>
-              <div class="explore">
+              <div class="explore10" id="accountCircle" style="cursor: pointer;">
                 <img class="favorite-icon" alt="" src="./public/account-hightlight.svg" />
               </div>
             </div>
@@ -279,6 +287,122 @@
     if (logOutIcon) {
       logOutIcon.addEventListener("click", function (e) {
         window.location.href = "./PopupLogOut.html";
+      });
+    }
+
+    var cardInfo = document.getElementById("cardInfo");
+    if (cardInfo) {
+      cardInfo.addEventListener("click", function (e) {
+        window.location.href = "./CardInfo.html";
+      });
+    }
+
+    var coupon = document.getElementById("coupon");
+    if (coupon) {
+      coupon.addEventListener("click", function (e) {
+        window.location.href = "./CouponFreePoint.html";
+      });
+    }
+
+    var editProfile = document.getElementById("editProfile");
+    if (editProfile) {
+      editProfile.addEventListener("click", function (e) {
+        window.location.href = "./EditProfile.html";
+      });
+    }
+
+    var entameHowToUse = document.getElementById("entameHowToUse");
+    if (entameHowToUse) {
+      entameHowToUse.addEventListener("click", function (e) {
+        window.location.href = "./EntameHowToUse.html";
+      });
+    }
+
+    var help = document.getElementById("help");
+    if (help) {
+      help.addEventListener("click", function (e) {
+        window.location.href = "./Help.html";
+      });
+    }
+
+    var pointHistory = document.getElementById("pointHistory");
+    if (pointHistory) {
+      pointHistory.addEventListener("click", function (e) {
+        window.location.href = "./PointHistory.html";
+      });
+    }
+
+    var setting = document.getElementById("setting");
+    if (setting) {
+      setting.addEventListener("click", function (e) {
+        window.location.href = "./Setting.html";
+      });
+    }
+
+    var changeTelNumber = document.getElementById("changeTelNumber");
+    if (changeTelNumber) {
+      changeTelNumber.addEventListener("click", function (e) {
+        window.location.href = "./ChangeTelNumber.html";
+      });
+    }
+
+
+
+    var homeIcon = document.getElementById("homeIcon");
+    if (homeIcon) {
+      homeIcon.addEventListener("click", function (e) {
+        window.location.href = "./Component2121.html";
+      });
+    }
+
+    var accountCircle = document.getElementById("accountCircle");
+    if (accountCircle) {
+      accountCircle.addEventListener("click", function (e) {
+        window.location.href = "./MyPage.html";
+      });
+    }
+
+    var searchIcon = document.getElementById("searchIcon");
+    if (searchIcon) {
+      searchIcon.addEventListener("click", function (e) {
+        window.location.href = "./Search.html";
+      });
+    }
+
+    var favoriteIcon = document.getElementById("favoriteIcon");
+    if (favoriteIcon) {
+      favoriteIcon.addEventListener("click", function (e) {
+        window.location.href = "./Favorite.html";
+      });
+    }
+    var rankingIcon = document.getElementById("rankingIcon");
+    if (rankingIcon) {
+      rankingIcon.addEventListener("click", function (e) {
+        window.location.href = "./Ranking.html";
+      });
+    }
+    var entameDay = document.getElementById("entameDay");
+    if (entameDay) {
+      entameDay.addEventListener("click", function (e) {
+        window.location.href = "./EntameDay.html";
+      });
+    }
+    var entameList = document.getElementById("entameList");
+    if (entameList) {
+      entameList.addEventListener("click", function (e) {
+        window.location.href = "./EntameList.html";
+      });
+    }
+    var chatList = document.getElementById("chatList");
+    if (chatList) {
+      chatList.addEventListener("click", function (e) {
+        window.location.href = "./ChatList.html";
+      });
+    }
+    var notiList = document.getElementById("notiList");
+    if (notiList) {
+      notiList.addEventListener("click", function (e) {
+        window.location.href = "./Noti.html";
       });
     }
   </script>

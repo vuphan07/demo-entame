@@ -203,6 +203,34 @@ function insertHumbeger() {
       label: "EntameDay3",
       link: "./EntameDay3.html",
     },
+    {
+      label: "SelectRoleErrorLINE",
+      link: "./SelectRoleErrorLINE.html",
+    },
+    {
+      label: "EditProfile",
+      link: "./EditProfile.html",
+    },
+    {
+      label: "CardInfo",
+      link: "./CardInfo.html",
+    },
+    {
+      label: "PointHistory",
+      link: "./PointHistory.html",
+    },
+    {
+      label: "Help",
+      link: "./Help.html",
+    },
+    {
+      label: "ChangeTelNumber",
+      link: "./ChangeTelNumber.html",
+    },
+    {
+      label: "Setting",
+      link: "./Setting.html",
+    },
   ];
   
   // delay render
