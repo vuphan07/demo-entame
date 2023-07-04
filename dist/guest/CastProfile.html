@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1, width=device-width" />
   <link rel="stylesheet" href="./global9.css" />
-  <link rel="stylesheet" href="./CastProfile2.css" />
+  <link rel="stylesheet" href="./CastProfile.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" />
@@ -378,7 +378,7 @@
                 <div class="icon24bell-child131"></div>
                 <img class="magnifying-glass-light-icon134" alt="" src="./public/magnifyingglasslight12.svg" />
               </div>
-              <img class="favorite-icon306" alt="" src="./public/icon24setting1.svg" />
+              <img class="favorite-icon306" alt="" src="./public/icon24setting1.svg" style="cursor: pointer;" id="settingIcon"/>
             </div>
           </div>
         </div>
@@ -472,7 +472,7 @@
                   </div>
                   <div class="week-0215">
                     <div class="div3096">5</div>
-                    <div class="wrapper167">
+                    <div class="wrapper167" style="cursor: pointer;" id="castProfileEntameSchedule">
                       <b class="b1012">6</b>
                     </div>
                     <div class="div3096">7</div>
@@ -527,11 +527,11 @@
               <div class="p256">4,000P</div>
             </div>
           </div>
-          <div class="icon135">
+          <div class="icon135" style="cursor: pointer;" id="chatDetail">
             <div class="message-fill-container">
-              <img class="icon16chevron-left5" alt="" src="./public/message-fill1.svg" />
+              <img class="icon16chevron-left5" alt="" src="./public/heart-2.svg" style="height: 16px; height: 16px;"/>
 
-              <img class="icon16dot-v41" alt="" src="./public/love1.svg" />
+              <img class="icon16dot-v41" alt="" src="./public/heart-2.svg" />
 
               <img class="icon16chevron-left5" alt="" src="./public/add1.svg" />
 
@@ -705,7 +705,9 @@
             <div class="tabs169">
               <div class="rd" id="entameDay" style="cursor: pointer;">
                 <div class="icon24arrowup2" id="entameDay">
-                  <div class="bg14" style="border: 1px solid #B4CCE2; height: 24px; width: 24px; position: absolute; top: 2px; left: 10px; border-radius: 50%;"></div>
+                  <div class="bg14"
+                    style="border: 1px solid #B4CCE2; height: 24px; width: 24px; position: absolute; top: 2px; left: 10px; border-radius: 50%;">
+                  </div>
                   <b class="b106" style=" color: #B4CCE2;">縁</b>
                 </div>
               </div>
@@ -728,6 +730,25 @@
     </div>
   </div>
   <script>
+       var chatDetail = document.getElementById("chatDetail");
+    if (chatDetail) {
+      chatDetail.addEventListener("click", function (e) {
+        window.location.href = "./ChatDetail11.html";
+      });
+    }
+    var castProfileEntameSchedule = document.getElementById("castProfileEntameSchedule");
+    if (castProfileEntameSchedule) {
+      castProfileEntameSchedule.addEventListener("click", function (e) {
+        window.location.href = "./CastProfileEntameSchedule.html";
+      });
+    }
+    var settingIcon = document.getElementById("settingIcon");
+    if (settingIcon) {
+      settingIcon.addEventListener("click", function (e) {
+        window.location.href = "./SettingCastNoti.html";
+      });
+    }
+
     var homeIcon = document.getElementById("homeIcon");
     if (homeIcon) {
       homeIcon.addEventListener("click", function (e) {
@@ -786,7 +807,7 @@
       });
     }
   </script>
-    <script src="leftMenu.js"></script>
+  <script src="leftMenu.js"></script>
 </body>
 
 </html>

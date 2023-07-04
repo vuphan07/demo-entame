@@ -156,7 +156,7 @@ function insertHumbeger() {
     },
     {
       label: "キャストプロフィール",
-      link: "./CreateNewRequest.html",
+      link: "./Creatnewrequest1.html",
     },
     {
       label: "保持ポイント",
@@ -226,12 +226,63 @@ function insertHumbeger() {
       label: "設定",
       link: "./Setting.html",
     },
+
+
+    {
+      label: "CastProfileEntameSchedule",
+      link: "./CastProfileEntameSchedule.html",
+    },
+    {
+      label: "ChatDetail11",
+      link: "./ChatDetail11.html",
+    },
+    {
+      label: "SettingCastNoti",
+      link: "./SettingCastNoti.html",
+    },
+    {
+      label: "CastProfileNoEntameSchedule",
+      link: "./CastProfileNoEntameSchedule.html",
+    },
+    {
+      label: "CastProfileNoSettingViewImage",
+      link: "./CastProfileNoSettingViewImage.html",
+    },
   ];
+
+  const cast = [
+    {
+      label: "ConfirmedLoginCast",
+      link: "./ConfirmedLoginCast.html",
+    },
+    {
+      label: "ConfirmLoginCast",
+      link: "./ConfirmLoginCast.html",
+    },
+    {
+      label: "HomeCast",
+      link: "./HomeCast.html",
+    },
+    {
+      label: "LoginCast",
+      link: "./LoginCast.html",
+    },
+    {
+      label: "PhoneNumberCast",
+      link: "./PhoneNumberCast.html",
+    },
+    {
+      label: "VerifyCodeCast",
+      link: "./VerifyCodeCast.html",
+    },
+  ]
   
   // delay render
     var leftMenuIcon = document.getElementById("iconLeftMenu");
     var leftMenuList = document.getElementById("leftMenuList");
     var leftMenuGuestList = document.getElementById("leftMenuGuestList");
+    var leftMenuHeaderCastList = document.getElementById("leftMenuHeaderCastList");
+    var leftMenuCastList = document.getElementById("leftMenuCastList");
     var leftMenuContainer = document.getElementById("humbeger");
     leftMenuContainer.classList.toggle("left-menu-container_on");
     var leftMenuHeaderGuestList = document.getElementById(
@@ -244,9 +295,21 @@ function insertHumbeger() {
       linkElement.classList.add("link-item");
       leftMenuGuestList.appendChild(linkElement);
     });
+    cast.forEach(function (item) {
+      var linkElement2 = document.createElement("a");
+      linkElement2.textContent = item.label;
+      linkElement2.href = item.link;
+      linkElement2.classList.add("link-item");
+      leftMenuCastList.appendChild(linkElement2);
+    });
+    leftMenuHeaderCastList.addEventListener("click", function () {
+      leftMenuCastList.classList.toggle("left-menu-list_cast_on");
+    });
+
     leftMenuHeaderGuestList.addEventListener("click", function () {
       leftMenuGuestList.classList.toggle("left-menu-list_guest_on");
     });
+
 
     leftMenuIcon.addEventListener("click", function () {
       leftMenuList.classList.toggle("left-menu-list_on");

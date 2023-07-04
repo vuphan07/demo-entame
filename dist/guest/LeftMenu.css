@@ -58,6 +58,22 @@
     padding-right: 20px;
 }
 
+.left-menu-list_cast {
+    transition: height 0.2s ease;
+    display: flex;
+    height: 0px;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 20px;
+}
+
+.left-menu-list_cast_on {
+    height: 800px;
+}
+
 .left-menu-list_guest_on {
     height: 800px;
 }
