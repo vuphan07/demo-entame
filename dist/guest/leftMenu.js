@@ -190,14 +190,14 @@ function insertHumbeger() {
       label: "店舗情報ポップアップ",
       link: "./PopUpCastInfo.html",
     },
-    {
-      label: "EntameDay2",
-      link: "./EntameDay2.html",
-    },
-    {
-      label: "EntameDay3",
-      link: "./EntameDay3.html",
-    },
+    // {
+    //   label: "EntameDay2",
+    //   link: "./EntameDay2.html",
+    // },
+    // {
+    //   label: "EntameDay3",
+    //   link: "./EntameDay3.html",
+    // },
     {
       label: "アカウントエラー",
       link: "./SelectRoleErrorLINE.html",
@@ -229,24 +229,36 @@ function insertHumbeger() {
 
 
     {
-      label: "CastProfileEntameSchedule",
+      label: "キャストプロフィール_縁ためスケジュール詳細",
       link: "./CastProfileEntameSchedule.html",
     },
     {
-      label: "ChatDetail11",
+      label: "チャット詳細",
       link: "./ChatDetail11.html",
     },
     {
-      label: "SettingCastNoti",
+      label: "キャスト設定",
       link: "./SettingCastNoti.html",
     },
     {
-      label: "CastProfileNoEntameSchedule",
+      label: "キャストプロフィール_縁ためスケジュールなし",
       link: "./CastProfileNoEntameSchedule.html",
     },
     {
-      label: "CastProfileNoSettingViewImage",
+      label: "キャストプロフィール_画像閲覧設定しない",
       link: "./CastProfileNoSettingViewImage.html",
+    },
+    {
+      label: "CurrentPoint1",
+      link: "./CurrentPoint1.html",
+    },
+    {
+      label: "CurrentPoint2",
+      link: "./CurrentPoint2.html",
+    },
+    {
+      label: "CurrentPointNoPoint",
+      link: "./CurrentPointNoPoint.html",
     },
   ];
 
