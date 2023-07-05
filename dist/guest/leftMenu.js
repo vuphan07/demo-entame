@@ -226,8 +226,6 @@ function insertHumbeger() {
       label: "設定",
       link: "./Setting.html",
     },
-
-
     {
       label: "キャストプロフィール_縁ためスケジュール詳細",
       link: "./CastProfileEntameSchedule.html",
@@ -259,6 +257,32 @@ function insertHumbeger() {
     {
       label: "CurrentPointNoPoint",
       link: "./CurrentPointNoPoint.html",
+    },
+
+
+    {
+      label: "Creatnewrequest2",
+      link: "./Creatnewrequest2.html",
+    },
+    {
+      label: "PopUpBuyPoint",
+      link: "./PopUpBuyPoint.html",
+    },
+    {
+      label: "PopUpConfirmBuyPoint",
+      link: "./PopUpConfirmBuyPoint.html",
+    },
+    {
+      label: "PopUpBuyPointError",
+      link: "./PopUpBuyPointError.html",
+    },
+    {
+      label: "Creatnewrequest3",
+      link: "./Creatnewrequest3.html",
+    },
+    {
+      label: "EntamerequestDone",
+      link: "./EntamerequestDone.html",
     },
   ];
 
