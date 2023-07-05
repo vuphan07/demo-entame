@@ -258,8 +258,6 @@ function insertHumbeger() {
       label: "CurrentPointNoPoint",
       link: "./CurrentPointNoPoint.html",
     },
-
-
     {
       label: "Creatnewrequest2",
       link: "./Creatnewrequest2.html",
@@ -283,6 +281,50 @@ function insertHumbeger() {
     {
       label: "EntamerequestDone",
       link: "./EntamerequestDone.html",
+    },
+    {
+      label: "EntamedayCancelconfirm",
+      link: "./EntamedayCancelconfirm.html",
+    },
+    {
+      label: "EntamedayCancelconfirm1",
+      link: "./EntamedayCancelconfirm1.html",
+    },
+    {
+      label: "EntameDayCanceled",
+      link: "./EntameDayCanceled.html",
+    },
+    {
+      label: "EntamedayCastCancelPopup",
+      link: "./EntamedayCastCancelPopup.html",
+    },
+    {
+      label: "EntamedayFinished",
+      link: "./EntamedayFinished.html",
+    },
+    {
+      label: "EntameDayReview",
+      link: "./EntameDayReview.html",
+    },
+    {
+      label: "EntameDayReview15",
+      link: "./EntameDayReview15.html",
+    },
+    {
+      label: "EntamedayReviewChange",
+      link: "./EntamedayReviewChange.html",
+    },
+    {
+      label: "EntamedayReviewed",
+      link: "./EntamedayReviewed.html",
+    },
+    {
+      label: "EntamedayReviewed1",
+      link: "./EntamedayReviewed1.html",
+    },
+    {
+      label: "EntamedayReviewed2",
+      link: "./EntamedayReviewed2.html",
     },
   ];
 

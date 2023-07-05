@@ -96,38 +96,38 @@
           <div class="content2">
             <div class="information5">
               <div class="group-parent5">
-                <div class="cast2-parent1">
+                <div class="cast2-parent1 your-elements">
                   <img class="cast2-icon6" alt="" src="./public/cast26.svg" />
 
                   <div class="info14">
                     <b class="a6">キャストA</b>
                   </div>
                 </div>
-                <div class="default8" style="cursor: pointer;" id="nextStep">
+                <div class="default8 chat-item">
                   <b class="b49">チャット&ギフト</b>
                 </div>
               </div>
               <div class="group-parent5">
-                <div class="cast2-parent1">
+                <div class="cast2-parent1 your-elements">
                   <img class="cast2-icon6" alt="" src="./public/cast27.svg" />
 
                   <div class="info14">
                     <b class="a6">キャストB</b>
                   </div>
                 </div>
-                <div class="default8">
+                <div class="default8 chat-item">
                   <b class="b49">チャット&ギフト</b>
                 </div>
               </div>
               <div class="group-parent5">
-                <div class="cast2-parent1">
+                <div class="cast2-parent1 your-elements">
                   <img class="cast2-icon8" alt="" src="./public/cast28.svg" />
 
                   <div class="info14">
                     <b class="a6">キャストC</b>
                   </div>
                 </div>
-                <div class="default8">
+                <div class="default8 chat-item">
                   <b class="b49">チャット&ギフト</b>
                 </div>
               </div>
@@ -136,7 +136,7 @@
           </div>
           <div class="information6">
             <div class="default-group">
-              <div class="default11">
+              <div class="default11" style="cursor: pointer;" id="cancel">
                 <b class="button4">キャンセル</b>
               </div>
               <b class="b53">本日の縁ため予定</b>
@@ -174,7 +174,7 @@
               <div class="date28">
                 <b class="div104">Alice Bar</b>
               </div>
-              <div class="default12" style="cursor: pointer;">
+              <div class="default12" style="cursor: pointer;" id="saveItem">
                 <b class="b54">店舗情報</b>
               </div>
             </div>
@@ -273,6 +273,42 @@
     </div>
   </div>
   <script>
+
+    var elements = document.querySelectorAll(".your-elements");
+    elements.forEach(function (element) {
+      element.addEventListener("click", function () {
+         window.location.href = "./CastProfile.html";
+      });
+    });
+
+    var elements2 = document.querySelectorAll(".chat-item");
+    elements2.forEach(function (element2) {
+      element2.addEventListener("click", function () {
+         window.location.href = "./ChatDetail11.html";
+      });
+    });
+
+    var saveItem = document.getElementById("saveItem");
+    if (saveItem) {
+      saveItem.addEventListener("click", function (e) {
+        window.location.href = "./EntamedayCancelconfirm.html";
+      });
+    }
+
+    // var cancel = document.getElementById("cancel");
+    // if (cancel) {
+    //   cancel.addEventListener("click", function (e) {
+    //     window.location.href = "./EntamedayCastCancelPopup.html";
+    //   });
+    // }
+
+    var cancel = document.getElementById("cancel");
+    if (cancel) {
+      cancel.addEventListener("click", function (e) {
+        window.location.href = "./EntamedayCancelconfirm1.html";
+      });
+    }
+
     var nextStep = document.getElementById("nextStep");
     if (nextStep) {
       nextStep.addEventListener("click", function (e) {
