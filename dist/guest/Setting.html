@@ -31,10 +31,10 @@
             </div>
             <div class="heder-menu6">
               <div class="tabs13">
-                <div class="explore12"  id="homeIcon" style="cursor: pointer;">
+                <div class="explore12" id="homeIcon" style="cursor: pointer;">
                   <img class="iconfillstar" alt="" src="./public/iconexplore211.svg" />
                 </div>
-                <div class="explore12"  id="searchIcon" style="cursor: pointer;">
+                <div class="explore12" id="searchIcon" style="cursor: pointer;">
                   <img class="search-icon10" alt="" src="./public/search211.svg" />
                 </div>
                 <div class="explore" id="favoriteIcon" style="cursor: pointer;">
@@ -64,6 +64,10 @@
                     <div class="online9">ONLINE</div>
                   </div>
                 </div>
+              </div>
+              <div style="position: absolute; right: 10px; font-size: 15px; font-weight: 700; cursor: pointer;"
+                id="nextStep">
+                保存
               </div>
               <div class="icon-right10">
                 <div class="icon-bell-badges6">
@@ -186,7 +190,14 @@
     </div>
   </div>
   <script>
- var backIcon = document.getElementById("backIcon");
+    var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./MyPage.html";
+      });
+    }
+
+    var backIcon = document.getElementById("backIcon");
     if (backIcon) {
       backIcon.addEventListener("click", function (e) {
         window.location.href = "./MyPage.html";
@@ -251,7 +262,7 @@
       });
     }
   </script>
-    <script src="leftMenu.js"></script>
+  <script src="leftMenu.js"></script>
 </body>
 
 </html>

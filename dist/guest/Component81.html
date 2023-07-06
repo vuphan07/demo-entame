@@ -93,7 +93,7 @@
               *ポイント取得時に発生する手数料はキャストのステージによって変動します。
             </div>
           </div>
-          <div class="date21">
+          <div class="date21" style="cursor: pointer;" id="descrip">
             <div class="div65">ステージとは?</div>
           </div>
           <div class="date20">
@@ -130,6 +130,13 @@
     if (buttonSendContainer) {
       buttonSendContainer.addEventListener("click", function (e) {
         window.location.href = "./Component71.html";
+      });
+    }
+
+    var descrip = document.getElementById("descrip");
+    if (descrip) {
+      descrip.addEventListener("click", function (e) {
+        window.location.href = "./RegisterInfor51.html";
       });
     }
   </script>

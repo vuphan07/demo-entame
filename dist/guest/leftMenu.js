@@ -406,6 +406,35 @@ function insertHumbeger() {
       label: "ErrorRegisterCast5",
       link: "./RegisterCastError4.html",
     },
+
+
+
+
+
+    {
+      label: "RegisterCastAnalog",
+      link: "./RegisterCastAnalog.html",
+    },
+    {
+      label: "RegisterCastAnalog1",
+      link: "./RegisterCastAnalog1.html",
+    },
+    {
+      label: "RegisterCastAnalog2",
+      link: "./RegisterCastAnalog2.html",
+    },
+    {
+      label: "RegisterCastAnalog3",
+      link: "./RegisterCastAnalog3.html",
+    },
+    {
+      label: "RegisterCastAnalog4",
+      link: "./RegisterCastAnalog4.html",
+    },
+    {
+      label: "RegisterCastAnalog5",
+      link: "./RegisterCastAnalog5.html",
+    },
   ]
   
   // delay render

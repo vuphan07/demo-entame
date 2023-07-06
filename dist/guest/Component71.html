@@ -237,16 +237,16 @@
       </div>
       <div class="parent2">
         <div class="div58">さあ、縁ためを始めてみましょう。</div>
-        <div class="modal-actions1">
-          <div class="default10" id="defaultContainer">
+        <div class="modal-actions1" id="nextDes" style="cursor: pointer;">
+          <div class="default10">
             <div class="div57">縁ための使い方を見る</div>
           </div>
         </div>
         <div class="div59">
           *いつでもマイページから使い方等についてご確認いただけます。
         </div>
-        <div class="modal-actions1">
-          <div class="default10" id="defaultContainer1">
+        <div class="modal-actions1" id="nextHome" style="cursor: pointer;">
+          <div class="default10">
             <div class="div57">いますぐ縁ためをはじめる</div>
           </div>
         </div>
@@ -255,24 +255,17 @@
   </div>
 
   <script>
-    var buttonSendContainer1 = document.getElementById("buttonSendContainer1");
-    if (buttonSendContainer1) {
-      buttonSendContainer1.addEventListener("click", function (e) {
-        window.location.href = "Component71.html";
+    var nextDes = document.getElementById("nextDes");
+    if (nextDes) {
+      nextDes.addEventListener("click", function (e) {
+        window.location.href = "./EntameHowtouse2.html";
       });
     }
 
-    var defaultContainer = document.getElementById("defaultContainer");
-    if (defaultContainer) {
-      defaultContainer.addEventListener("click", function (e) {
-        window.location.href = "./Component1211.html";
-      });
-    }
-
-    var defaultContainer1 = document.getElementById("defaultContainer1");
-    if (defaultContainer1) {
-      defaultContainer1.addEventListener("click", function (e) {
-        window.location.href = "./Component1211.html";
+    var nextHome = document.getElementById("nextHome");
+    if (nextHome) {
+      nextHome.addEventListener("click", function (e) {
+        window.location.href = "./HomeCast.html";
       });
     }
   </script>
