@@ -33,7 +33,7 @@
                 <div class="p57">所持ポイント:15000P</div>
                 <div class="p58">有償ポイント:13000P</div>
                 <div class="p58">無償ポイント: 2000P</div>
-                <div class="div374">ポイントの詳細を見る</div>
+                <div class="div374" id="currentPoint" style="cursor: pointer;">ポイントの詳細を見る</div>
               </div>
             </div>
           </div>
@@ -171,6 +171,13 @@
     if (backIcon) {
       backIcon.addEventListener("click", function (e) {
         window.location.href = "./Creatnewrequest1.html";
+      });
+    }
+
+    var currentPoint = document.getElementById("currentPoint");
+    if (currentPoint) {
+      currentPoint.addEventListener("click", function (e) {
+        window.location.href = "./currentPoint.html";
       });
     }
 

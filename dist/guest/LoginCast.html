@@ -68,12 +68,12 @@
               </div>
             </div>
             <div class="frame-parent14">
-              <div class="button-l-wrapper" id="frameContainer2">
+              <div class="button-l-wrapper">
                 <div class="button-l2" id="buttonLContainer">
                   <b class="default3">電話番号ではじめる</b>
                 </div>
               </div>
-              <div class="button-line2">
+              <div class="button-line2" id="frameContainer2" style="cursor: pointer;">
                 <div class="button-line3">
                   <img class="icon-line1" alt="" src="./public/icon-line.svg" />
                 </div>
@@ -102,12 +102,12 @@
         });
       }
       
-      // var frameContainer2 = document.getElementById("frameContainer2");
-      // if (frameContainer2) {
-      //   frameContainer2.addEventListener("click", function (e) {
-      //     window.location.href = "./Component321.html";
-      //   });
-      // }
+      var frameContainer2 = document.getElementById("frameContainer2");
+      if (frameContainer2) {
+        frameContainer2.addEventListener("click", function (e) {
+          window.location.href = "./LINECast.html";
+        });
+      }
       </script>
           <script src="leftMenu.js"></script>
   </body>

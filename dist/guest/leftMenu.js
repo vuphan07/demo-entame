@@ -330,28 +330,81 @@ function insertHumbeger() {
 
   const cast = [
     {
-      label: "ConfirmedLoginCast",
+      label: "アカウント種類選択②",
       link: "./ConfirmedLoginCast.html",
     },
     {
-      label: "ConfirmLoginCast",
+      label: "アカウント種類選択①",
       link: "./ConfirmLoginCast.html",
     },
     {
-      label: "HomeCast",
+      label: "ホーム",
       link: "./HomeCast.html",
     },
     {
-      label: "LoginCast",
+      label: "ログイン",
       link: "./LoginCast.html",
     },
     {
-      label: "PhoneNumberCast",
+      label: "電話番号入力",
       link: "./PhoneNumberCast.html",
     },
     {
-      label: "VerifyCodeCast",
+      label: "認証コード",
       link: "./VerifyCodeCast.html",
+    },
+    
+    {
+      label: "RegisterCast",
+      link: "./RegisterCast.html",
+    },
+    {
+      label: "ConfirmedInfoCast",
+      link: "./Component612.html",
+    },
+    {
+      label: "AutoFillInfoCast",
+      link: "./Component15.html",
+    },
+    {
+      label: "AutoFillInfoCast2",
+      link: "./Component14.html",
+    },
+    {
+      label: "AutoFillInfoCast3",
+      link: "./Component13112.html",
+    },
+    {
+      label: "AutoFillInfoCast4",
+      link: "./Component51.html",
+    },
+    {
+      label: "AutoFillInfoCast5",
+      link: "./Component1211.html",
+    },
+    {
+      label: "AutoFillInfoCast6",
+      link: "./Component1111.html",
+    },
+    {
+      label: "ErrorRegisterCast1",
+      link: "./RegisterCastError.html",
+    },
+    {
+      label: "ErrorRegisterCast2",
+      link: "./RegisterCastError2.html",
+    },
+    {
+      label: "ErrorRegisterCast3",
+      link: "./RegisterCastError1.html",
+    },
+    {
+      label: "ErrorRegisterCast4",
+      link: "./RegisterCastError3.html",
+    },
+    {
+      label: "ErrorRegisterCast5",
+      link: "./RegisterCastError4.html",
     },
   ]
   
