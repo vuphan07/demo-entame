@@ -406,11 +406,6 @@ function insertHumbeger() {
       label: "ErrorRegisterCast5",
       link: "./RegisterCastError4.html",
     },
-
-
-
-
-
     {
       label: "RegisterCastAnalog",
       link: "./RegisterCastAnalog.html",
