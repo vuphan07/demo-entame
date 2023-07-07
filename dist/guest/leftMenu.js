@@ -434,6 +434,56 @@ function insertHumbeger() {
       label: "RegisterAnalogConfirmed",
       link: "./RegisterAnalogConfirmed.html",
     },
+
+
+    {
+      label: "HomeCast2",
+      link: "./HomeCast2.html",
+    },
+    {
+      label: "HomeCast3",
+      link: "./HomeCast3.html",
+    },
+    {
+      label: "HomeCast-2",
+      link: "./HomeCast-2.html",
+    },
+    {
+      label: "HomeCast-3",
+      link: "./HomeCast-3.html",
+    },
+    {
+      label: "HomeCast-4",
+      link: "./HomeCast-4.html",
+    },
+    {
+      label: "HomeCast2",
+      link: "./HomeCast2.html",
+    },
+    {
+      label: "HomeCast2-2",
+      link: "./HomeCast2-2.html",
+    },
+    {
+      label: "HomeCast3",
+      link: "./HomeCast3.html",
+    },
+    {
+      label: "HomeCast3-2",
+      link: "./HomeCast3-2.html",
+    },
+    {
+      label: "HomeCast3-3",
+      link: "./HomeCast3-3.html",
+    },
+    {
+      label: "HomeCast3-4",
+      link: "./HomeCast3-4.html",
+    },
+    {
+      label: "MyPageCast",
+      link: "./MyPageCast.html",
+    },
   ]
   // delay render
     var leftMenuIcon = document.getElementById("iconLeftMenu");
