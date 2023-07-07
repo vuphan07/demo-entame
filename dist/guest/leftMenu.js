@@ -435,8 +435,11 @@ function insertHumbeger() {
       label: "RegisterCastAnalog5",
       link: "./RegisterCastAnalog5.html",
     },
+    {
+      label: "RegisterAnalogConfirmed",
+      link: "./RegisterAnalogConfirmed.html",
+    },
   ]
-  
   // delay render
     var leftMenuIcon = document.getElementById("iconLeftMenu");
     var leftMenuList = document.getElementById("leftMenuList");
