@@ -434,8 +434,6 @@ function insertHumbeger() {
       label: "RegisterAnalogConfirmed",
       link: "./RegisterAnalogConfirmed.html",
     },
-
-
     {
       label: "HomeCast2",
       link: "./HomeCast2.html",
@@ -483,6 +481,66 @@ function insertHumbeger() {
     {
       label: "MyProfileCast",
       link: "./MyProfileCast.html",
+    },
+    
+
+
+
+    {
+      label: "MyPageCast",
+      link: "./MyPageCast.html",
+    },
+    {
+      label: "AccountInfo",
+      link: "./AccountInfo.html",
+    },
+    {
+      label: "MyProfileCast",
+      link: "./MyProfileCast.html",
+    },
+    {
+      label: "MyPageCast4",
+      link: "./MyPageCast4.html",
+    },
+    {
+      label: "PoinHistory",
+      link: "./PoinHistory.html",
+    },
+    {
+      label: "PayoffRequest",
+      link: "./PayoffRequest.html",
+    },
+    {
+      label: "MyPageCast2",
+      link: "./MyPageCast2.html",
+    },
+    {
+      label: "MyPageCast3",
+      link: "./MyPageCast3.html",
+    },
+    {
+      label: "MyPageCast5",
+      link: "./MyPageCast5.html",
+    },
+    {
+      label: "HelpCast",
+      link: "./HelpCast.html",
+    },
+    {
+      label: "EntameHowToUse2",
+      link: "./EntameHowToUse2.html",
+    },
+    {
+      label: "SettingCast",
+      link: "./SettingCast.html",
+    },
+    {
+      label: "LogoutCast",
+      link: "./LogoutCast.html",
+    },
+    {
+      label: "ChagePhoneNo",
+      link: "./ChagePhoneNo.html",
     },
   ]
   // delay render
