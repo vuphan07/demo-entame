@@ -481,8 +481,8 @@ function insertHumbeger() {
       link: "./HomeCast3-4.html",
     },
     {
-      label: "MyPageCast",
-      link: "./MyPageCast.html",
+      label: "MyProfileCast",
+      link: "./MyProfileCast.html",
     },
   ]
   // delay render
