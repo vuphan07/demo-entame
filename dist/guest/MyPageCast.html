@@ -366,7 +366,7 @@
               </div>
             </div>
             <div class="card-with-status-container">
-              <div class="card-with-status5">
+              <div class="card-with-status5" style="cursor: pointer;" id="link1">
                 <div class="date19">
                   <div class="div112">縁ため評価スコア</div>
                   <div class="date20">
@@ -391,8 +391,8 @@
                 <div class="group-parent26">
                   <div class="group-parent26">
                     <div class="group-parent26">
-                      <div class="group-parent26">
-                        <div class="group-child25" id="rectangle10"></div>
+                      <div class="group-parent26" id="link2">
+                        <div class="group-child25"></div>
                         <div class="div115">アカウント登録情報</div>
                       </div>
                       <img class="vector-icon14" alt="" src="./public/vector311.svg" />
@@ -405,7 +405,7 @@
                 <div class="group-parent26">
                   <div class="group-parent26">
                     <div class="group-parent26">
-                      <div class="group-parent26">
+                      <div class="group-parent26" id="link3">
                         <div class="group-child26"></div>
                         <div class="div116">マイプロフィール</div>
                       </div>
@@ -418,7 +418,7 @@
               <div class="group-wrapper8">
                 <div class="group-parent26">
                   <div class="group-parent26">
-                    <div class="group-parent26">
+                    <div class="group-parent26" id="link4">
                       <div class="group-child26"></div>
                       <div class="div116">報酬ポイント設定</div>
                     </div>
@@ -432,7 +432,7 @@
                 <div class="group-parent32">
                   <div class="group-parent26">
                     <div class="group-parent26">
-                      <div class="group-parent26">
+                      <div class="group-parent26" id="link5">
                         <div class="group-child26"></div>
                         <div class="div118">ポイント取得・精算履歴</div>
                       </div>
@@ -446,7 +446,7 @@
                 <div class="group-child30"></div>
                 <div class="group-parent34">
                   <div class="group-parent35">
-                    <div class="group-parent35">
+                    <div class="group-parent35" id="link6">
                       <div class="group-child31"></div>
                       <div class="div119">ポイント精算申請</div>
                     </div>
@@ -459,7 +459,7 @@
                 <div class="group-child30"></div>
                 <div class="group-parent34">
                   <div class="group-parent35">
-                    <div class="group-parent35">
+                    <div class="group-parent35" id="link7">
                       <div class="group-child31"></div>
                       <div class="div119">振込先口座情報</div>
                     </div>
@@ -472,7 +472,7 @@
                 <div class="group-child28"></div>
                 <div class="group-parent32">
                   <div class="group-parent26">
-                    <div class="group-parent26">
+                    <div class="group-parent26" id="link8">
                       <div class="group-child26"></div>
                       <div class="div121">
                         ステージステータス&ランクアップ
@@ -512,7 +512,7 @@
                 <div class="group-child28"></div>
                 <div class="group-parent32">
                   <div class="group-parent26">
-                    <div class="group-parent26">
+                    <div class="group-parent26" id="link9">
                       <div class="group-child26"></div>
                       <div class="div121">縁ための使い方</div>
                     </div>
@@ -538,7 +538,7 @@
                 <div class="group-child28"></div>
                 <div class="group-parent32">
                   <div class="group-parent26">
-                    <div class="group-parent26">
+                    <div class="group-parent26" id="link10">
                       <div class="group-child26"></div>
                       <div class="div125">設定</div>
                     </div>
@@ -551,7 +551,7 @@
                 <div class="group-child28"></div>
                 <div class="group-parent32">
                   <div class="group-parent26">
-                    <div class="group-parent26">
+                    <div class="group-parent26" id="link11">
                       <div class="group-child26"></div>
                       <div class="div121">ログアウト</div>
                     </div>
@@ -564,7 +564,7 @@
                 <div class="group-child28"></div>
                 <div class="group-parent32">
                   <div class="group-parent26">
-                    <div class="group-parent26">
+                    <div class="group-parent26" id="link12">
                       <div class="group-child26"></div>
                       <div class="div121">登録(認証)電話番号の変更</div>
                     </div>
@@ -610,6 +610,81 @@
     if (howToUse) {
       howToUse.addEventListener("click", function (e) {
         window.location.href = "./EntameHowToUse2.html";
+      });
+    }
+
+
+
+    var link1 = document.getElementById("link1");
+    if (link1) {
+      link1.addEventListener("click", function (e) {
+        window.location.href = "./AccountInfo.html";
+      });
+    }
+    var link2 = document.getElementById("link2");
+    if (link2) {
+      link2.addEventListener("click", function (e) {
+        window.location.href = "./MyProfileCast.html";
+      });
+    }
+    var link3 = document.getElementById("link3");
+    if (link3) {
+      link3.addEventListener("click", function (e) {
+        window.location.href = "./MyPageCast4.html";
+      });
+    }
+    var link4 = document.getElementById("link4");
+    if (link4) {
+      link4.addEventListener("click", function (e) {
+        window.location.href = "./PoinHistory.html";
+      });
+    }
+    var link5 = document.getElementById("link5");
+    if (link5) {
+      link5.addEventListener("click", function (e) {
+        window.location.href = "./PayoffRequest.html";
+      });
+    }
+    var link6 = document.getElementById("link6");
+    if (link6) {
+      link6.addEventListener("click", function (e) {
+        window.location.href = "./MyPageCast2.html";
+      });
+    }
+    var link7 = document.getElementById("link7");
+    if (link7) {
+      link7.addEventListener("click", function (e) {
+        window.location.href = "./MyPageCast3.html";
+      });
+    }
+    var link8 = document.getElementById("link8");
+    if (link8) {
+      link8.addEventListener("click", function (e) {
+        window.location.href = "./MyPageCast5.html";
+      });
+    }
+    var link9 = document.getElementById("link9");
+    if (link9) {
+      link9.addEventListener("click", function (e) {
+        window.location.href = "./HelpCast.html";
+      });
+    }
+    var link10 = document.getElementById("link10");
+    if (link10) {
+      link10.addEventListener("click", function (e) {
+        window.location.href = "./SettingCast.html";
+      });
+    }
+    var link11 = document.getElementById("link11");
+    if (link11) {
+      link11.addEventListener("click", function (e) {
+        window.location.href = "./LogoutCast.html";
+      });
+    }
+    var link12 = document.getElementById("link12");
+    if (link12) {
+      link12.addEventListener("click", function (e) {
+        window.location.href = "./ChagePhoneNo.html";
       });
     }
   </script>
