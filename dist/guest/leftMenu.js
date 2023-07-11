@@ -559,6 +559,14 @@ function insertHumbeger() {
       label: "AboutStage",
       link: "./AboutStage.html",
     },
+    {
+      label: "GuestProfile2",
+      link: "./GuestProfile2.html",
+    },
+    {
+      label: "MyPageCast4Error",
+      link: "./MyPageCast4Error.html",
+    },
   ]
   // delay render
     var leftMenuIcon = document.getElementById("iconLeftMenu");
