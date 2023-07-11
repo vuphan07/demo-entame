@@ -528,7 +528,7 @@ function insertHumbeger() {
     },
     {
       label: "EntameHowToUse2",
-      link: "./EntameHowToUse2.html",
+      link: "./EntameHowtouse2.html",
     },
     {
       label: "SettingCast",
