@@ -250,7 +250,7 @@
                   </div>
                 </div>
                 <div class="tabbartabbar9-inner1">
-                  <div class="group-wrapper7">
+                  <div class="group-wrapper7" style="cursor: pointer;" id="chatList">
                     <div class="frame-parent16">
                       <div class="comment-text-multiple-container">
                         <img class="favorite-icon9" alt="" src="./public/commenttextmultiple11.svg" />
@@ -302,7 +302,7 @@
             <div class="card-with-status4">
               <div class="info3">
                 <div class="date15">
-                  <div class="div108">設定ポイント</div>
+                  <div class="div108" style="min-width: 72px;">設定ポイント</div>
                   <div class="date16">
                     <div class="div108">4000 P / 15分</div>
                   </div>
@@ -484,7 +484,7 @@
                 </div>
               </div>
               <div class="card-with-status6">
-                <div class="group-parent40">
+                <div class="group-parent40" id="link13" style="cursor: pointer;">
                   <img class="frame-child6" alt="" src="./public/group-4286.svg" />
 
                   <div class="rectangle-parent19">
@@ -512,7 +512,7 @@
                 <div class="group-child28"></div>
                 <div class="group-parent32">
                   <div class="group-parent26">
-                    <div class="group-parent26" id="link9">
+                    <div class="group-parent26" id="howToUse">
                       <div class="group-child26"></div>
                       <div class="div121">縁ための使い方</div>
                     </div>
@@ -521,7 +521,7 @@
                   <img class="etlightbulb-icon15" alt="" src="./public/etlightbulb.svg" />
                 </div>
               </div>
-              <div class="line-parent7" id="howToUse">
+              <div class="line-parent7" id="link9">
                 <div class="group-child28"></div>
                 <div class="group-parent32">
                   <div class="group-parent26">
@@ -612,54 +612,51 @@
         window.location.href = "./EntameHowToUse2.html";
       });
     }
-
-
-
-    var link1 = document.getElementById("link1");
-    if (link1) {
-      link1.addEventListener("click", function (e) {
-        window.location.href = "./AccountInfo.html";
-      });
-    }
     var link2 = document.getElementById("link2");
     if (link2) {
       link2.addEventListener("click", function (e) {
-        window.location.href = "./MyProfileCast.html";
+        window.location.href = "./AccountInfo.html";
       });
     }
     var link3 = document.getElementById("link3");
     if (link3) {
       link3.addEventListener("click", function (e) {
-        window.location.href = "./MyPageCast4.html";
+        window.location.href = "./MyProfileCast.html";
       });
     }
     var link4 = document.getElementById("link4");
     if (link4) {
       link4.addEventListener("click", function (e) {
-        window.location.href = "./PoinHistory.html";
+        window.location.href = "./MyPageCast4.html";
       });
     }
     var link5 = document.getElementById("link5");
     if (link5) {
       link5.addEventListener("click", function (e) {
-        window.location.href = "./PayoffRequest.html";
+        window.location.href = "./PoinHistory.html";
       });
     }
     var link6 = document.getElementById("link6");
     if (link6) {
       link6.addEventListener("click", function (e) {
-        window.location.href = "./MyPageCast2.html";
+        window.location.href = "./PayoffRequest.html";
       });
     }
     var link7 = document.getElementById("link7");
     if (link7) {
       link7.addEventListener("click", function (e) {
-        window.location.href = "./MyPageCast3.html";
+        window.location.href = "./MyPageCast2.html";
       });
     }
     var link8 = document.getElementById("link8");
     if (link8) {
       link8.addEventListener("click", function (e) {
+        window.location.href = "./MyPageCast3.html";
+      });
+    }
+    var link13 = document.getElementById("link13");
+    if (link13) {
+      link13.addEventListener("click", function (e) {
         window.location.href = "./MyPageCast5.html";
       });
     }

@@ -542,6 +542,23 @@ function insertHumbeger() {
       label: "ChagePhoneNo",
       link: "./ChagePhoneNo.html",
     },
+
+    {
+      label: "GuestProfile",
+      link: "./GuestProfile.html",
+    },
+    {
+      label: "Popup4",
+      link: "./Popup4.html",
+    },
+    {
+      label: "ChatDetailCast",
+      link: "./ChatDetailCast.html",
+    },
+    {
+      label: "AboutStage",
+      link: "./AboutStage.html",
+    },
   ]
   // delay render
     var leftMenuIcon = document.getElementById("iconLeftMenu");

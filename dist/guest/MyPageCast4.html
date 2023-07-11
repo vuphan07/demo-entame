@@ -162,7 +162,7 @@
               </div>
             </div>
           </div>
-          <div class="cast-info8">
+          <div class="cast-info8" style="cursor: pointer;" id="popup">
             <div class="info18">
               <b class="b58">手数料について</b>
             </div>
@@ -201,6 +201,12 @@
     if (backStep2) {
       backStep2.addEventListener("click", function (e) {
         window.location.href = "./MyPageCast.html";
+      });
+    }
+    var popup = document.getElementById("popup");
+    if (popup) {
+      popup.addEventListener("click", function (e) {
+        window.location.href = "./Popup4.html";
       });
     }
   </script>

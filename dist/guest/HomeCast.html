@@ -127,7 +127,7 @@
                             <span class="span2">ステージランクアップ</span>まで、あと2人紹介とあと縁ため3回
                           </div>
                         </div>
-                        <div class="button-s">
+                        <div class="button-s" style="cursor: pointer;" id="rankUp">
                           <div class="account-group-parent">
                             <img class="account-group-icon" alt="" src="./public/accountgroup.svg" />
 
@@ -155,7 +155,7 @@
                 <div class="frame-parent6">
                   <div class="frame-parent7">
                     <div class="parent">
-                      <div class="div13">
+                      <div class="div13" style="cursor: pointer;" id="myProfileCast">
                         <div class="div14">マイプロフィール編集</div>
                       </div>
                       <img class="gift-icon" alt="" src="./public/gift.svg" />
@@ -238,7 +238,7 @@
                       <b class="div19">6</b>
                     </div>
                     <div class="div20">7</div>
-                    <div class="wrapper3"  id="nextStep8" style="cursor: pointer;">
+                    <div class="wrapper3" id="nextStep8" style="cursor: pointer;">
                       <b class="b7">8</b>
                     </div>
                     <div class="div20">9</div>
@@ -307,6 +307,18 @@
     </div>
   </div>
   <script>
+    var rankUp = document.getElementById("rankUp");
+    if (rankUp) {
+      rankUp.addEventListener("click", function (e) {
+        window.location.href = "./MyPageCast3.html";
+      });
+    }
+    var myProfileCast = document.getElementById("myProfileCast");
+    if (myProfileCast) {
+      myProfileCast.addEventListener("click", function (e) {
+        window.location.href = "./MyProfileCast.html";
+      });
+    }
     var nextStep = document.getElementById("nextStep");
     if (nextStep) {
       nextStep.addEventListener("click", function (e) {
@@ -332,8 +344,8 @@
       });
     }
   </script>
-   <script src="leftMenu.js"></script>
-   <script src="HeaderFooterCast.js"></script>
+  <script src="leftMenu.js"></script>
+  <script src="HeaderFooterCast.js"></script>
 </body>
 
 </html>

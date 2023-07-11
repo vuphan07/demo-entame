@@ -88,7 +88,7 @@
               <div class="frame-parent20">
                 <div class="frame-parent21">
                   <div class="avt-parent">
-                    <div class="avt">
+                    <div class="avt" style="cursor: pointer;" id="guestProfile">
                       <div class="avt1">
                         <img class="avatar-image-60" alt="" src="./public/avatar--image60@2x.png" />
                       </div>
@@ -176,7 +176,7 @@
               <b class="b30">参加他キャスト名</b>
               <div class="points5">
                 <div class="div194">
-                  <img class="cast2-icon5" alt="" src="./public/cast25.svg" />
+                  <img class="cast2-icon5" alt="" src="./public/cast25-2.svg" />
 
                   <div class="info28">
                     <b class="a4">キャストA</b>
@@ -255,6 +255,12 @@
     if (container2) {
       container2.addEventListener("click", function (e) {
         // Please sync "縁ため日_到着" to the project
+      });
+    }
+    var guestProfile = document.getElementById("guestProfile");
+    if (guestProfile) {
+      guestProfile.addEventListener("click", function (e) {
+        window.location.href = "./GuestProfile.html";
       });
     }
   </script>

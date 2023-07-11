@@ -316,7 +316,7 @@
           <div class="parent46">
             <div class="div241">
               <div class="avt-group">
-                <div class="avt2">
+                <div class="avt2" style="cursor: pointer;" id="guestProfile">
                   <div class="postthumb"></div>
                   <img class="avatar-image-601" alt="" src="./public/avatar--image601@2x.png" />
 
@@ -470,6 +470,14 @@
       </div>
     </div>
   </div>
+  <script>
+    var guestProfile = document.getElementById("guestProfile");
+    if (guestProfile) {
+      guestProfile.addEventListener("click", function (e) {
+        window.location.href = "./GuestProfile.html";
+      });
+    }
+  </script>
   <script src="leftMenu.js"></script>
   <script src="HeaderFooterCast.js"></script>
 </body>

@@ -33,7 +33,7 @@
           <div class="header1">
             <div class="tabbartabbar91">
               <div class="tabs4">
-                <div class="explore10" style="cursor: pointer;"  id="homeIcon">
+                <div class="explore10" style="cursor: pointer;" id="homeIcon">
                   <img class="iconexplore10" alt="" src="./public/iconexplore211.svg" />
                 </div>
                 <div class="explore10" style="cursor: pointer;" id="favoriteIcon">
@@ -108,8 +108,8 @@
           </div>
           <div class="more">
             <div class="points">
-              <div class="div65">
-                <img class="cast2-icon" alt="" src="./public/cast2.svg" />
+              <div class="div65" style="cursor: pointer;" id="guestProfile">
+                <img class="cast2-icon" alt="" src="./public/cast2-2.svg" />
 
                 <div class="info4">
                   <b class="button">ゲストA</b>
@@ -170,7 +170,7 @@
           </div>
           <div class="points1">
             <div class="div65">
-              <img class="cast2-icon" alt="" src="./public/cast21.svg" />
+              <img class="cast2-icon" alt="" src="./public/cast21-2.svg" />
 
               <div class="info4">
                 <b class="button">ゲストB</b>
@@ -223,7 +223,7 @@
           </div>
           <div class="points2">
             <div class="div65">
-              <img class="cast2-icon" alt="" src="./public/cast22.svg" />
+              <img class="cast2-icon" alt="" src="./public/cast22-2.svg" />
 
               <div class="info4">
                 <b class="button">ゲストC</b>
@@ -283,7 +283,7 @@
           </div>
           <div class="points1">
             <div class="div65">
-              <img class="cast2-icon" alt="" src="./public/cast23.svg" />
+              <img class="cast2-icon" alt="" src="./public/cast23-2.svg" />
 
               <div class="info4">
                 <b class="button">ゲストD</b>
@@ -340,7 +340,7 @@
           </div>
           <div class="points2">
             <div class="div65">
-              <img class="cast2-icon" alt="" src="./public/cast24.svg" />
+              <img class="cast2-icon" alt="" src="./public/cast24-2.svg" />
 
               <div class="info4">
                 <b class="button">ゲストE</b>
@@ -395,7 +395,7 @@
           <div class="lv0-icon-notification-frame" style="cursor: pointer;" id="entameList">
             <img class="favorite-icon7" alt="" src="./public/favorite-hightlight.svg" />
           </div>
-          <div class="lv0-icon-notification-frame"style="cursor: pointer;" id="accountCircle">
+          <div class="lv0-icon-notification-frame" style="cursor: pointer;" id="accountCircle">
             <img class="favorite-icon7" alt="" src="./public/account-circle21.svg" />
           </div>
           <div class="lv0-icon-notification-frame" style="cursor: pointer;" id="notiList">
@@ -405,6 +405,14 @@
       </div>
     </div>
   </div>
+  <script>
+    var guestProfile = document.getElementById("guestProfile");
+    if (guestProfile) {
+      guestProfile.addEventListener("click", function (e) {
+        window.location.href = "./GuestProfile.html";
+      });
+    }
+  </script>
   <script src="leftMenu.js"></script>
   <script src="HeaderFooterCast.js"></script>
 </body>

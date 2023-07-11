@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="info13">
-        <div class="date39">
+        <div class="date39" style="cursor: pointer;" id="info">
           <div class="div254">ステージとは?</div>
           <div class="date40"></div>
         </div>
@@ -46,7 +46,7 @@
           </div>
         </div>
       </div>
-      <div class="card-with-status16">
+      <div class="card-with-status16" style="cursor: pointer;">
         <div class="div256">
           <img class="account-group-icon" alt="" src="./public/accountgroup-2.svg" />
 
@@ -89,7 +89,7 @@
               </div>
             </div>
             <div class="tabbartabbar9-inner7">
-              <div class="group-wrapper25">
+              <div class="group-wrapper25" style="cursor: pointer;" id="chatList">
                 <div class="frame-parent35">
                   <div class="comment-text-multiple-parent6">
                     <img class="favorite-icon30" alt="" src="./public/commenttextmultiple11.svg" />
@@ -134,6 +134,12 @@
     if (backStep) {
       backStep.addEventListener("click", function (e) {
         window.location.href = "./MyPageCast.html";
+      });
+    }
+    var info = document.getElementById("info");
+    if (info) {
+      info.addEventListener("click", function (e) {
+        window.location.href = "./AboutStage.html";
       });
     }
   </script>
