@@ -279,8 +279,8 @@
               <img class="component-81-icon" alt="" src="./public/component-81.svg" />
             </div>
             <div class="group">
-              <div class="div58">利用規約</div>
-              <div class="div58">プライバシーポリシー</div>
+              <div class="div58" style="cursor: pointer;" id="nextStep1">利用規約</div>
+              <div class="div58" style="cursor: pointer;" id="nextStep3">プライバシーポリシー</div>
             </div>
           </div>
         </div>
@@ -323,6 +323,18 @@
     if (nextStep) {
       nextStep.addEventListener("click", function (e) {
         window.location.href = "./HomeCast2.html";
+      });
+    }
+    var nextStep1 = document.getElementById("nextStep1");
+    if (nextStep1) {
+      nextStep1.addEventListener("click", function (e) {
+        window.location.href = "./KSD.html";
+      });
+    }
+    var nextStep3 = document.getElementById("nextStep3");
+    if (nextStep3) {
+      nextStep3.addEventListener("click", function (e) {
+        window.location.href = "./PrivavyPolicy.html";
       });
     }
     var nextStep14 = document.getElementById("item-14");

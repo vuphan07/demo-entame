@@ -98,11 +98,11 @@
         </div>
         <div class="card-with-status-inner">
           <div class="group-parent10">
-            <div class="rectangle-parent4">
+            <div class="rectangle-parent4" style="cursor: pointer;" id="nextStep">
               <div class="group-child27"></div>
               <div class="div290">スケジュール更新</div>
             </div>
-            <div class="rectangle-parent4">
+            <div class="rectangle-parent4" style="cursor: pointer;" id="nextStep2">
               <div class="group-child27"></div>
               <div class="div291">スケジュール削除</div>
             </div>
@@ -334,6 +334,20 @@
       <div class="group-child33"></div>
     </div>
   </div>
+  <script>
+    var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./HomeCast.html";
+      });
+    }
+    var nextStep2 = document.getElementById("nextStep2");
+    if (nextStep2) {
+      nextStep2.addEventListener("click", function (e) {
+        window.location.href = "./HomePopupConfirmDeletetSchedule.html";
+      });
+    }
+  </script>
   <script src="leftMenu.js"></script>
   <script src="HeaderFooterCast.js"></script>
 </body>

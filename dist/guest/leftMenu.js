@@ -315,16 +315,16 @@ function insertHumbeger() {
       link: "./EntamedayReviewChange.html",
     },
     {
-      label: "EntamedayReviewed",
-      link: "./EntamedayReviewed.html",
+      label: "2",
+      link: "./2.html",
     },
     {
       label: "EntamedayReviewed1",
       link: "./EntamedayReviewed1.html",
     },
     {
-      label: "EntamedayReviewed2",
-      link: "./EntamedayReviewed2.html",
+      label: "4",
+      link: "./4.html",
     },
   ];
 
@@ -566,6 +566,62 @@ function insertHumbeger() {
     {
       label: "MyPageCast4Error",
       link: "./MyPageCast4Error.html",
+    },
+    
+
+
+    {
+      label: "EntamedayNoAddTime",
+      link: "./EntamedayNoAddTime.html",
+    },
+    {
+      label: "EntamedayReviewed3",
+      link: "./EntamedayReviewed3.html",
+    },
+    {
+      label: "EntameDayCast",
+      link: "./EntameDayCast.html",
+    },
+    {
+      label: "EntamedayCastCancelPopup2",
+      link: "./EntamedayCastCancelPopup2.html",
+    },
+    {
+      label: "EntamedayCastCanceled",
+      link: "./EntamedayCastCanceled.html",
+    },
+    {
+      label: "EntameDayArrived",
+      link: "./Component2111111112111.html",
+    },
+    {
+      label: "EntameDayRequestAddTime",
+      link: "./Component411211.html",
+    },
+    {
+      label: "EntameDayApproveAddTime",
+      link: "./Component41121.html",
+    },
+    {
+      label: "EntameDayReviewed4",
+      link: "./Component31112111.html",
+    },
+    {
+      label: "EntamedayCastDontAccetpAddTime",
+      link: "./EntamedayCastDontAccetpAddTime.html",
+    },
+
+     {
+      label: "HomePopupConfirmDeletetSchedule",
+      link: "./HomePopupConfirmDeletetSchedule.html",
+    },
+    {
+      label: "DKSD",
+      link: "./KSD.html",
+    },
+    {
+      label: "PrivavyPolicy",
+      link: "./PrivavyPolicy.html",
     },
   ]
   // delay render
