@@ -623,6 +623,14 @@ function insertHumbeger() {
       label: "PrivavyPolicy",
       link: "./PrivavyPolicy.html",
     },
+    {
+      label: "Component21111111121112",
+      link: "./Component21111111121112.html",
+    },
+    {
+      label: "Component311121112",
+      link: "./Component311121112.html",
+    },
   ]
   // delay render
     var leftMenuIcon = document.getElementById("iconLeftMenu");
