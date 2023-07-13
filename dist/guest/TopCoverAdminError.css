@@ -59,7 +59,7 @@
   justify-content: flex-start;
   position: relative;
   gap: var(--gap-5xs);
-  transform: translateY(-8px);
+  transform: translateY(--padding-8xs-5);
 }
 .help-icon85 {
   position: relative;
@@ -237,4 +237,5 @@
   font-size: var(--jp-largetitle-bold-22-size);
   color: var(--text-title-darkblue-900);
   font-family: var(--jp-title-bold-16);
+  left: 200px
 }

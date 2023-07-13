@@ -910,4 +910,5 @@
   font-size: var(--jp-body-regular-13-size);
   color: var(--text-body-darkblue-700);
   font-family: var(--jp-title-bold-16);
+  left: 200px
 }
