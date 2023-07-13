@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./global35.css" />
+  <link rel="stylesheet" href="./Admin.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans JP:wght@400;500;700&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@300;400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Microsoft YaHei UI:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hiragino Sans:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arial:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Love Light:wght@400&display=swap" />
+</head>
+
+<body>
+  <div class="admin-">
+    <div class="div3881">
+      <img class="back-icon" alt="" src="./public/back.svg" />
+
+      <div class="navbar">
+        <div class="avt6">
+          <img class="avt-icon14" alt="" src="./public/avt3@2x.png" />
+
+          <div class="namelogout">
+            <div class="div3882">管理者</div>
+            <b class="b1210" style="width: 70px; cursor: pointer;" id="logOut">ログアウト</b>
+          </div>
+        </div>
+        <b class="b1211">ゲスト一覧</b>
+      </div>
+      <div class="sidebar">
+        <div class="logo7">
+          <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
+        </div>
+        <div class="sidebar-child"></div>
+        <div class="menu">
+          <div class="side-menu">
+            <img class="card-account-details-outline-icon" alt="" src="./public/cardaccountdetailsoutline.svg" />
+
+            <b class="b1212">ユーザー管理</b>
+          </div>
+          <div class="side-menu1">
+            <div class="b1212">ゲスト一覧</div>
+          </div>
+          <div class="side-menu2" id="sideMenuContainer2">
+            <div class="b1212">キャスト一覧</div>
+          </div>
+          <div class="side-menu2" id="sideMenuContainer3">
+            <div class="b1212">アナログ認証</div>
+          </div>
+          <div class="side-menu4" id="sideMenuContainer4">
+            <img class="card-account-details-outline-icon" alt="" src="./public/textboxcheckoutline.svg" />
+
+            <div class="b1212">管理</div>
+          </div>
+          <div class="side-menu4" id="sideMenuContainer5">
+            <img class="card-account-details-outline-icon" alt="" src="./public/newspaperplus.svg" />
+
+            <div class="b1212">ニュース設定</div>
+          </div>
+          <div class="side-menu4" id="sideMenuContainer6">
+            <img class="card-account-details-outline-icon" alt="" src="./public/history.svg" />
+
+            <div class="b1212">ポイント購入ログ</div>
+          </div>
+          <div class="side-menu4" id="sideMenuContainer7">
+            <img class="card-account-details-outline-icon" alt="" src="./public/accountsyncoutline.svg" />
+
+            <div class="b1212">精算管理</div>
+          </div>
+          <div class="side-menu4" id="sideMenuContainer8">
+            <img class="card-account-details-outline-icon" alt="" src="./public/packagevariantclosedcheck.svg" />
+
+            <div class="b1212">ポイントコース設定</div>
+          </div>
+          <div class="side-menu4" id="sideMenuContainer9">
+            <img class="card-account-details-outline-icon" alt="" src="./public/chartboxoutline.svg" />
+
+            <div class="b1212">静的ページ設定</div>
+          </div>
+          <div class="side-menu4" id="sideMenuContainer10">
+            <img class="card-account-details-outline-icon" alt="" src="./public/textboxcheckoutline.svg" />
+
+            <div class="b1212">通報管理</div>
+          </div>
+          <div class="side-menu4" id="sideMenuContainer11">
+            <img class="card-account-details-outline-icon" alt="" src="./public/textboxcheckoutline.svg" />
+
+            <div class="b1212">クポーン管理</div>
+          </div>
+          <div class="side-menu4" id="sideMenuContainer12">
+            <img class="card-account-details-outline-icon" alt="" src="./public/textboxcheckoutline.svg" />
+
+            <div class="b1212">お問い合わせ</div>
+          </div>
+        </div>
+        <div class="side-menu13" id="sideMenuContainer13">
+          <img class="card-account-details-outline-icon" alt="" src="./public/textboxcheckoutline1.svg" />
+
+          <div class="b1212">バナー管理</div>
+        </div>
+      </div>
+      <div class="body42">
+        <div class="search">
+          <div class="form1">
+            <div class="input-field95">
+              <div class="input-field-base68">
+                <div class="input-with-label96">
+                  <b class="label126">ユーザタイプ</b>
+                  <div class="input126">
+                    <div class="content180">
+                      <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                      <div class="text391">選択してください</div>
+                      <img class="arrow-drop-down-icon27" alt="" src="./public/arrow-drop-down.svg" />
+                    </div>
+                    <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/calendar2.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+              <div class="input-field-base69">
+                <div class="input-with-label96">
+                  <b class="label126">ユーザー ID</b>
+                  <div class="input126">
+                    <div class="content180">
+                      <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                      <div class="text392">contact@email.com</div>
+                    </div>
+                    <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/calendar2.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+              <div class="input-field-base69">
+                <div class="input-with-label96">
+                  <b class="label126">本名</b>
+                  <div class="input126">
+                    <div class="content180">
+                      <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                      <div class="text392">contact@email.com</div>
+                    </div>
+                    <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/calendar2.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+              <div class="input-field-base69">
+                <div class="input-with-label96">
+                  <b class="label126">ニックネーム</b>
+                  <div class="input126">
+                    <div class="content180">
+                      <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                      <div class="text392">contact@email.com</div>
+                    </div>
+                    <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/calendar2.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+              <div class="input-field-base69">
+                <div class="input-with-label96">
+                  <b class="label126">誕生日</b>
+                  <div class="date-range">
+                    <div class="input130">
+                      <div class="content180">
+                        <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                        <div class="text391">㎜/dd</div>
+                      </div>
+                      <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                      <img class="calendar-icon69" alt="" src="./public/calendar2.svg" />
+
+                      <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                    </div>
+                    <div class="hyphen"></div>
+                    <div class="input130">
+                      <div class="content180">
+                        <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                        <div class="text391">㎜/dd</div>
+                      </div>
+                      <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                      <img class="calendar-icon69" alt="" src="./public/calendar2.svg" />
+
+                      <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+              <div class="input-field-base69">
+                <div class="input-with-label96">
+                  <b class="label126">メールアドレス</b>
+                  <div class="input126">
+                    <div class="content180">
+                      <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                      <div class="text392">contact@email.com</div>
+                    </div>
+                    <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/calendar2.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+            </div>
+            <div class="input-field95">
+              <div class="input-field-base69">
+                <div class="input-with-label96">
+                  <b class="label126">登録方法</b>
+                  <div class="input126">
+                    <div class="content180">
+                      <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                      <div class="text391">選択してください</div>
+                      <img class="arrow-drop-down-icon27" alt="" src="./public/arrow-drop-down.svg" />
+                    </div>
+                    <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/calendar2.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+              <div class="input-field-base69">
+                <div class="input-with-label96">
+                  <b class="label126">電話番号</b>
+                  <div class="input126">
+                    <div class="content180">
+                      <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                      <div class="text392">contact@email.com</div>
+                    </div>
+                    <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/calendar2.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+              <div class="input-field-base69">
+                <div class="input-with-label96">
+                  <b class="label126">保持ポイント</b>
+                  <div class="date-range">
+                    <div class="input130">
+                      <div class="content180">
+                        <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                        <div class="text392">Input</div>
+                      </div>
+                      <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                      <img class="help-icon57" alt="" src="./public/calendar2.svg" />
+
+                      <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                    </div>
+                    <div class="hyphen"></div>
+                    <div class="input130">
+                      <div class="content180">
+                        <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                        <div class="text392">Input</div>
+                      </div>
+                      <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                      <img class="help-icon57" alt="" src="./public/calendar2.svg" />
+
+                      <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+              <div class="input-field-base69">
+                <div class="input-with-label96">
+                  <b class="label126">アカウント状態</b>
+                  <div class="input126">
+                    <div class="content180">
+                      <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                      <div class="text391">選択してください</div>
+                      <img class="arrow-drop-down-icon27" alt="" src="./public/arrow-drop-down.svg" />
+                    </div>
+                    <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/calendar2.svg" />
+
+                    <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+              <div class="input-field-base69">
+                <div class="input-with-label96">
+                  <b class="label126">登録日付</b>
+                  <div class="date-range">
+                    <div class="input130">
+                      <div class="content180">
+                        <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                        <div class="text391">dd/mm/yyyy</div>
+                      </div>
+                      <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                      <img class="calendar-icon69" alt="" src="./public/calendar2.svg" />
+
+                      <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                    </div>
+                    <div class="hyphen"></div>
+                    <div class="input130">
+                      <div class="content180">
+                        <img class="mail-icon69" alt="" src="./public/mail4.svg" />
+
+                        <div class="text391">dd/mm/yyyy</div>
+                      </div>
+                      <img class="help-icon57" alt="" src="./public/help-icon1.svg" />
+
+                      <img class="calendar-icon69" alt="" src="./public/calendar2.svg" />
+
+                      <img class="help-icon57" alt="" src="./public/icon16chevronright111.svg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="others56">
+                  <div class="hint-text190">
+                    This is a hint text to help user.
+                  </div>
+                  <div class="hint-text191">0/200</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="action1">
+            <div class="disable">
+              <b class="button80">検索</b>
+            </div>
+          </div>
+        </div>
+        <div class="table">
+          <div class="heading42">
+            <div class="div3896">
+              <span>トータル: </span>
+              <b>123名</b>
+            </div>
+            <div class="default321">
+              <b class="b1212">CSV出力</b>
+            </div>
+          </div>
+          <div class="table1">
+            <div class="table-header">
+              <div class="componentstable-cellheader">
+                <b class="b1212">
+                  <p class="id">ユーザーID</p>
+                  <p class="id">本名</p>
+                </b>
+              </div>
+              <div class="componentstable-cellheader1">
+                <div class="divider"></div>
+                <b class="title313">
+                  <p class="id">ニック</p>
+                  <p class="id">ネーム</p>
+                </b>
+              </div>
+              <div class="componentstable-cellheader2">
+                <div class="divider"></div>
+                <b class="title313">
+                  <p class="id">登録方法</p>
+                  <p class="id">電話番号/LINE</p>
+                </b>
+              </div>
+              <div class="componentstable-cellheader3">
+                <div class="divider2"></div>
+                <b class="title313">
+                  <p class="id">年齢</p>
+                  <p class="id">誕生日</p>
+                </b>
+              </div>
+              <div class="componentstable-cellheader4">
+                <div class="divider2"></div>
+                <b class="title316">保持ポイント</b>
+              </div>
+              <div class="componentstable-cellheader5">
+                <div class="divider2"></div>
+                <b class="title317">状態</b>
+              </div>
+              <div class="componentstable-cellheader6">
+                <b class="title318">登録日付</b>
+                <div class="divider5"></div>
+              </div>
+              <div class="componentstable-cellheader7">
+                <div class="divider2"></div>
+                <b class="title313">アクション</b>
+              </div>
+            </div>
+            <div class="namelogout">
+              <div class="componentstable-row09-cols">
+                <div class="componentstable-celltext" id="componentstableCelltextContainer">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">
+                        <b>123Jdncv</b>
+                      </p>
+                      <p class="p315">-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext1">
+                  <div class="text-wrapper1">
+                    <div class="b1212">なる</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext2">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">電話番号</p>
+                      <p class="id">81987654321</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext3">
+                  <div class="text-wrapper1">
+                    <div class="b1212">01/15</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext4">
+                  <div class="text-wrapper5">
+                    <div class="b1212">5,000</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext5">
+                  <div class="b1212">有効</div>
+                </div>
+                <div class="componentstable-celltext6">
+                  <div class="b1212">
+                    <p class="id">2022/08/02</p>
+                    <p class="id">10:43:32</p>
+                  </div>
+                </div>
+                <div class="action2">
+                  <div class="tags-wrapper">
+                    <div class="buttonchatlog" id="buttonchatlogContainer">
+                      <b class="b1213">チャットログ</b>
+                    </div>
+                    <div class="buttondisable">
+                      <b class="b1213">無効にする</b>
+                    </div>
+                    <div class="buttondelete" id="buttondeleteContainer">
+                      <b class="b1213">削除</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider7"></div>
+              <div class="componentstable-row09-cols">
+                <div class="componentstable-celltext" id="componentstableCelltextContainer7">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">
+                        <b>123Jdncv</b>
+                      </p>
+                      <p class="p315">-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext1">
+                  <div class="text-wrapper1">
+                    <div class="b1212">なる</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext2">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">電話番号</p>
+                      <p class="id">81987654321</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext3">
+                  <div class="text-wrapper1">
+                    <div class="b1212">01/15</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext4">
+                  <div class="text-wrapper5">
+                    <div class="b1212">5,000</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext5">
+                  <div class="b1212">有効</div>
+                </div>
+                <div class="componentstable-celltext6">
+                  <div class="b1212">
+                    <p class="id">2022/08/02</p>
+                    <p class="id">10:43:32</p>
+                  </div>
+                </div>
+                <div class="action2">
+                  <div class="tags-wrapper">
+                    <div class="buttonchatlog" id="buttonchatlogContainer1">
+                      <b class="b1213">チャットログ</b>
+                    </div>
+                    <div class="buttondisable">
+                      <b class="b1213">無効にする</b>
+                    </div>
+                    <div class="buttondelete" id="buttondeleteContainer1">
+                      <b class="b1213">削除</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider7"></div>
+              <div class="componentstable-row09-cols">
+                <div class="componentstable-celltext" id="componentstableCelltextContainer14">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">
+                        <b>123Jdncv</b>
+                      </p>
+                      <p class="p315">-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext1">
+                  <div class="text-wrapper1">
+                    <div class="b1212">なる</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext2">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">電話番号</p>
+                      <p class="id">81987654321</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext3">
+                  <div class="text-wrapper1">
+                    <div class="b1212">01/15</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext4">
+                  <div class="text-wrapper5">
+                    <div class="b1212">5,000</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext5">
+                  <div class="b1212">有効</div>
+                </div>
+                <div class="componentstable-celltext6">
+                  <div class="b1212">
+                    <p class="id">2022/08/02</p>
+                    <p class="id">10:43:32</p>
+                  </div>
+                </div>
+                <div class="action2">
+                  <div class="tags-wrapper">
+                    <div class="buttonchatlog" id="buttonchatlogContainer2">
+                      <b class="b1213">チャットログ</b>
+                    </div>
+                    <div class="buttondisable">
+                      <b class="b1213">無効にする</b>
+                    </div>
+                    <div class="buttondelete" id="buttondeleteContainer2">
+                      <b class="b1213">削除</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider7"></div>
+              <div class="componentstable-row09-cols">
+                <div class="componentstable-celltext" id="componentstableCelltextContainer21">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">
+                        <b>123Jdncv</b>
+                      </p>
+                      <p class="p315">-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext1">
+                  <div class="text-wrapper1">
+                    <div class="b1212">なる</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext2">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">電話番号</p>
+                      <p class="id">81987654321</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext3">
+                  <div class="text-wrapper1">
+                    <div class="b1212">01/15</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext4">
+                  <div class="text-wrapper5">
+                    <div class="b1212">5,000</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext5">
+                  <div class="b1212">有効</div>
+                </div>
+                <div class="componentstable-celltext6">
+                  <div class="b1212">
+                    <p class="id">2022/08/02</p>
+                    <p class="id">10:43:32</p>
+                  </div>
+                </div>
+                <div class="action2">
+                  <div class="tags-wrapper">
+                    <div class="buttonchatlog" id="buttonchatlogContainer3">
+                      <b class="b1213">チャットログ</b>
+                    </div>
+                    <div class="buttondisable">
+                      <b class="b1213">無効にする</b>
+                    </div>
+                    <div class="buttondelete" id="buttondeleteContainer3">
+                      <b class="b1213">削除</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider7"></div>
+              <div class="componentstable-row09-cols">
+                <div class="componentstable-celltext" id="componentstableCelltextContainer28">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">
+                        <b>123Jdncv</b>
+                      </p>
+                      <p class="p315">-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext1">
+                  <div class="text-wrapper1">
+                    <div class="b1212">なる</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext2">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">電話番号</p>
+                      <p class="id">81987654321</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext3">
+                  <div class="text-wrapper1">
+                    <div class="b1212">01/15</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext4">
+                  <div class="text-wrapper5">
+                    <div class="b1212">5,000</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext5">
+                  <div class="b1212">有効</div>
+                </div>
+                <div class="componentstable-celltext6">
+                  <div class="b1212">
+                    <p class="id">2022/08/02</p>
+                    <p class="id">10:43:32</p>
+                  </div>
+                </div>
+                <div class="action2">
+                  <div class="tags-wrapper">
+                    <div class="buttonchatlog" id="buttonchatlogContainer4">
+                      <b class="b1213">チャットログ</b>
+                    </div>
+                    <div class="buttondisable">
+                      <b class="b1213">無効にする</b>
+                    </div>
+                    <div class="buttondelete" id="buttondeleteContainer4">
+                      <b class="b1213">削除</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider7"></div>
+              <div class="componentstable-row09-cols">
+                <div class="componentstable-celltext" id="componentstableCelltextContainer35">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">
+                        <b>123Jdncv</b>
+                      </p>
+                      <p class="p315">-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext1">
+                  <div class="text-wrapper1">
+                    <div class="b1212">なる</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext2">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">電話番号</p>
+                      <p class="id">81987654321</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext3">
+                  <div class="text-wrapper1">
+                    <div class="b1212">01/15</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext4">
+                  <div class="text-wrapper5">
+                    <div class="b1212">5,000</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext5">
+                  <div class="b1212">有効</div>
+                </div>
+                <div class="componentstable-celltext6">
+                  <div class="b1212">
+                    <p class="id">2022/08/02</p>
+                    <p class="id">10:43:32</p>
+                  </div>
+                </div>
+                <div class="action2">
+                  <div class="tags-wrapper">
+                    <div class="buttonchatlog" id="buttonchatlogContainer5">
+                      <b class="b1213">チャットログ</b>
+                    </div>
+                    <div class="buttondisable">
+                      <b class="b1213">無効にする</b>
+                    </div>
+                    <div class="buttondelete" id="buttondeleteContainer5">
+                      <b class="b1213">削除</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider7"></div>
+              <div class="componentstable-row09-cols">
+                <div class="componentstable-celltext" id="componentstableCelltextContainer42">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">
+                        <b>123Jdncv</b>
+                      </p>
+                      <p class="p315">-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext1">
+                  <div class="text-wrapper1">
+                    <div class="b1212">なる</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext2">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">電話番号</p>
+                      <p class="id">81987654321</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext3">
+                  <div class="text-wrapper1">
+                    <div class="b1212">01/15</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext4">
+                  <div class="text-wrapper5">
+                    <div class="b1212">5,000</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext5">
+                  <div class="b1212">有効</div>
+                </div>
+                <div class="componentstable-celltext6">
+                  <div class="b1212">
+                    <p class="id">2022/08/02</p>
+                    <p class="id">10:43:32</p>
+                  </div>
+                </div>
+                <div class="action2">
+                  <div class="tags-wrapper">
+                    <div class="buttonchatlog" id="buttonchatlogContainer6">
+                      <b class="b1213">チャットログ</b>
+                    </div>
+                    <div class="buttondisable">
+                      <b class="b1213">無効にする</b>
+                    </div>
+                    <div class="buttondelete" id="buttondeleteContainer6">
+                      <b class="b1213">削除</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider7"></div>
+              <div class="componentstable-row09-cols">
+                <div class="componentstable-celltext" id="componentstableCelltextContainer49">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">
+                        <b>123Jdncv</b>
+                      </p>
+                      <p class="p315">-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext1">
+                  <div class="text-wrapper1">
+                    <div class="b1212">なる</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext2">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">電話番号</p>
+                      <p class="id">81987654321</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext3">
+                  <div class="text-wrapper1">
+                    <div class="b1212">01/15</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext4">
+                  <div class="text-wrapper5">
+                    <div class="b1212">5,000</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext5">
+                  <div class="b1212">有効</div>
+                </div>
+                <div class="componentstable-celltext6">
+                  <div class="b1212">
+                    <p class="id">2022/08/02</p>
+                    <p class="id">10:43:32</p>
+                  </div>
+                </div>
+                <div class="action2">
+                  <div class="tags-wrapper">
+                    <div class="buttonchatlog" id="buttonchatlogContainer7">
+                      <b class="b1213">チャットログ</b>
+                    </div>
+                    <div class="buttondisable">
+                      <b class="b1213">無効にする</b>
+                    </div>
+                    <div class="buttondelete" id="buttondeleteContainer7">
+                      <b class="b1213">削除</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider7"></div>
+              <div class="componentstable-row09-cols">
+                <div class="componentstable-celltext" id="componentstableCelltextContainer56">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">
+                        <b>123Jdncv</b>
+                      </p>
+                      <p class="p315">-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext1">
+                  <div class="text-wrapper1">
+                    <div class="b1212">なる</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext2">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">電話番号</p>
+                      <p class="id">81987654321</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext3">
+                  <div class="text-wrapper1">
+                    <div class="b1212">01/15</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext4">
+                  <div class="text-wrapper5">
+                    <div class="b1212">5,000</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext5">
+                  <div class="b1212">有効</div>
+                </div>
+                <div class="componentstable-celltext6">
+                  <div class="b1212">
+                    <p class="id">2022/08/02</p>
+                    <p class="id">10:43:32</p>
+                  </div>
+                </div>
+                <div class="action2">
+                  <div class="tags-wrapper">
+                    <div class="buttonchatlog" id="buttonchatlogContainer8">
+                      <b class="b1213">チャットログ</b>
+                    </div>
+                    <div class="buttondisable">
+                      <b class="b1213">無効にする</b>
+                    </div>
+                    <div class="buttondelete" id="buttondeleteContainer8">
+                      <b class="b1213">削除</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider7"></div>
+              <div class="componentstable-row09-cols">
+                <div class="componentstable-celltext" id="componentstableCelltextContainer63">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">
+                        <b>123Jdncv</b>
+                      </p>
+                      <p class="p315">-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext1">
+                  <div class="text-wrapper1">
+                    <div class="b1212">なる</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext2">
+                  <div class="text-wrapper1">
+                    <div class="b1212">
+                      <p class="id">電話番号</p>
+                      <p class="id">81987654321</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext3">
+                  <div class="text-wrapper1">
+                    <div class="b1212">01/15</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext4">
+                  <div class="text-wrapper5">
+                    <div class="b1212">5,000</div>
+                  </div>
+                </div>
+                <div class="componentstable-celltext5">
+                  <div class="b1212">有効</div>
+                </div>
+                <div class="componentstable-celltext6">
+                  <div class="b1212">
+                    <p class="id">2022/08/02</p>
+                    <p class="id">10:43:32</p>
+                  </div>
+                </div>
+                <div class="action2">
+                  <div class="tags-wrapper">
+                    <div class="buttonchatlog" id="buttonchatlogContainer9">
+                      <b class="b1213">チャットログ</b>
+                    </div>
+                    <div class="buttondisable">
+                      <b class="b1213">無効にする</b>
+                    </div>
+                    <div class="buttondelete" id="buttondeleteContainer9">
+                      <b class="b1213">削除</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar-child"></div>
+            <div class="pagination">
+              <div class="text-wrapper5">
+                <div class="total-text">
+                  <div class="text475">Total 85 items</div>
+                </div>
+                <div class="componentspagination-prev">
+                  <img class="left-icon" alt="" src="./public/left.svg" />
+                </div>
+                <div class="componentspagination-item">
+                  <div class="div3897">1</div>
+                </div>
+                <div class="componentspagination-item-ell">
+                  <div class="ellipsis">•••</div>
+                </div>
+                <div class="componentspagination-item1">
+                  <div class="b1212">4</div>
+                </div>
+                <div class="componentspagination-item1">
+                  <div class="b1212">5</div>
+                </div>
+                <div class="componentspagination-item1">
+                  <div class="b1212">6</div>
+                </div>
+                <div class="componentspagination-item1">
+                  <div class="b1212">7</div>
+                </div>
+                <div class="componentspagination-item1">
+                  <div class="b1212">8</div>
+                </div>
+                <div class="componentspagination-item-ell1">
+                  <div class="ellipsis">•••</div>
+                </div>
+                <div class="componentspagination-item6">
+                  <div class="text475">50</div>
+                </div>
+                <div class="componentspagination-prev">
+                  <img class="left-icon" alt="" src="./public/right.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="side-menu14" id="sideMenuContainer14">
+        <div class="card-account-details-outline-icon"></div>
+      </div>
+      <img class="child24" alt="" src="./public/arrow-3.svg" />
+
+      <img class="child25" alt="" src="./public/arrow-4.svg" />
+
+      <img class="child26" alt="" src="./public/arrow-5.svg" />
+
+      <img class="child27" alt="" src="./public/arrow-6.svg" />
+    </div>
+  </div>
+
+  <script>
+    var logOut = document.getElementById("logOut");
+    if (logOut) {
+      logOut.addEventListener("click", function (e) {
+        window.location.href = "./PopupLogoutAdmin.html";
+      });
+    }
+
+    var sideMenuContainer2 = document.getElementById("sideMenuContainer2");
+    if (sideMenuContainer2) {
+      sideMenuContainer2.addEventListener("click", function (e) {
+        // Please sync "キャスト一覧" to the project
+      });
+    }
+
+    var sideMenuContainer3 = document.getElementById("sideMenuContainer3");
+    if (sideMenuContainer3) {
+      sideMenuContainer3.addEventListener("click", function (e) {
+        // Please sync "キャスト一覧" to the project
+      });
+    }
+
+    var sideMenuContainer4 = document.getElementById("sideMenuContainer4");
+    if (sideMenuContainer4) {
+      sideMenuContainer4.addEventListener("click", function (e) {
+        // Please sync "縁ためリクエスト一覧＿確定・確定待ち" to the project
+      });
+    }
+
+    var sideMenuContainer5 = document.getElementById("sideMenuContainer5");
+    if (sideMenuContainer5) {
+      sideMenuContainer5.addEventListener("click", function (e) {
+        // Please sync "ニュース一覧" to the project
+      });
+    }
+
+    var sideMenuContainer6 = document.getElementById("sideMenuContainer6");
+    if (sideMenuContainer6) {
+      sideMenuContainer6.addEventListener("click", function (e) {
+        // Please sync "購入ログ" to the project
+      });
+    }
+
+    var sideMenuContainer7 = document.getElementById("sideMenuContainer7");
+    if (sideMenuContainer7) {
+      sideMenuContainer7.addEventListener("click", function (e) {
+        // Please sync "アカウント処理" to the project
+      });
+    }
+
+    var sideMenuContainer8 = document.getElementById("sideMenuContainer8");
+    if (sideMenuContainer8) {
+      sideMenuContainer8.addEventListener("click", function (e) {
+        // Please sync "ポイントコース設定" to the project
+      });
+    }
+
+    var sideMenuContainer9 = document.getElementById("sideMenuContainer9");
+    if (sideMenuContainer9) {
+      sideMenuContainer9.addEventListener("click", function (e) {
+        // Please sync "ページ設定" to the project
+      });
+    }
+
+    var sideMenuContainer10 = document.getElementById("sideMenuContainer10");
+    if (sideMenuContainer10) {
+      sideMenuContainer10.addEventListener("click", function (e) {
+        // Please sync "ユーザーレポート" to the project
+      });
+    }
+
+    var sideMenuContainer11 = document.getElementById("sideMenuContainer11");
+    if (sideMenuContainer11) {
+      sideMenuContainer11.addEventListener("click", function (e) {
+        // Please sync "クーポン" to the project
+      });
+    }
+
+    var sideMenuContainer12 = document.getElementById("sideMenuContainer12");
+    if (sideMenuContainer12) {
+      sideMenuContainer12.addEventListener("click", function (e) {
+        // Please sync "お問い合わせ" to the project
+      });
+    }
+
+    var sideMenuContainer13 = document.getElementById("sideMenuContainer13");
+    if (sideMenuContainer13) {
+      sideMenuContainer13.addEventListener("click", function (e) {
+        // Please sync "お問い合わせ" to the project
+      });
+    }
+
+    var componentstableCelltextContainer = document.getElementById(
+      "componentstableCelltextContainer"
+    );
+    if (componentstableCelltextContainer) {
+      componentstableCelltextContainer.addEventListener("click", function (e) {
+        // Please sync "ゲスト詳細" to the project
+      });
+    }
+
+    var buttonchatlogContainer = document.getElementById("buttonchatlogContainer");
+    if (buttonchatlogContainer) {
+      buttonchatlogContainer.addEventListener("click", function (e) {
+        // Please sync "チャート詳細" to the project
+      });
+    }
+
+    var buttondeleteContainer = document.getElementById("buttondeleteContainer");
+    if (buttondeleteContainer) {
+      buttondeleteContainer.addEventListener("click", function (e) {
+        // Please sync "グエスト一覧削除" to the project
+      });
+    }
+
+    var componentstableCelltextContainer7 = document.getElementById(
+      "componentstableCelltextContainer7"
+    );
+    if (componentstableCelltextContainer7) {
+      componentstableCelltextContainer7.addEventListener("click", function (e) {
+        // Please sync "ゲスト詳細" to the project
+      });
+    }
+
+    var buttonchatlogContainer1 = document.getElementById(
+      "buttonchatlogContainer1"
+    );
+    if (buttonchatlogContainer1) {
+      buttonchatlogContainer1.addEventListener("click", function (e) {
+        // Please sync "チャート詳細" to the project
+      });
+    }
+
+    var buttondeleteContainer1 = document.getElementById("buttondeleteContainer1");
+    if (buttondeleteContainer1) {
+      buttondeleteContainer1.addEventListener("click", function (e) {
+        // Please sync "グエスト一覧削除" to the project
+      });
+    }
+
+    var componentstableCelltextContainer14 = document.getElementById(
+      "componentstableCelltextContainer14"
+    );
+    if (componentstableCelltextContainer14) {
+      componentstableCelltextContainer14.addEventListener("click", function (e) {
+        // Please sync "ゲスト詳細" to the project
+      });
+    }
+
+    var buttonchatlogContainer2 = document.getElementById(
+      "buttonchatlogContainer2"
+    );
+    if (buttonchatlogContainer2) {
+      buttonchatlogContainer2.addEventListener("click", function (e) {
+        // Please sync "チャート詳細" to the project
+      });
+    }
+
+    var buttondeleteContainer2 = document.getElementById("buttondeleteContainer2");
+    if (buttondeleteContainer2) {
+      buttondeleteContainer2.addEventListener("click", function (e) {
+        // Please sync "グエスト一覧削除" to the project
+      });
+    }
+
+    var componentstableCelltextContainer21 = document.getElementById(
+      "componentstableCelltextContainer21"
+    );
+    if (componentstableCelltextContainer21) {
+      componentstableCelltextContainer21.addEventListener("click", function (e) {
+        // Please sync "ゲスト詳細" to the project
+      });
+    }
+
+    var buttonchatlogContainer3 = document.getElementById(
+      "buttonchatlogContainer3"
+    );
+    if (buttonchatlogContainer3) {
+      buttonchatlogContainer3.addEventListener("click", function (e) {
+        // Please sync "チャート詳細" to the project
+      });
+    }
+
+    var buttondeleteContainer3 = document.getElementById("buttondeleteContainer3");
+    if (buttondeleteContainer3) {
+      buttondeleteContainer3.addEventListener("click", function (e) {
+        // Please sync "グエスト一覧削除" to the project
+      });
+    }
+
+    var componentstableCelltextContainer28 = document.getElementById(
+      "componentstableCelltextContainer28"
+    );
+    if (componentstableCelltextContainer28) {
+      componentstableCelltextContainer28.addEventListener("click", function (e) {
+        // Please sync "ゲスト詳細" to the project
+      });
+    }
+
+    var buttonchatlogContainer4 = document.getElementById(
+      "buttonchatlogContainer4"
+    );
+    if (buttonchatlogContainer4) {
+      buttonchatlogContainer4.addEventListener("click", function (e) {
+        // Please sync "チャート詳細" to the project
+      });
+    }
+
+    var buttondeleteContainer4 = document.getElementById("buttondeleteContainer4");
+    if (buttondeleteContainer4) {
+      buttondeleteContainer4.addEventListener("click", function (e) {
+        // Please sync "グエスト一覧削除" to the project
+      });
+    }
+
+    var componentstableCelltextContainer35 = document.getElementById(
+      "componentstableCelltextContainer35"
+    );
+    if (componentstableCelltextContainer35) {
+      componentstableCelltextContainer35.addEventListener("click", function (e) {
+        // Please sync "ゲスト詳細" to the project
+      });
+    }
+
+    var buttonchatlogContainer5 = document.getElementById(
+      "buttonchatlogContainer5"
+    );
+    if (buttonchatlogContainer5) {
+      buttonchatlogContainer5.addEventListener("click", function (e) {
+        // Please sync "チャート詳細" to the project
+      });
+    }
+
+    var buttondeleteContainer5 = document.getElementById("buttondeleteContainer5");
+    if (buttondeleteContainer5) {
+      buttondeleteContainer5.addEventListener("click", function (e) {
+        // Please sync "グエスト一覧削除" to the project
+      });
+    }
+
+    var componentstableCelltextContainer42 = document.getElementById(
+      "componentstableCelltextContainer42"
+    );
+    if (componentstableCelltextContainer42) {
+      componentstableCelltextContainer42.addEventListener("click", function (e) {
+        // Please sync "ゲスト詳細" to the project
+      });
+    }
+
+    var buttonchatlogContainer6 = document.getElementById(
+      "buttonchatlogContainer6"
+    );
+    if (buttonchatlogContainer6) {
+      buttonchatlogContainer6.addEventListener("click", function (e) {
+        // Please sync "チャート詳細" to the project
+      });
+    }
+
+    var buttondeleteContainer6 = document.getElementById("buttondeleteContainer6");
+    if (buttondeleteContainer6) {
+      buttondeleteContainer6.addEventListener("click", function (e) {
+        // Please sync "グエスト一覧削除" to the project
+      });
+    }
+
+    var componentstableCelltextContainer49 = document.getElementById(
+      "componentstableCelltextContainer49"
+    );
+    if (componentstableCelltextContainer49) {
+      componentstableCelltextContainer49.addEventListener("click", function (e) {
+        // Please sync "ゲスト詳細" to the project
+      });
+    }
+
+    var buttonchatlogContainer7 = document.getElementById(
+      "buttonchatlogContainer7"
+    );
+    if (buttonchatlogContainer7) {
+      buttonchatlogContainer7.addEventListener("click", function (e) {
+        // Please sync "チャート詳細" to the project
+      });
+    }
+
+    var buttondeleteContainer7 = document.getElementById("buttondeleteContainer7");
+    if (buttondeleteContainer7) {
+      buttondeleteContainer7.addEventListener("click", function (e) {
+        // Please sync "グエスト一覧削除" to the project
+      });
+    }
+
+    var componentstableCelltextContainer56 = document.getElementById(
+      "componentstableCelltextContainer56"
+    );
+    if (componentstableCelltextContainer56) {
+      componentstableCelltextContainer56.addEventListener("click", function (e) {
+        // Please sync "ゲスト詳細" to the project
+      });
+    }
+
+    var buttonchatlogContainer8 = document.getElementById(
+      "buttonchatlogContainer8"
+    );
+    if (buttonchatlogContainer8) {
+      buttonchatlogContainer8.addEventListener("click", function (e) {
+        // Please sync "チャート詳細" to the project
+      });
+    }
+
+    var buttondeleteContainer8 = document.getElementById("buttondeleteContainer8");
+    if (buttondeleteContainer8) {
+      buttondeleteContainer8.addEventListener("click", function (e) {
+        // Please sync "グエスト一覧削除" to the project
+      });
+    }
+
+    var componentstableCelltextContainer63 = document.getElementById(
+      "componentstableCelltextContainer63"
+    );
+    if (componentstableCelltextContainer63) {
+      componentstableCelltextContainer63.addEventListener("click", function (e) {
+        // Please sync "ゲスト詳細" to the project
+      });
+    }
+
+    var buttonchatlogContainer9 = document.getElementById(
+      "buttonchatlogContainer9"
+    );
+    if (buttonchatlogContainer9) {
+      buttonchatlogContainer9.addEventListener("click", function (e) {
+        // Please sync "チャート詳細" to the project
+      });
+    }
+
+    var buttondeleteContainer9 = document.getElementById("buttondeleteContainer9");
+    if (buttondeleteContainer9) {
+      buttondeleteContainer9.addEventListener("click", function (e) {
+        // Please sync "グエスト一覧削除" to the project
+      });
+    }
+
+    var sideMenuContainer14 = document.getElementById("sideMenuContainer14");
+    if (sideMenuContainer14) {
+      sideMenuContainer14.addEventListener("click", function (e) {
+        // Please sync "お問い合わせ" to the project
+      });
+    }
+  </script>
+   <script src="leftMenu.js"></script>
+</body>
+
+</html>

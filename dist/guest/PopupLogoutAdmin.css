@@ -1,0 +1,103 @@
+.overlay3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--text-title-darkblue-900);
+  width: 1440px;
+  height: 1024px;
+  opacity: 0.8;
+}
+.p421 {
+  margin: 0;
+}
+.text563 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 22px;
+}
+.content210,
+.div3929 {
+  display: flex;
+  align-items: center;
+}
+.content210 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.div3929 {
+  position: relative;
+  line-height: 19px;
+  justify-content: center;
+  width: 72px;
+  flex-shrink: 0;
+}
+.stroke5 {
+  flex: 1;
+  border-radius: var(--br-3xl);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--primary-blue-400);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-9xl);
+}
+.b1277,
+.default324,
+.stroke5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b1277 {
+  position: relative;
+  line-height: 18px;
+  width: 67px;
+  flex-shrink: 0;
+}
+.default324 {
+  flex: 1;
+  border-radius: var(--br-3xl);
+  background-color: var(--primary-blue-300);
+  box-shadow: 0-12px 12px #5a71c7 inset;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-9xl);
+  color: var(--neutral-white);
+}
+.modal-actions7,
+.modal5 {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.modal-actions7 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl);
+  align-items: flex-start;
+  font-size: var(--jp-body-regular-13-size);
+  color: var(--primary-blue-400);
+  padding-left: 20px;
+}
+.modal5 {
+  position: absolute;
+  top: 443px;
+  left: 520px;
+  border-radius: var(--br-xs);
+  background-color: var(--neutral-white);
+  box-shadow: 0 2px 26px rgba(89, 90, 223, 0.32);
+  width: 343px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-base) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+}
+.admin-3 {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  text-align: center;
+  font-size: var(--jp-body-regular-15-size);
+  color: var(--text-title-darkblue-900);
+  font-family: var(--jp-title-bold-16);
+}

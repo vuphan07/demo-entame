@@ -5,8 +5,12 @@ const block = `<div style="display: none;" id="humbeger" class="left-menu-contai
 <div class="left-menu-list" id="leftMenuList">
   <div class="left-menu-list-header_guest" id="leftMenuHeaderGuestList">Guest</div>
   <div class="left-menu-list_guest" id="leftMenuGuestList"></div>
+
   <div class="left-menu-list-header_guest" id="leftMenuHeaderCastList">Cast</div>
   <div class="left-menu-list_cast" id="leftMenuCastList"></div>
+
+  <div class="left-menu-list-header_guest" id="leftMenuHeaderAdminList">Admin</div>
+  <div class="left-menu-list_cast" id="leftMenuAdminList"></div>
 </div>
 </div>`;
 
@@ -353,7 +357,7 @@ function insertHumbeger() {
       label: "認証コード",
       link: "./VerifyCodeCast.html",
     },
-    
+
     {
       label: "RegisterCast",
       link: "./RegisterCast.html",
@@ -482,9 +486,6 @@ function insertHumbeger() {
       label: "MyProfileCast",
       link: "./MyProfileCast.html",
     },
-    
-
-
 
     {
       label: "MyPageCast",
@@ -567,8 +568,6 @@ function insertHumbeger() {
       label: "MyPageCast4Error",
       link: "./MyPageCast4Error.html",
     },
-    
-
 
     {
       label: "EntamedayNoAddTime",
@@ -611,7 +610,7 @@ function insertHumbeger() {
       link: "./EntamedayCastDontAccetpAddTime.html",
     },
 
-     {
+    {
       label: "HomePopupConfirmDeletetSchedule",
       link: "./HomePopupConfirmDeletetSchedule.html",
     },
@@ -635,54 +634,94 @@ function insertHumbeger() {
       label: "ShareQR",
       link: "./ShareQR.html",
     },
-  ]
+  ];
+
+  const admin = [
+    {
+      label: "TopCoverAdmin",
+      link: "TopCoverAdmin.html",
+    },
+    {
+      label: "TopCoverAdminError",
+      link: "TopCoverAdminError.html",
+    },
+    {
+      label: "Admin",
+      link: "Admin.html",
+    },
+    {
+      label: "PopupLogoutAdmin",
+      link: "PopupLogoutAdmin.html",
+    },
+  ];
   // delay render
-    var leftMenuIcon = document.getElementById("iconLeftMenu");
-    var leftMenuList = document.getElementById("leftMenuList");
-    var leftMenuGuestList = document.getElementById("leftMenuGuestList");
-    var leftMenuHeaderCastList = document.getElementById("leftMenuHeaderCastList");
-    var leftMenuCastList = document.getElementById("leftMenuCastList");
-    var leftMenuContainer = document.getElementById("humbeger");
-    leftMenuContainer.classList.toggle("left-menu-container_on");
-    var leftMenuHeaderGuestList = document.getElementById(
-      "leftMenuHeaderGuestList"
-    );
-    leftMenuData.forEach(function (item) {
-      var linkElement = document.createElement("a");
-      linkElement.textContent = item.label;
-      linkElement.href = item.link;
-      linkElement.classList.add("link-item");
-      leftMenuGuestList.appendChild(linkElement);
-    });
-    cast.forEach(function (item) {
-      var linkElement2 = document.createElement("a");
-      linkElement2.textContent = item.label;
-      linkElement2.href = item.link;
-      linkElement2.classList.add("link-item");
-      leftMenuCastList.appendChild(linkElement2);
-    });
-    leftMenuHeaderCastList.addEventListener("click", function () {
-      leftMenuCastList.classList.toggle("left-menu-list_cast_on");
-    });
+  var leftMenuIcon = document.getElementById("iconLeftMenu");
+  var leftMenuList = document.getElementById("leftMenuList");
+  var leftMenuContainer = document.getElementById("humbeger");
 
-    leftMenuHeaderGuestList.addEventListener("click", function () {
-      leftMenuGuestList.classList.toggle("left-menu-list_guest_on");
-    });
+  var leftMenuGuestList = document.getElementById("leftMenuGuestList");
+  var leftMenuHeaderCastList = document.getElementById(
+    "leftMenuHeaderCastList"
+  );
+  var leftMenuCastList = document.getElementById("leftMenuCastList");
+  var leftMenuHeaderGuestList = document.getElementById(
+    "leftMenuHeaderGuestList"
+  );
+  var leftMenuAdminList = document.getElementById("leftMenuAdminList");
+  var leftMenuHeaderAdminList = document.getElementById(
+    "leftMenuHeaderAdminList"
+  );
+
+  leftMenuContainer.classList.toggle("left-menu-container_on");
+
+  leftMenuData.forEach(function (item) {
+    var linkElement = document.createElement("a");
+    linkElement.textContent = item.label;
+    linkElement.href = item.link;
+    linkElement.classList.add("link-item");
+    leftMenuGuestList.appendChild(linkElement);
+  });
+  cast.forEach(function (item) {
+    var linkElement2 = document.createElement("a");
+    linkElement2.textContent = item.label;
+    linkElement2.href = item.link;
+    linkElement2.classList.add("link-item");
+    leftMenuCastList.appendChild(linkElement2);
+  });
+  admin.forEach(function (item) {
+    var linkElement = document.createElement("a");
+    linkElement.textContent = item.label;
+    linkElement.href = item.link;
+    linkElement.classList.add("link-item");
+    leftMenuAdminList.appendChild(linkElement);
+  });
+
+  leftMenuHeaderCastList.addEventListener("click", function () {
+    leftMenuCastList.classList.toggle("left-menu-list_cast_on");
+  });
+
+  leftMenuHeaderGuestList.addEventListener("click", function () {
+    leftMenuGuestList.classList.toggle("left-menu-list_guest_on");
+  });
+
+  leftMenuHeaderAdminList.addEventListener("click", function () {
+    leftMenuAdminList.classList.toggle("left-menu-list_guest_on");
+  });
 
 
-    leftMenuIcon.addEventListener("click", function () {
-      leftMenuList.classList.toggle("left-menu-list_on");
-    });
+  leftMenuIcon.addEventListener("click", function () {
+    leftMenuList.classList.toggle("left-menu-list_on");
+  });
 
-    document.addEventListener("click", function (event) {
-      var targetElement = event.target;
-      if (
-        !leftMenuIcon.contains(targetElement) &&
-        !leftMenuList.contains(targetElement)
-      ) {
-        leftMenuList.classList.remove("left-menu-list_on");
-      }
-    });
+  document.addEventListener("click", function (event) {
+    var targetElement = event.target;
+    if (
+      !leftMenuIcon.contains(targetElement) &&
+      !leftMenuList.contains(targetElement)
+    ) {
+      leftMenuList.classList.remove("left-menu-list_on");
+    }
+  });
 }
 
-  insertHumbeger();
+insertHumbeger();

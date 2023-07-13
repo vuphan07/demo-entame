@@ -89,6 +89,17 @@
     font-size: 18px;
 }
 
+.left-menu-list-header_admin {
+    cursor: pointer;
+    background-color: white;
+    width: 250px;
+    min-height: 30px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
 .link-item {
     font-size: 15px;
     color: white;
