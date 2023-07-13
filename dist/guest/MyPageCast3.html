@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="card-with-status16" style="cursor: pointer;">
-        <div class="div256">
+        <div class="div256" style="cursor: pointer;" id="shareQR">
           <img class="account-group-icon" alt="" src="./public/accountgroup-2.svg" />
 
           <div class="div257">同店舗キャスト紹介</div>
@@ -140,6 +140,12 @@
     if (info) {
       info.addEventListener("click", function (e) {
         window.location.href = "./AboutStage.html";
+      });
+    }
+    var shareQR = document.getElementById("shareQR");
+    if (shareQR) {
+      shareQR.addEventListener("click", function (e) {
+        window.location.href = "./ShareQR.html";
       });
     }
   </script>

@@ -631,6 +631,10 @@ function insertHumbeger() {
       label: "Component311121112",
       link: "./Component311121112.html",
     },
+    {
+      label: "ShareQR",
+      link: "./ShareQR.html",
+    },
   ]
   // delay render
     var leftMenuIcon = document.getElementById("iconLeftMenu");
