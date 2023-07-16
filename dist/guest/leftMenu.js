@@ -653,6 +653,31 @@ function insertHumbeger() {
       label: "PopupLogoutAdmin",
       link: "PopupLogoutAdmin.html",
     },
+
+    {
+      label: "VerifyCast",
+      link: "VerifyCast.html",
+    },
+    {
+      label: "VerifyCast2",
+      link: "VerifyCast2.html",
+    },
+    {
+      label: "VerifyCast3",
+      link: "VerifyCast3.html",
+    },
+    {
+      label: "VerifyCastInfoCard",
+      link: "VerifyCastInfoCard.html",
+    },
+    {
+      label: "PopUpApproveCast",
+      link: "PopUpApproveCast.html",
+    },
+    {
+      label: "PopUpRejectCast",
+      link: "PopUpRejectCast.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
