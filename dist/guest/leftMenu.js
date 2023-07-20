@@ -653,7 +653,6 @@ function insertHumbeger() {
       label: "PopupLogoutAdmin",
       link: "PopupLogoutAdmin.html",
     },
-
     {
       label: "VerifyCast",
       link: "VerifyCast.html",
@@ -677,6 +676,52 @@ function insertHumbeger() {
     {
       label: "PopUpRejectCast",
       link: "PopUpRejectCast.html",
+    },
+
+
+    {
+      label: "ChatLogGuest",
+      link: "ChatLogGuest.html",
+    },
+    {
+      label: "DeActiveGuest",
+      link: "DeActiveGuest.html",
+    },
+    {
+      label: "Frame5393",
+      link: "Frame5393.html",
+    },
+    {
+      label: "GuestDetails",
+      link: "GuestDetails.html",
+    },
+    {
+      label: "ManagementGuest",
+      link: "ManagementGuest.html",
+    },
+    {
+      label: "ManagementGuest2",
+      link: "ManagementGuest2.html",
+    },
+    {
+      label: "PopupAdditionGuest",
+      link: "PopupAdditionGuest.html",
+    },
+    {
+      label: "PopupAdditionGuest2",
+      link: "PopupAdditionGuest2.html",
+    },
+    {
+      label: "PopupDeleteGuest",
+      link: "PopupDeleteGuest.html",
+    },
+    {
+      label: "UserListSearchHaveResult",
+      link: "UserListSearchHaveResult.html",
+    },
+    {
+      label: "UserListSearchNoResule",
+      link: "UserListSearchNoResule.html",
     },
   ];
   // delay render
