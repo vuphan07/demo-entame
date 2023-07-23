@@ -771,6 +771,22 @@ function insertHumbeger() {
       label: "CastDetailPopup2",
       link: "CastDetailPopup2.html",
     },
+    {
+      label: "RequestList",
+      link: "RequestList.html",
+    },
+    {
+      label: "RequestList1",
+      link: "RequestList1.html",
+    },
+    {
+      label: "RequestList2",
+      link: "RequestList2.html",
+    },
+    {
+      label: "RequestList3",
+      link: "RequestList3.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
