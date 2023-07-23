@@ -787,6 +787,38 @@ function insertHumbeger() {
       label: "RequestList3",
       link: "RequestList3.html",
     },
+    {
+      label: "RequestDetail",
+      link: "RequestDetail.html",
+    },
+    {
+      label: "RequestDetail1",
+      link: "RequestDetail1.html",
+    },
+    {
+      label: "RequestDetail2",
+      link: "RequestDetail2.html",
+    },
+    {
+      label: "RequestDetail3",
+      link: "RequestDetail3.html",
+    },
+    {
+      label: "RequestDetail4",
+      link: "RequestDetail4.html",
+    },
+    {
+      label: "RequestDetail5",
+      link: "RequestDetail5.html",
+    },
+    {
+      label: "RequestDetail6",
+      link: "RequestDetail6.html",
+    },
+    {
+      label: "TNgCancel",
+      link: "TNgCancel.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
