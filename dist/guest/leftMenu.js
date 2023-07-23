@@ -723,6 +723,54 @@ function insertHumbeger() {
       label: "UserListSearchNoResule",
       link: "UserListSearchNoResule.html",
     },
+    {
+      label: "ManagementCast",
+      link: "ManagementCast.html",
+    },
+    {
+      label: "ManagementCast2",
+      link: "ManagementCast2.html",
+    },
+    {
+      label: "ManagementCast3",
+      link: "ManagementCast3.html",
+    },
+    {
+      label: "PopupDeleteCast",
+      link: "PopupDeleteCast.html",
+    },
+    {
+      label: "CastDetail",
+      link: "CastDetail.html",
+    },
+    {
+      label: "CastDetail2",
+      link: "CastDetail2.html",
+    },
+    {
+      label: "CastDetail3",
+      link: "CastDetail3.html",
+    },
+    {
+      label: "CastDetail4",
+      link: "CastDetail4.html",
+    },
+    {
+      label: "CastDetail5",
+      link: "CastDetail5.html",
+    },
+    {
+      label: "CastDetail6",
+      link: "CastDetail6.html",
+    },
+    {
+      label: "CastDetailPopup",
+      link: "CastDetailPopup.html",
+    },
+    {
+      label: "CastDetailPopup2",
+      link: "CastDetailPopup2.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
