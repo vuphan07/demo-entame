@@ -319,16 +319,24 @@ function insertHumbeger() {
       link: "./EntamedayReviewChange.html",
     },
     {
-      label: "2",
-      link: "./2.html",
-    },
-    {
       label: "EntamedayReviewed1",
       link: "./EntamedayReviewed1.html",
     },
     {
-      label: "4",
-      link: "./4.html",
+      label: "SearchTagDetail",
+      link: "./SearchTagDetail.html",
+    },
+    {
+      label: "SearchTagSelect",
+      link: "./SearchTagSelect.html",
+    },
+    {
+      label: "SearchResult1",
+      link: "./SearchResult1.html",
+    },
+    {
+      label: "SearchResult2",
+      link: "./SearchResult2.html",
     },
   ];
 
