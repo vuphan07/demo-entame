@@ -299,7 +299,7 @@
               <div class="div127">過去の縁ため予定</div>
             </div>
           </div>
-          <div class="card-with-status1">
+          <div class="card-with-status1" style="cursor: pointer;" id="nextStep">
             <div class="info-parent">
               <div class="info20">
                 <div class="date32">
@@ -539,6 +539,13 @@
     </div>
   </div>
   <script>
+   var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./EntameListNowOnDetail.html";
+      });
+    }
+
     var homeIcon = document.getElementById("homeIcon");
     if (homeIcon) {
       homeIcon.addEventListener("click", function (e) {
