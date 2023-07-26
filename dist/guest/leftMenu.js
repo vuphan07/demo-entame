@@ -338,6 +338,67 @@ function insertHumbeger() {
       label: "SearchResult2",
       link: "./SearchResult2.html",
     },
+    {
+      label: "EntameListCancelPopup",
+      link: "./EntameListCancelPopup.html",
+    },
+    {
+      label: "EntamelistHistoryCancel",
+      link: "./EntamelistHistoryCancel.html",
+    },
+    {
+      label: "EntamelistHistoryCancel1",
+      link: "./EntamelistHistoryCancel1.html",
+    },
+    {
+      label: "EntamelistHistoryCancel2",
+      link: "./EntamelistHistoryCancel2.html",
+    },
+    {
+      label: "EntamelistHistoryCancel3",
+      link: "./EntamelistHistoryCancel3.html",
+    },
+    {
+      label: "EntamelistHistoryCancel4",
+      link: "./EntamelistHistoryCancel4.html",
+    },
+    {
+      label: "EntamelistHistoryCancel5",
+      link: "./EntamelistHistoryCancel5.html",
+    },
+    {
+      label: "EntamelistHistoryCancel6",
+      link: "./EntamelistHistoryCancel6.html",
+    },
+    {
+      label: "EntamelistHistoryCancel7",
+      link: "./EntamelistHistoryCancel7.html",
+    },
+    {
+      label: "EntamelistHistoryDone",
+      link: "./EntamelistHistoryDone.html",
+    },
+    {
+      label: "EntamelistHistoryDone1",
+      link: "./EntamelistHistoryDone1.html",
+    },
+    {
+      label: "EntamelistHistoryDone2",
+      link: "./EntamelistHistoryDone2.html",
+    },
+    
+    {
+      label: "EntamelistHistoryDoneBAD",
+      link: "./EntamelistHistoryDoneBAD.html",
+    },
+    {
+      label: "EntamelistHistoryDoneDetail",
+      link: "./EntamelistHistoryDoneDetail.html",
+    },
+    {
+      label: "EntameListNowOnDetail",
+      link: "./EntameListNowOnDetail.html",
+    },
   ];
 
   const cast = [
