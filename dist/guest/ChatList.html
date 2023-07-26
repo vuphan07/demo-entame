@@ -54,7 +54,6 @@
                 <div class="icon-left10">
                   <img class="icon24x8" alt="" src="./public/icon24x2.svg" />
 
-                  <img class="iconfillstar" alt="" src="./public/icon24arrow--back4.svg" />
                 </div>
                 <div class="title12">
                   <div class="name21">
@@ -91,7 +90,8 @@
                   <div class="oval-34"></div>
                   <div class="div190">3</div>
                 </div>
-                <img class="icon16dot-v4" alt="" src="./public/icon16dotv2.svg" id="icon16dotV" />
+                <img alt="" src="./public/dot-V.svg" style="position: absolute; right: 0;"/>
+                <img class="icon16dot-v4" alt="" src="./public/icon16dotv2.svg" id="settingChat"/>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@
             </div>
           </div>
         </div>
-        <div class="frame-parent20">
+        <div class="frame-parent20" style="cursor: pointer;" id="chatDetail">
           <div class="image-group">
             <img class="image-icon1" alt="" src="./public/image1@2x.png" />
 
@@ -238,12 +238,18 @@
   </div>
 
   <script>
-    // var icon16dotV = document.getElementById("icon16dotV");
-    // if (icon16dotV) {
-    //   icon16dotV.addEventListener("click", function (e) {
-    //     // Please sync "1対1チャット_詳細チャット" to the project
-    //   });
-    // }
+    var settingChat = document.getElementById("settingChat");
+    if (settingChat) {
+      settingChat.addEventListener("click", function (e) {
+        window.location.href = "./ChatList1.html";
+      });
+    }
+    var chatDetail = document.getElementById("chatDetail");
+    if (chatDetail) {
+      chatDetail.addEventListener("click", function (e) {
+        window.location.href = "./ChatDetail11.html";
+      });
+    }
     var homeIcon = document.getElementById("homeIcon");
     if (homeIcon) {
       homeIcon.addEventListener("click", function (e) {

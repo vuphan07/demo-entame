@@ -97,7 +97,7 @@
               <div class="div187">ピン留済</div>
               <img class="iconfillstar" alt="" src="./public/iconfillstar5.svg" />
             </div>
-            <img class="icon16dot-v4" alt="" src="./public/icon16dotv4.svg" />
+            <img class="icon16dot-v4" alt="" src="./public/icon16dotv4.svg" style="cursor: pointer;" id="settingChat"/>
           </div>
         </div>
         <div class="chat">
@@ -215,9 +215,9 @@
         <div class="text-icon">
           <div class="div207">メッセージを入力</div>
           <div class="actions">
-            <img class="gift-icon" alt="" src="./public/gift2.svg" />
+            <img class="gift-icon" alt="" src="./public/gift2.svg" style="cursor: pointer;" id="gift"/>
 
-            <img class="mood-icon" alt="" src="./public/mood1.svg" />
+            <img class="mood-icon" alt="" src="./public/mood1.svg" style="cursor: pointer;" id="icon"/>
           </div>
         </div>
         <img class="gift-icon" alt="" src="./public/icon24send1.svg" />
@@ -235,6 +235,26 @@
     if (homeIcon) {
       homeIcon.addEventListener("click", function (e) {
         window.location.href = "./Component2121.html";
+      });
+    }
+    var icon = document.getElementById("icon");
+    if (icon) {
+      icon.addEventListener("click", function (e) {
+        window.location.href = "./ChatDetailEmoji.html";
+      });
+    }
+
+    var gift = document.getElementById("gift");
+    if (gift) {
+      gift.addEventListener("click", function (e) {
+        window.location.href = "./Gift.html";
+      });
+    }
+
+    var settingChat = document.getElementById("settingChat");
+    if (settingChat) {
+      settingChat.addEventListener("click", function (e) {
+        window.location.href = "./SettingChat.html";
       });
     }
 
