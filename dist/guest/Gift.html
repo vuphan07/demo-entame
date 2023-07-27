@@ -50,7 +50,7 @@
             </div>
           </div>
           <div class="navigation-bar172">
-            <div class="icon-left144">
+            <div class="icon-left144" style="cursor: pointer;" id="backStep">
               <img class="icon24x59" alt="" src="./public/icon24x2.svg" />
 
               <img class="iconexplore134" alt="" src="./public/icon24arrow--back4.svg" />
@@ -94,7 +94,7 @@
               <b class="name507">花</b>
               <div class="pt91">2000pt</div>
             </div>
-            <div class="default259">
+            <div class="default259" style="cursor: pointer;" id="nextStep">
               <b class="button98">贈る</b>
             </div>
           </div>
@@ -106,7 +106,7 @@
               <b class="name507">飲み物</b>
               <div class="pt91">1000pt</div>
             </div>
-            <div class="default259">
+            <div class="default259" style="cursor: pointer;" id="addPoint">
               <b class="button98">贈る</b>
             </div>
           </div>
@@ -140,6 +140,28 @@
     </div>
     <img class="connector-icon4" alt="" src="./public/connector2.svg" />
   </div>
+  <script src="HeaderFooterGuest.js"></script>
+  <script src="leftMenu.js"></script>
+  <script>
+    var backStep = document.getElementById("backStep");
+    if (backStep) {
+      backStep.addEventListener("click", function (e) {
+        window.location.href = "./ChatDetail11.html";
+      });
+    }
+    var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./SendingGifftPopup.html";
+      });
+    }
+    var addPoint = document.getElementById("addPoint");
+    if (addPoint) {
+      addPoint.addEventListener("click", function (e) {
+        window.location.href = "./SendingGiftNotEnoughPoint.html";
+      });
+    }
+  </script>
 </body>
 
 </html>

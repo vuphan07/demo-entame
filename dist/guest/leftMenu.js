@@ -426,6 +426,22 @@ function insertHumbeger() {
       label: "EntameListNowOnDetail",
       link: "./EntameListNowOnDetail.html",
     },
+    {
+      label: "GiftPurchasePoint2",
+      link: "./GiftPurchasePoint2.html",
+    },
+    {
+      label: "GiftPurchasePoint1",
+      link: "./GiftPurchasePoint1.html",
+    },
+    {
+      label: "SendingGifftPopup",
+      link: "./SendingGifftPopup.html",
+    },
+    {
+      label: "SendingGiftNotEnoughPoint",
+      link: "./SendingGiftNotEnoughPoint.html",
+    },
   ];
 
   const cast = [
