@@ -26,7 +26,7 @@
     <div class="rectangle-copy-3-parent">
       <div class="rectangle-copy-3"></div>
       <div class="group-child98"></div>
-      <div class="date-filter">
+      <div class="date-filter" style="cursor: pointer;" id="nextStep">
         <div class="input-field">
           <div class="input-field-base">
             <div class="input-field-base">
@@ -265,6 +265,12 @@
     if (backStep) {
       backStep.addEventListener("click", function (e) {
         window.location.href = "./MyPageCast.html";
+      });
+    }
+    var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./PointHistory2.html";
       });
     }
   </script>

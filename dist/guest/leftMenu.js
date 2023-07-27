@@ -746,6 +746,10 @@ function insertHumbeger() {
       label: "ShareQR",
       link: "./ShareQR.html",
     },
+    {
+      label: "PointHistory2",
+      link: "./PointHistory2.html",
+    },
   ];
 
   const admin = [
