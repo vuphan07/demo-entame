@@ -386,7 +386,34 @@ function insertHumbeger() {
       label: "EntamelistHistoryDone2",
       link: "./EntamelistHistoryDone2.html",
     },
-    
+    {
+      label: "BlockCast",
+      link: "./BlockCast.html",
+    },
+    {
+      label: "ChatBlocked",
+      link: "./ChatBlocked.html",
+    },
+    {
+      label: "ChatDetailEmoji",
+      link: "./ChatDetailEmoji.html",
+    },
+    {
+      label: "ChatList1",
+      link: "./ChatList1.html",
+    },
+    {
+      label: "Gift",
+      link: "./Gift.html",
+    },
+    {
+      label: "ReportCast",
+      link: "./ReportCast.html",
+    },
+    {
+      label: "SettingChat",
+      link: "./SettingChat.html",
+    },
     {
       label: "EntamelistHistoryDoneBAD",
       link: "./EntamelistHistoryDoneBAD.html",
