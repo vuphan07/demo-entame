@@ -290,7 +290,7 @@
               <img class="iconfillstar5" alt="" src="./public/iconfillstar5.svg" />
             </div>
           </div>
-          <img class="icon16dot-v8" alt="" src="./public/icon16dotv4.svg" />
+          <img class="icon16dot-v8" alt="" src="./public/icon16dotv4.svg" style="cursor: pointer;" id="settingChat"/>
 
           <div class="group5">
             <div class="oval-35"></div>
@@ -313,7 +313,7 @@
               <div class="div215"></div>
             </div>
           </div>
-          <div class="parent46">
+          <div class="parent46" style="cursor: pointer;" id="chatDetail">
             <div class="div241">
               <div class="avt-group">
                 <div class="avt2" style="cursor: pointer;" id="guestProfile">
@@ -475,6 +475,18 @@
     if (guestProfile) {
       guestProfile.addEventListener("click", function (e) {
         window.location.href = "./GuestProfile.html";
+      });
+    }
+    var chatDetail = document.getElementById("chatDetail");
+    if (chatDetail) {
+      chatDetail.addEventListener("click", function (e) {
+        window.location.href = "./ChatDetailCast.html";
+      });
+    }
+    var settingChat = document.getElementById("settingChat");
+    if (settingChat) {
+      settingChat.addEventListener("click", function (e) {
+        window.location.href = "./ChatListFilterMenu.html";
       });
     }
   </script>

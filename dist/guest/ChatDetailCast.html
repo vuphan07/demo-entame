@@ -86,7 +86,7 @@
           <div class="div3892">ピン留済</div>
           <img class="iconfillstar78" alt="" src="./public/iconfillstar111.svg" />
         </div>
-        <img class="cast-a-star-child" alt="" src="./public/icon16dotv4.svg" />
+        <img class="cast-a-star-child" alt="" src="./public/icon16dotv4.svg" style="cursor: pointer;" id="setting"/>
       </div>
       <div class="chat10">
         <div class="chat-content2">
@@ -203,7 +203,7 @@
     <div class="box-chat2">
       <div class="text-icon23">
         <div class="div3913">メッセージを入力</div>
-        <div class="actions62">
+        <div class="actions62" style="cursor: pointer;" id="emoji">
           <img class="gift-icon7" alt="" src="./public/gift21.svg" />
 
           <img class="favorite-icon497" alt="" src="./public/mood1.svg" />
@@ -231,6 +231,18 @@
     if (backStep) {
       backStep.addEventListener("click", function (e) {
         window.location.href = "./GuestProfile.html";
+      });
+    }
+    var setting = document.getElementById("setting");
+    if (setting) {
+      setting.addEventListener("click", function (e) {
+        window.location.href = "./ChatDetailMenu1.html";
+      });
+    }
+    var emoji = document.getElementById("emoji");
+    if (emoji) {
+      emoji.addEventListener("click", function (e) {
+        window.location.href = "./ChatDetailEmojiCast.html";
       });
     }
   </script>
