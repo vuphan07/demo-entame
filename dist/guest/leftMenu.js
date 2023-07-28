@@ -750,6 +750,14 @@ function insertHumbeger() {
       label: "PointHistory2",
       link: "./PointHistory2.html",
     },
+    {
+      label: "EntameListCast1",
+      link: "./EntameListCast1.html",
+    },
+    {
+      label: "EntameListCast2",
+      link: "./EntameListCast2.html",
+    },
   ];
 
   const admin = [

@@ -88,7 +88,7 @@
               <b class="b10">1</b>
             </div>
           </div>
-          <div class="div63" style="width: 130px;">
+          <div class="div63" style="width: 130px; cursor: pointer;" id="listTab">
             <div class="div64">過去の縁ため予定</div>
           </div>
         </div>
@@ -410,6 +410,12 @@
     if (guestProfile) {
       guestProfile.addEventListener("click", function (e) {
         window.location.href = "./GuestProfile.html";
+      });
+    }
+    var listTab = document.getElementById("listTab");
+    if (listTab) {
+      listTab.addEventListener("click", function (e) {
+        window.location.href = "./EntameListCast1.html";
       });
     }
   </script>
