@@ -935,6 +935,30 @@ function insertHumbeger() {
       label: "TNgCancel",
       link: "TNgCancel.html",
     },
+    {
+      label: "SettingNews",
+      link: "SettingNews.html",
+    },
+    {
+      label: "SettingNews1",
+      link: "SettingNews1.html",
+    },
+    {
+      label: "SettingNews2",
+      link: "SettingNews2.html",
+    },
+    {
+      label: "SettingNews3",
+      link: "SettingNews3.html",
+    },
+    {
+      label: "SettingNews4",
+      link: "SettingNews4.html",
+    },
+    {
+      label: "SettingNews5",
+      link: "SettingNews5.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
