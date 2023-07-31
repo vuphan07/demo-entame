@@ -818,6 +818,18 @@ function insertHumbeger() {
       label: "EntameListCast17",
       link: "./EntameListCast17.html",
     },
+    {
+      label: "EditProfileCast",
+      link: "./EditProfileCast.html",
+    },
+    {
+      label: "EditProfileCast1",
+      link: "./EditProfileCast1.html",
+    },
+    {
+      label: "EditProfileCast2",
+      link: "./EditProfileCast2.html",
+    },
   ];
 
   const admin = [

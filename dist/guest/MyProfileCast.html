@@ -121,13 +121,13 @@
               <div class="div63">画像・動画</div>
             </div>
             <div class="div64">
-              <div class="div65">プロフィール情報</div>
+              <div class="div65" style="cursor: pointer;" id="edit1">プロフィール情報</div>
             </div>
             <div class="div66">
-              <div class="div67">タグ</div>
+              <div class="div67" style="cursor: pointer;" id="edit2">タグ</div>
             </div>
             <div class="div66">
-              <div class="div67">詳細</div>
+              <div class="div67" style="cursor: pointer;" id="edit3">詳細</div>
             </div>
           </div>
           <div class="div70">
@@ -251,24 +251,24 @@
       });
     }
 
-    var buttonSContainer1 = document.getElementById("buttonSContainer1");
-    if (buttonSContainer1) {
-      buttonSContainer1.addEventListener("click", function (e) {
-        // Please sync "02_26_ホーム" to the project
+    var edit1 = document.getElementById("edit1");
+    if (edit1) {
+      edit1.addEventListener("click", function (e) {
+        window.location.href = "./EditProfileCast.html";
       });
     }
 
-    var buttonSContainer2 = document.getElementById("buttonSContainer2");
-    if (buttonSContainer2) {
-      buttonSContainer2.addEventListener("click", function (e) {
-        // Please sync "02_26_ホーム" to the project
+    var edit2 = document.getElementById("edit2");
+    if (edit2) {
+      edit2.addEventListener("click", function (e) {
+        window.location.href = "./EditProfileCast1.html";
       });
     }
 
-    var buttonSContainer3 = document.getElementById("buttonSContainer3");
-    if (buttonSContainer3) {
-      buttonSContainer3.addEventListener("click", function (e) {
-        // Please sync "02_26_ホーム" to the project
+    var edit3 = document.getElementById("edit3");
+    if (edit3) {
+      edit3.addEventListener("click", function (e) {
+        window.location.href = "./EditProfileCast2.html";
       });
     }
   </script>
