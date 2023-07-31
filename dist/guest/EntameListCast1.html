@@ -339,7 +339,7 @@
           </div>
           <img class="emoticon-neutral-outline1" alt="" src="./public/emoticonneutraloutline1.svg" />
 
-          <div class="default269">
+          <div class="default269" style="cursor: pointer;" id="changeRank">
             <b class="b1473">評価変更</b>
           </div>
           <div class="default270">
@@ -496,7 +496,7 @@
               <img class="cast2-icon21" alt="" src="./public/cast219.svg" />
             </div>
           </div>
-          <div class="default272">
+          <div class="default272" style="cursor: pointer;" id="badIcon">
             <b class="b1477">チャット</b>
           </div>
         </div>
@@ -589,6 +589,18 @@
     if (listTab) {
       listTab.addEventListener("click", function (e) {
         window.location.href = "./EntameListCast2.html";
+      });
+    }
+    var badIcon = document.getElementById("badIcon");
+    if (badIcon) {
+      badIcon.addEventListener("click", function (e) {
+        window.location.href = "./EntameListCast3.html";
+      });
+    }
+    var changeRank = document.getElementById("changeRank");
+    if (changeRank) {
+      changeRank.addEventListener("click", function (e) {
+        window.location.href = "./EntameListCast4.html";
       });
     }
   </script>
