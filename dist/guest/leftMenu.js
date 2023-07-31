@@ -774,6 +774,50 @@ function insertHumbeger() {
       label: "EntameListCast6",
       link: "./EntameListCast6.html",
     },
+    {
+      label: "EntameListCast7",
+      link: "./EntameListCast7.html",
+    },
+    {
+      label: "EntameListCast8",
+      link: "./EntameListCast8.html",
+    },
+    {
+      label: "EntameListCast9",
+      link: "./EntameListCast9.html",
+    },
+    {
+      label: "EntameListCast10",
+      link: "./EntameListCast10.html",
+    },
+    {
+      label: "EntameListCast11",
+      link: "./EntameListCast11.html",
+    },
+    {
+      label: "EntameListCast12",
+      link: "./EntameListCast12.html",
+    },
+    {
+      label: "EntameListCast13",
+      link: "./EntameListCast13.html",
+    },
+    {
+      label: "EntameListCast14",
+      link: "./EntameListCast14.html",
+    },
+    {
+      label: "EntameListCast15",
+      link: "./EntameListCast15.html",
+    },
+    {
+      label: "EntameListCast16",
+      link: "./EntameListCast16.html",
+    },
+    {
+      label: "EntameListCast17",
+      link: "./EntameListCast17.html",
+    },
   ];
 
   const admin = [

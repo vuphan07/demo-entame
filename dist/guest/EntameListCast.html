@@ -217,7 +217,7 @@
                 <b class="b11">2023年3月27日</b>
               </div>
             </div>
-            <div class="default6">
+            <div class="default6" style="cursor: pointer;" id="list2">
               <b class="button">未返答</b>
             </div>
           </div>
@@ -277,7 +277,7 @@
             <div class="default7" style="padding-left: 10px; padding-right: 10px;">
               <b class="button">承諾済み</b>
             </div>
-            <div class="default8" style="padding-left: 10px; padding-right: 10px;">
+            <div class="default8" style="padding-left: 10px; padding-right: 10px; cursor: pointer;" id="list3">
               <b class="button">確定待ち</b>
             </div>
           </div>
@@ -416,6 +416,18 @@
     if (listTab) {
       listTab.addEventListener("click", function (e) {
         window.location.href = "./EntameListCast1.html";
+      });
+    }
+    var list2 = document.getElementById("list2");
+    if (list2) {
+      list2.addEventListener("click", function (e) {
+        window.location.href = "./EntameListCast13.html";
+      });
+    }
+    var list3 = document.getElementById("list3");
+    if (list3) {
+      list3.addEventListener("click", function (e) {
+        window.location.href = "./EntameListCast16.html";
       });
     }
   </script>
