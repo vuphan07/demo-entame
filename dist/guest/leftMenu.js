@@ -1039,6 +1039,26 @@ function insertHumbeger() {
       label: "SettingNews5",
       link: "SettingNews5.html",
     },
+    {
+      label: "PayOffManagement",
+      link: "PayOffManagement.html",
+    },
+    {
+      label: "PayOffManagement1",
+      link: "PayOffManagement1.html",
+    },
+    {
+      label: "PayOffManagement2",
+      link: "PayOffManagement2.html",
+    },
+    {
+      label: "PayOffManagement3",
+      link: "PayOffManagement3.html",
+    },
+    {
+      label: "PayOffManagement4",
+      link: "PayOffManagement4.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
