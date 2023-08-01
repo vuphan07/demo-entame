@@ -1059,6 +1059,10 @@ function insertHumbeger() {
       label: "PayOffManagement4",
       link: "PayOffManagement4.html",
     },
+    {
+      label: "ChatLogGuestDelete",
+      link: "ChatLogGuestDelete.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
