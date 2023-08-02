@@ -1063,6 +1063,38 @@ function insertHumbeger() {
       label: "ChatLogGuestDelete",
       link: "ChatLogGuestDelete.html",
     },
+    {
+      label: "PointCourseSetting",
+      link: "PointCourseSetting.html",
+    },
+    {
+      label: "PointCourseSetting1",
+      link: "PointCourseSetting1.html",
+    },
+    {
+      label: "PointCourseSetting2",
+      link: "PointCourseSetting2.html",
+    },
+    {
+      label: "PointCourseSetting3",
+      link: "PointCourseSetting3.html",
+    },
+    {
+      label: "PointCourseSetting4",
+      link: "PointCourseSetting4.html",
+    },
+    {
+      label: "PointCourseSetting5",
+      link: "PointCourseSetting5.html",
+    },
+    {
+      label: "PointCourseSetting6",
+      link: "PointCourseSetting6.html",
+    },
+    {
+      label: "PointCourseSetting7",
+      link: "PointCourseSetting7.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
