@@ -38,10 +38,10 @@
     <div class="heder-menu-parent">
       <div class="heder-menu6">
         <div class="tabs12">
-          <div class="explore12"  id="homeIcon" style="cursor: pointer;">
+          <div class="explore12" id="homeIcon" style="cursor: pointer;">
             <img class="iconfillstar" alt="" src="./public/iconexplore211.svg" />
           </div>
-          <div class="explore12"  id="searchIcon" style="cursor: pointer;">
+          <div class="explore12" id="searchIcon" style="cursor: pointer;">
             <img class="search-icon10" alt="" src="./public/search211.svg" />
           </div>
           <div class="explore10" id="favoriteIcon" style="cursor: pointer;">
@@ -75,7 +75,7 @@
         <div class="lv1-bars-navigation-menu-parent" style="margin-top: 5px;">
           <div class="lv1-bars-navigation-menu" style="transform: translateY(-5px);">
             <div class="lv1-bars-navigation-menu-child"></div>
-            <div class="lv1-bars-navi-item-defau">
+            <div class="lv1-bars-navi-item-defau" style="cursor: pointer;" id="nextStep">
               <div class="div156">ニュース</div>
             </div>
             <div class="lv0-icons-notice">
@@ -221,7 +221,7 @@
               <img class="icon24add" alt="" src="./public/commenttextmultiple1.svg" />
             </div>
             <div class="explore10" id="notiList" style="cursor: pointer;">
-              <img class="frame-child8" alt="" src="./public/noti-hightlight.svg" style="height: 26px; width: 26px;"/>
+              <img class="frame-child8" alt="" src="./public/noti-hightlight.svg" style="height: 26px; width: 26px;" />
             </div>
             <div class="explore10" id="accountCircle" style="cursor: pointer;">
               <img class="icon24add" alt="" src="./public/account-circle2.svg" />
@@ -232,6 +232,13 @@
     </div>
   </div>
   <script>
+    var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./Noti1.html";
+      });
+    }
+
     var homeIcon = document.getElementById("homeIcon");
     if (homeIcon) {
       homeIcon.addEventListener("click", function (e) {
@@ -291,6 +298,7 @@
     }
   </script>
   <script src="leftMenu.js"></script>
+  <script src="HeaderFooterGuest.js"></script>
 </body>
 
 </html>

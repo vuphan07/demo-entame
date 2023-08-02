@@ -442,6 +442,10 @@ function insertHumbeger() {
       label: "SendingGiftNotEnoughPoint",
       link: "./SendingGiftNotEnoughPoint.html",
     },
+    {
+      label: "Noti1",
+      link: "./Noti1.html",
+    },
   ];
 
   const cast = [
