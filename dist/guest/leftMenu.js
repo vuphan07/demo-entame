@@ -1132,7 +1132,6 @@ function insertHumbeger() {
   var leftMenuIcon = document.getElementById("iconLeftMenu");
   var leftMenuList = document.getElementById("leftMenuList");
   var leftMenuContainer = document.getElementById("humbeger");
-  StaticPageSetting
   var leftMenuGuestList = document.getElementById("leftMenuGuestList");
   var leftMenuHeaderCastList = document.getElementById(
     "leftMenuHeaderCastList"
