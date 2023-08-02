@@ -1095,12 +1095,44 @@ function insertHumbeger() {
       label: "PointCourseSetting7",
       link: "PointCourseSetting7.html",
     },
+    {
+      label: "StaticPageSetting",
+      link: "StaticPageSetting.html",
+    },
+    {
+      label: "StaticPageSetting1",
+      link: "StaticPageSetting1.html",
+    },
+    {
+      label: "StaticPageSetting2",
+      link: "StaticPageSetting2.html",
+    },
+    {
+      label: "StaticPageSetting3",
+      link: "StaticPageSetting3.html",
+    },
+    {
+      label: "StaticPageSetting4",
+      link: "StaticPageSetting4.html",
+    },
+    {
+      label: "StaticPageSetting5",
+      link: "StaticPageSetting5.html",
+    },
+    {
+      label: "StaticPageSetting6",
+      link: "StaticPageSetting6.html",
+    },
+    {
+      label: "StaticPageSetting7",
+      link: "StaticPageSetting7.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
   var leftMenuList = document.getElementById("leftMenuList");
   var leftMenuContainer = document.getElementById("humbeger");
-
+  StaticPageSetting
   var leftMenuGuestList = document.getElementById("leftMenuGuestList");
   var leftMenuHeaderCastList = document.getElementById(
     "leftMenuHeaderCastList"
