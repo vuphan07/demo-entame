@@ -466,6 +466,10 @@ function insertHumbeger() {
       label: "PointHistory",
       link: "./PointHistory.html",
     },
+    {
+      label: "PrivacyPolicy",
+      link: "./PrivacyPolicy.html",
+    },
   ];
 
   const cast = [

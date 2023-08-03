@@ -96,7 +96,7 @@
                 </div>
                 <img class="icon16chevron-right26" alt="" src="./public/icon16chevronright12.svg" />
               </div>
-              <div class="itemchoose20">
+              <div class="itemchoose20" style="cursor: pointer;" id="nextStep">
                 <div class="text54">
                   <img class="favorite-icon25" alt="" src="./public/icon24description-2.svg" />
 
@@ -160,6 +160,12 @@
     </div>
   </div>
   <script>
+     var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./PrivacyPolicy.html";
+      });
+    }
     var backIcon = document.getElementById("backIcon");
     if (backIcon) {
       backIcon.addEventListener("click", function (e) {
