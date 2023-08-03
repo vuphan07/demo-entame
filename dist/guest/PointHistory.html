@@ -193,7 +193,7 @@
 
           <img class="group-child29" alt="" src="./public/group-4628.svg" />
 
-          <b class="b46">領収書発行</b>
+          <b class="b46" style="cursor: pointer;" id="nextStep">領収書発行</b>
           <b class="b47">領収書発行</b>
         </div>
         <div class="footer8">
@@ -234,6 +234,13 @@
     }
   </script>
   <script>
+    var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./Invoice.html";
+      });
+    }
+
     var homeIcon = document.getElementById("homeIcon");
     if (homeIcon) {
       homeIcon.addEventListener("click", function (e) {

@@ -462,6 +462,10 @@ function insertHumbeger() {
       label: "ChagePhoneNo2",
       link: "./ChagePhoneNo2.html",
     },
+    {
+      label: "PointHistory",
+      link: "./PointHistory.html",
+    },
   ];
 
   const cast = [
