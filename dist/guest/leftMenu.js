@@ -470,6 +470,14 @@ function insertHumbeger() {
       label: "PrivacyPolicy",
       link: "./PrivacyPolicy.html",
     },
+    {
+      label: "FAQ",
+      link: "./FAQ.html",
+    },
+    {
+      label: "FAQ1",
+      link: "./FAQ1.html",
+    },
   ];
 
   const cast = [

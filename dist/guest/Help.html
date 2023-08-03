@@ -88,7 +88,7 @@
           </div>
           <div class="page-admin3">
             <div class="items2">
-              <div class="itemchoose20">
+              <div class="itemchoose20" style="cursor: pointer;" id="faq">
                 <div class="text54">
                   <img class="favorite-icon25" alt="" src="./public/icon24description-2.svg" />
 
@@ -160,6 +160,12 @@
     </div>
   </div>
   <script>
+      var faq = document.getElementById("faq");
+    if (faq) {
+      faq.addEventListener("click", function (e) {
+        window.location.href = "./FAQ1.html";
+      });
+    }
      var nextStep = document.getElementById("nextStep");
     if (nextStep) {
       nextStep.addEventListener("click", function (e) {
