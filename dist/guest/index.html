@@ -90,7 +90,7 @@
           <div class="div2">
             <p class="p">既に登録会員の方で、電話番号変更された方は</p>
             <p class="p">
-              <b class="b2">こちらで再認証申請</b>
+              <b class="b2" style="cursor: pointer;" id="changePhoneNumber">こちらで再認証申請</b>
               <span class="span1">してください。</span>
             </p>
           </div>
@@ -99,12 +99,12 @@
     </div>
 
     <script>
-      // var buttonLContainer = document.getElementById("buttonLContainer");
-      // if (buttonLContainer) {
-      //   buttonLContainer.addEventListener("click", function (e) {
-      //     window.open("./Component111.html");
-      //   });
-      // }
+      var changePhoneNumber = document.getElementById("changePhoneNumber");
+      if (changePhoneNumber) {
+        changePhoneNumber.addEventListener("click", function (e) {
+          window.location.href = "./ChangePhoneNumber.html";
+        });
+      }
       
       var frameContainer2 = document.getElementById("frameContainer2");
       if (frameContainer2) {

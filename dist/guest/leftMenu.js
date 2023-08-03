@@ -450,6 +450,18 @@ function insertHumbeger() {
       label: "Noti1",
       link: "./Noti1.html",
     },
+    {
+      label: "ChagePhoneNo",
+      link: "./ChagePhoneNo.html",
+    },
+    {
+      label: "ChagePhoneNo1",
+      link: "./ChagePhoneNo1.html",
+    },
+    {
+      label: "ChagePhoneNo2",
+      link: "./ChagePhoneNo2.html",
+    },
   ];
 
   const cast = [

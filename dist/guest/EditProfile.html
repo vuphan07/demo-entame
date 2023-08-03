@@ -230,8 +230,8 @@
                 </div>
               </div>
               <div class="text37">
-                <div class="input-placeholder2">
-                  *電話番号変更については <span class="span8">こちら</span>。
+                <div class="input-placeholder2" style="min-width: 260px;">
+                  *電話番号変更については <span class="span8" style="cursor: pointer; min-width: 40px;" id="changePhone">こちら</span>。
                 </div>
               </div>
               <div class="text37">
@@ -243,7 +243,7 @@
                 <b class="input-placeholder2">アイコン</b>
               </div>
               <div class="avt-parent">
-                <img class="avt-icon2" alt="" src="./public/avt2.svg" />
+                <img class="avt-icon2" alt="" src="./public/avt_guest.svg" />
 
                 <div class="button-l2">
                   <div class="div78">写真添付</div>
@@ -409,7 +409,12 @@
     </div>
   </div>
   <script>
- var backIcon = document.getElementById("backIcon");
+  var changePhone = document.getElementById("changePhone");
+    if (changePhone) {
+      changePhone.addEventListener("click", function (e) {
+        window.location.href = "./ChangeTelNumber.html";
+      });
+    }
     if (backIcon) {
       backIcon.addEventListener("click", function (e) {
         window.location.href = "./MyPage.html";

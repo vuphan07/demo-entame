@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./global58.css" />
+  <link rel="stylesheet" href="./ChangePhoneNumber2.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans JP:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@300;400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Microsoft YaHei UI:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hiragino Sans:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Love Light:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@400;700&display=swap" />
+</head>
+
+<body>
+  <div class="top-">
+    <div class="bg1"></div>
+    <div class="rectangle-parent">
+      <div class="group-inner"></div>
+      <div class="frame-container">
+        <div class="frame-group">
+          <div class="frame-div">
+            <div class="logo-parent">
+              <div class="logo">
+                <b class="b2">縁ため</b>
+              </div>
+              <div class="parent">
+                <b class="b3">
+                  <p class="p">無料でアカウントを登録できます！</p>
+                  <p class="p">&nbsp;</p>
+                  <p class="p">ログイン又は新規登録の方法を</p>
+                  <p class="p">以下から選択してください。</p>
+                </b>
+                <div class="div11">
+                  <span class="txt">
+                    <p class="p">アカウント作成またはログインにあたり、</p>
+                    <p class="p">
+                      <span class="span1">利用規約、 プライバシーポリシー</span>
+                      <span>に同意した</span>
+                    </p>
+                    <p class="p">ものとみなします。必ずご確認ください。</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="frame-parent1">
+              <div class="button-l-wrapper" id="frameContainer2">
+                <div class="button-l" id="buttonLContainer">
+                  <b class="default">電話番号ではじめる</b>
+                </div>
+              </div>
+              <div class="button-line" id="buttonLINEContainer">
+                <img class="icon-line-2" alt="" src="./public/icon-line-2.svg" />
+
+                <div class="line-wrapper">
+                  <b class="line">LINEではじめる</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="div12">
+            <p class="p">既に登録会員の方で、電話番号変更された方は</p>
+            <p class="p">
+              <b class="b4">こちらで再認証申請</b>
+              <span class="span2">してください。</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="bg-icon" alt="" src="./public/bg-6.svg" />
+
+    <div class="content-dropdown">
+      <div class="sms3">
+        <span class="txt">
+          <p class="p8">管理会社による確認手続きが必要となるため、</p>
+          <p class="p8">新しい電話の認証に少しお時間頂きます。再認</p>
+          <p class="p8">証確認後、SMSにてご連絡致します。3日以上</p>
+          <p class="p8">経っても連絡がない場合は、縁ためホームペー</p>
+          <p class="p">ジからお問い合わせよりご連絡ください。</p>
+        </span>
+      </div>
+      <div class="text9">
+        <div class="input-placeholder">Input Placeholder</div>
+        <img class="icon16check" alt="" />
+      </div>
+      <div class="text10"></div>
+      <div class="text10"></div>
+      <div class="text10"></div>
+      <div class="actions">
+        <div class="button-send">
+          <div class="button-l1" style="cursor: pointer;" id="nextStep">
+            <b class="default1">閉じる</b>
+          </div>
+        </div>
+      </div>
+      <div class="text13">
+        <div class="input-placeholder">+ Add another work</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./index.html";
+      });
+    }
+
+    var frameContainer2 = document.getElementById("frameContainer2");
+    if (frameContainer2) {
+      frameContainer2.addEventListener("click", function (e) {
+        window.location.href = "./Component1112.html";
+      });
+    }
+
+    var buttonLINEContainer = document.getElementById("buttonLINEContainer");
+    if (buttonLINEContainer) {
+      buttonLINEContainer.addEventListener("click", function (e) {
+        window.location.href = "./LINE.html";
+      });
+    }
+  </script>
+    <script src="leftMenu.js"></script>
+</body>
+
+</html>
