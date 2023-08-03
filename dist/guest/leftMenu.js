@@ -231,6 +231,10 @@ function insertHumbeger() {
       link: "./Setting.html",
     },
     {
+      label: "設定1",
+      link: "./Setting1.html",
+    },
+    {
       label: "キャストプロフィール_縁ためスケジュール詳細",
       link: "./CastProfileEntameSchedule.html",
     },
