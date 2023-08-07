@@ -478,6 +478,46 @@ function insertHumbeger() {
       label: "FAQ1",
       link: "./FAQ1.html",
     },
+    {
+      label: "ContactUs1",
+      link: "./ContactUs1.html",
+    },
+    {
+      label: "ContactUs2",
+      link: "./ContactUs2.html",
+    },
+    {
+      label: "ContactUs3",
+      link: "./ContactUs3.html",
+    },
+    {
+      label: "ContactUs4",
+      link: "./ContactUs4.html",
+    },
+    {
+      label: "ContactUs5",
+      link: "./ContactUs5.html",
+    },
+    {
+      label: "ContactUs6",
+      link: "./ContactUs6.html",
+    },
+    {
+      label: "ContactUs7",
+      link: "./ContactUs7.html",
+    },
+    {
+      label: "ContactUs8",
+      link: "./ContactUs8.html",
+    },
+    {
+      label: "ContactUs9",
+      link: "./ContactUs9.html",
+    },
+    {
+      label: "ContactUsList",
+      link: "./ContactUsList.html",
+    },
   ];
 
   const cast = [
