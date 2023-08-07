@@ -131,7 +131,7 @@
             </div>
           </div>
         </div>
-        <div class="wrapper1" style="border: 1px solid #B83AF3;">
+        <div class="wrapper1" style="border: 1px solid #B83AF3; cursor: pointer;" id="deactive">
           <div class="div136">退会</div>
         </div>
       </div>
@@ -239,6 +239,12 @@
     if (notiList) {
       notiList.addEventListener("click", function (e) {
         window.location.href = "./Noti.html";
+      });
+    }
+    var deactive = document.getElementById("deactive");
+    if (deactive) {
+      deactive.addEventListener("click", function (e) {
+        window.location.href = "./DeactiveAccount.html";
       });
     }
   </script>

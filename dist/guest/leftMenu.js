@@ -518,6 +518,10 @@ function insertHumbeger() {
       label: "ContactUsList",
       link: "./ContactUsList.html",
     },
+    {
+      label: "DeactiveAccount",
+      link: "./DeactiveAccount.html",
+    },
   ];
 
   const cast = [

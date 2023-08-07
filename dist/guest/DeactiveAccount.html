@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./global64.css" />
+  <link rel="stylesheet" href="./DeactiveAccount.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans JP:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@300;400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Microsoft YaHei UI:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hiragino Sans:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Love Light:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@400;700&display=swap" />
+</head>
+
+<body>
+  <div class="deactive-account">
+    <img class="group-icon1" alt="" src="./public/group.svg" />
+
+    <img class="noimage-icon" alt="" src="./public/noimage.svg" />
+    
+    <img alt="" src="./public/マイページ.png" />
+    <img class="deactive-account-child" alt="" src="./public/rectangle-12597-6.svg" />
+
+    <div class="content-dropdown">
+      <div class="div65">
+        あなたのゲストのプロフィールが完全に削除しますので、よろしいでしょうか？
+      </div>
+      <div class="text31">
+        <div class="input-placeholder">Input Placeholder</div>
+        <img class="icon16check" alt="" />
+      </div>
+      <div class="text32"></div>
+      <div class="text32"></div>
+      <div class="text32"></div>
+      <div class="actions">
+        <div class="button-send">
+          <div class="button-l1" style="padding-left: 10px; padding-right: 10px; cursor: pointer;" id="backStep">
+            <div class="div66">キャンセル</div>
+          </div>
+        </div>
+        <div class="button-send1">
+          <div class="button-l2" style="padding-left: 10px; padding-right: 10px; cursor: pointer;" id="nextStep">
+            <b class="b15">退会</b>
+          </div>
+        </div>
+      </div>
+      <div class="text35">
+        <div class="input-placeholder">+ Add another work</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var avt = document.getElementById("avt");
+    if (avt) {
+      avt.addEventListener("click", function (e) {
+        window.location.href = "DeactiveAccount.html";
+      });
+    }
+    var backStep = document.getElementById("backStep");
+    if (backStep) {
+      backStep.addEventListener("click", function (e) {
+        window.location.href = "Help.html";
+      });
+    }
+    var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "index.html";
+      });
+    }
+  </script>
+      <script src="leftMenu.js"></script>
+</body>
+
+</html>
