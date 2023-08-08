@@ -84,7 +84,7 @@
               </div>
             </div>
           </div>
-          <img class="group-child10" alt="" src="./public/group-5181.svg" />
+          <img class="group-child10" style="cursor: pointer;" id="setting" alt="" src="./public/group-5181.svg" />
         </div>
         <div class="div119">
           <span class="txt">
@@ -92,7 +92,7 @@
             <p class="p7">あなたと既に繋がりがあるキャスト一覧です。</p>
           </span>
         </div>
-        <div class="favourite-cast-parent">
+        <div class="favourite-cast-parent" style="cursor: pointer;" id="detail">
           <div class="favourite-cast">
             <div class="heading2">
               <b class="b62">◆繋がりがあるキャスト</b>
@@ -183,7 +183,21 @@
     </div>
   </div>
   <script>
-   var homeIcon = document.getElementById("homeIcon");
+    var setting = document.getElementById("setting");
+    if (setting) {
+      setting.addEventListener("click", function (e) {
+        window.location.href = "./Favorite9.html";
+      });
+    }
+
+    var detail = document.getElementById("detail");
+    if (detail) {
+      detail.addEventListener("click", function (e) {
+        window.location.href = "./Favorite2.html";
+      });
+    }
+
+    var homeIcon = document.getElementById("homeIcon");
     if (homeIcon) {
       homeIcon.addEventListener("click", function (e) {
         window.location.href = "./Component2121.html";

@@ -522,6 +522,42 @@ function insertHumbeger() {
       label: "DeactiveAccount",
       link: "./DeactiveAccount.html",
     },
+    {
+      label: "Favorite1",
+      link: "./Favorite1.html",
+    },
+    {
+      label: "Favorite2",
+      link: "./Favorite2.html",
+    },
+    {
+      label: "Favorite3",
+      link: "./Favorite3.html",
+    },
+    {
+      label: "Favorite4",
+      link: "./Favorite4.html",
+    },
+    {
+      label: "Favorite5",
+      link: "./Favorite5.html",
+    },
+    {
+      label: "Favorite6",
+      link: "./Favorite6.html",
+    },
+    {
+      label: "Favorite7",
+      link: "./Favorite7.html",
+    },
+    {
+      label: "Favorite8",
+      link: "./Favorite8.html",
+    },
+    {
+      label: "Favorite9",
+      link: "./Favorite9.html",
+    },
   ];
 
   const cast = [

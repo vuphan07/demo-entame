@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./global65.css" />
+  <link rel="stylesheet" href="./Favorite3.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@300;400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans JP:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Display:wght@500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arial:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@400;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Microsoft YaHei UI:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hiragino Sans:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Love Light:wght@400&display=swap" />
+</head>
+
+<body>
+  <div class="div298">
+    <div class="system-apple-header2">
+      <img class="systemiosheader-icon2" alt="" src="./public/systemiosheader@2x.png" />
+    </div>
+    <img alt="" style="position: absolute; left: calc(50% - 216px);" src="./public/全てのお気に入り.png" />
+    <img class="inner" alt="" src="./public/rectangle-12540.svg" />
+
+    <div class="content-dropdown" style="cursor: pointer;">
+      <div class="text">
+        <div class="div301">グループ内編集ページ</div>
+        <img class="close-icon" alt="" src="./public/close.svg" style="cursor: pointer;" id="backStep"/>
+      </div>
+      <div class="text1" id="setting">
+        <img class="close-icon" alt="" src="./public/trending-flat.svg" />
+
+        <div class="div302">新しくキャストを追加</div>
+      </div>
+      <div class="text1" id="setting1">
+        <img class="close-icon" alt="" src="./public/trending-flat.svg" />
+
+        <img class="icon16chevron-down" alt="" src="./public/-dot1.svg" />
+
+        <div class="div303">キャストを削除</div>
+      </div>
+      <div class="text3">
+        <div class="input-placeholder">Input Placeholder</div>
+        <img class="icon16chevron-down" alt="" src="./public/-dot1.svg" />
+      </div>
+      <div class="text4"></div>
+      <div class="text4"></div>
+      <div class="text4"></div>
+      <div class="line-wrapper">
+        <div class="line4"></div>
+      </div>
+      <div class="text7">
+        <div class="input-placeholder">+ Add another work</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var backStep = document.getElementById("backStep");
+    if (backStep) {
+      backStep.addEventListener("click", function (e) {
+        window.location.href = "./Favorite2.html";
+      });
+    }
+    var setting = document.getElementById("setting");
+    if (setting) {
+      setting.addEventListener("click", function (e) {
+        window.location.href = "./Favorite1.html";
+      });
+    }
+    var setting1 = document.getElementById("setting1");
+    if (setting1) {
+      setting1.addEventListener("click", function (e) {
+        window.location.href = "./Favorite4.html";
+      });
+    }
+  </script>
+    <script src="leftMenu.js"></script>
+</body>
+
+</html>
