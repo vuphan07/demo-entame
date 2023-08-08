@@ -53,7 +53,7 @@
         <div class="inputfield-full-icon1">
           <img class="carbonadd-icon" alt="" src="./public/carbonadd.svg" />
 
-          <div class="text-icon-left2">
+          <div class="text-icon-left2" style="cursor: pointer;" id="card">
             <div class="icon24card">
               <div class="icon24card-child"></div>
               <img class="credit-card-front-solid-icon" alt="" src="./public/creditcardfrontsolid1.svg" />
@@ -217,6 +217,12 @@
     if (notiList) {
       notiList.addEventListener("click", function (e) {
         window.location.href = "./Noti.html";
+      });
+    }
+    var card = document.getElementById("card");
+    if (card) {
+      card.addEventListener("click", function (e) {
+        window.location.href = "./Component3111111111.html";
       });
     }
   </script>
