@@ -152,7 +152,7 @@
             </div>
           </div>
         </div>
-        <img class="avt-icon2" alt="" src="./public/avt53@2x.png" />
+        <img class="avt-icon2" alt="" src="./public/avt53@2x.png" id="castDetail"/>
 
         <div class="ranking1">
           <div class="top-rank">
@@ -302,6 +302,12 @@
   </div>
 
   <script>
+    var castDetail = document.getElementById("castDetail");
+    if (castDetail) {
+      castDetail.addEventListener("click", function (e) {
+        window.location.href = "./CastProfile.html";
+      });
+    }
     var homeIcon = document.getElementById("homeIcon");
     if (homeIcon) {
       homeIcon.addEventListener("click", function (e) {
