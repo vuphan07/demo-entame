@@ -104,7 +104,7 @@
                 </div>
                 <img class="icon16chevron-right26" alt="" src="./public/icon16chevronright12.svg" />
               </div>
-              <div class="itemchoose20">
+              <div class="itemchoose20" style="cursor: pointer;" id="privacy">
                 <div class="text54">
                   <img class="favorite-icon25" alt="" src="./public/icon24description-2.svg" />
 
@@ -245,6 +245,12 @@
     if (deactive) {
       deactive.addEventListener("click", function (e) {
         window.location.href = "./DeactiveAccount.html";
+      });
+    }
+    var privacy = document.getElementById("privacy");
+    if (privacy) {
+      privacy.addEventListener("click", function (e) {
+        window.location.href = "./PrivacyPolicy.html";
       });
     }
   </script>
