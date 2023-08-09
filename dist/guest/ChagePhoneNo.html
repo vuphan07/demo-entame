@@ -656,7 +656,7 @@
         </div>
       </div>
       <div class="button-send3">
-        <div class="button-l4">
+        <div class="button-l4" style="cursor: pointer;" id="nextStep">
           <div class="div82">新しい電話番号に認証番号を送る</div>
         </div>
       </div>
@@ -678,6 +678,12 @@
     if (backStep) {
       backStep.addEventListener("click", function (e) {
         window.location.href = "./MyPageCast.html";
+      });
+    }
+    var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./ChangeTelNo21.html";
       });
     }
   </script>
