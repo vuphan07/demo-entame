@@ -946,6 +946,14 @@ function insertHumbeger() {
       label: "EditProfileCast2",
       link: "./EditProfileCast2.html",
     },
+    {
+      label: "FAQCast",
+      link: "./FAQCast.html",
+    },
+    {
+      label: "FAQCast2",
+      link: "./FAQCast2.html",
+    },
   ];
 
   const admin = [

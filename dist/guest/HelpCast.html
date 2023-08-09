@@ -382,7 +382,7 @@
                 </div>
                 <img class="icon16dot-v8" alt="" src="./public/icon16chevronright12.svg" />
               </div>
-              <div class="itemchoose9">
+              <div class="itemchoose9" id="faqCast">
                 <div class="text27">
                   <img class="favorite-icon35" alt="" src="./public/icon24description-3.svg" />
 
@@ -437,6 +437,12 @@
     if (term) {
       term.addEventListener("click", function (e) {
         window.location.href = "./TermOfServiceCast.html";
+      });
+    }
+    var faqCast = document.getElementById("faqCast");
+    if (faqCast) {
+      faqCast.addEventListener("click", function (e) {
+        window.location.href = "./FAQCast.html";
       });
     }
   </script>
