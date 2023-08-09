@@ -364,9 +364,9 @@
           </div>
         </div>
         <div class="page-admin-group">
-          <div class="page-admin1">
+          <div class="page-admin1" style="cursor: pointer;">
             <div class="items1">
-              <div class="itemchoose9">
+              <div class="itemchoose9" id="term">
                 <div class="text27">
                   <img class="favorite-icon35" alt="" src="./public/icon24description-3.svg" />
 
@@ -431,6 +431,12 @@
     if (backStep) {
       backStep.addEventListener("click", function (e) {
         window.location.href = "./MyPageCast.html";
+      });
+    }
+    var term = document.getElementById("term");
+    if (term) {
+      term.addEventListener("click", function (e) {
+        window.location.href = "./TermOfServiceCast.html";
       });
     }
   </script>
