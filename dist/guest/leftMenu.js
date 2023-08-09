@@ -954,6 +954,46 @@ function insertHumbeger() {
       label: "FAQCast2",
       link: "./FAQCast2.html",
     },
+    {
+      label: "ContactUsCast",
+      link: "./ContactUsCast.html",
+    },
+    {
+      label: "ContactUsCast4",
+      link: "./ContactUsCast4.html",
+    },
+    {
+      label: "ContactUsCast3",
+      link: "./ContactUsCast3.html",
+    },
+    {
+      label: "ContactUsCast5",
+      link: "./ContactUsCast5.html",
+    },
+    {
+      label: "ContactUsCast6",
+      link: "./ContactUsCast6.html",
+    },
+    {
+      label: "ContactUsCast7",
+      link: "./ContactUsCast7.html",
+    },
+    {
+      label: "ContactUsCast8",
+      link: "./ContactUsCast8.html",
+    },
+    {
+      label: "ContactUsCast9",
+      link: "./ContactUsCast9.html",
+    },
+    {
+      label: "ContactUsCast10",
+      link: "./ContactUsCast10.html",
+    },
+    {
+      label: "ContactUsList1",
+      link: "./ContactUsList1.html",
+    },
   ];
 
   const admin = [

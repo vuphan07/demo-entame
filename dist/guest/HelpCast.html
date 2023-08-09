@@ -374,7 +374,7 @@
                 </div>
                 <img class="icon16dot-v8" alt="" src="./public/icon16chevronright12.svg" />
               </div>
-              <div class="itemchoose9">
+              <div class="itemchoose9" id="privacy">
                 <div class="text27">
                   <img class="favorite-icon35" alt="" src="./public/icon24description-3.svg" />
 
@@ -390,7 +390,7 @@
                 </div>
                 <img class="icon16dot-v8" alt="" src="./public/icon16chevronright12.svg" />
               </div>
-              <div class="itemchoose9">
+              <div class="itemchoose9" id="contactUs">
                 <div class="text27">
                   <img class="favorite-icon35" alt="" src="./public/icon24description-3.svg" />
 
@@ -443,6 +443,18 @@
     if (faqCast) {
       faqCast.addEventListener("click", function (e) {
         window.location.href = "./FAQCast.html";
+      });
+    }
+    var privacy = document.getElementById("privacy");
+    if (privacy) {
+      privacy.addEventListener("click", function (e) {
+        window.location.href = "./PrivacyPolicyCast.html";
+      });
+    }
+    var contactUs = document.getElementById("contactUs");
+    if (contactUs) {
+      contactUs.addEventListener("click", function (e) {
+        window.location.href = "./ContactUsList1.html";
       });
     }
   </script>
