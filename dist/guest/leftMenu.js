@@ -998,6 +998,10 @@ function insertHumbeger() {
       label: "DeactiveCast",
       link: "./DeactiveCast.html",
     },
+    {
+      label: "SettingNotification",
+      link: "./SettingNotification.html",
+    },
   ];
 
   const admin = [
