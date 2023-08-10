@@ -1002,6 +1002,22 @@ function insertHumbeger() {
       label: "SettingNotification",
       link: "./SettingNotification.html",
     },
+    {
+      label: "PayoffHistory",
+      link: "./PayoffHistory.html",
+    },
+    {
+      label: "ChangeBankAccount",
+      link: "./ChangeBankAccount.html",
+    },
+    {
+      label: "PayoffRequest1",
+      link: "./PayoffRequest1.html",
+    },
+    {
+      label: "PayoffRequest2",
+      link: "./PayoffRequest2.html",
+    },
   ];
 
   const admin = [

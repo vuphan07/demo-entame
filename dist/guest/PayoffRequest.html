@@ -136,7 +136,7 @@
             <div class="info11"></div>
           </div>
           <div class="card-with-status15">
-            <div class="div224">
+            <div class="div224" style="cursor: pointer;" id="nextStep">
               <div class="div225">精算申請する</div>
             </div>
             <img class="chevron-right-icon15" alt="" src="./public/chevron-right1111.svg" />
@@ -173,6 +173,12 @@
     if (backStep) {
       backStep.addEventListener("click", function (e) {
         window.location.href = "./MyPageCast.html";
+      });
+    }
+    var nextStep = document.getElementById("nextStep");
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./PayoffRequest1.html";
       });
     }
   </script>
