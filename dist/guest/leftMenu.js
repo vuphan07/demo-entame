@@ -1018,6 +1018,30 @@ function insertHumbeger() {
       label: "PayoffRequest2",
       link: "./PayoffRequest2.html",
     },
+    {
+      label: "MyGuestDetail",
+      link: "./MyGuestDetail.html",
+    },
+    {
+      label: "MyGuestDetail1",
+      link: "./MyGuestDetail1.html",
+    },
+    {
+      label: "MyGuestDetail2",
+      link: "./MyGuestDetail2.html",
+    },
+    {
+      label: "MyGuestDetail3",
+      link: "./MyGuestDetail3.html",
+    },
+    {
+      label: "MyGuestDetail4",
+      link: "./MyGuestDetail4.html",
+    },
+    {
+      label: "MyGuestDetailUnlockChat",
+      link: "./MyGuestDetailUnlockChat.html",
+    },
   ];
 
   const admin = [

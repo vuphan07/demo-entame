@@ -24,9 +24,9 @@
   <div class="my-guest">
     <img class="frame-icon" alt="" src="./public/frame.svg" />
 
-    <div class="favourite-cast-parent">
+    <div class="favourite-cast-parent" style="cursor: pointer;">
       <div class="favourite-cast">
-        <div class="frame-parent23">
+        <div class="frame-parent23" id="MyGuestDetail1">
           <div class="heading-wrapper">
             <div class="heading1">
               <div class="div204">お気に入り登録してくれたゲスト</div>
@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="favourite-cast1">
-        <div class="frame-parent24">
+        <div class="frame-parent24" id="MyGuestDetail4">
           <div class="heading-wrapper">
             <div class="heading1">
               <div class="div206">お気に入り登録チャット未開放ゲスト</div>
@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-      <div class="favourite-cast2">
+      <div class="favourite-cast2" id="MyGuestDetail3">
         <div class="frame-parent24">
           <div class="heading-wrapper">
             <div class="heading1">
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="favourite-cast3">
-        <div class="frame-parent24">
+        <div class="frame-parent24" id="MyGuestDetail2">
           <div class="heading-wrapper">
             <div class="heading1">
               <div class="div206">縁ためリクエスト成立歴があるゲスト</div>
@@ -157,6 +157,32 @@
   </div>
   <script src="leftMenu.js"></script>
   <script src="HeaderFooterCast.js"></script>
+  <script>
+    var MyGuestDetail4 = document.getElementById("MyGuestDetail4");
+    if (MyGuestDetail4) {
+      MyGuestDetail4.addEventListener("click", function (e) {
+        window.location.href = "./MyGuestDetail4.html";
+      });
+    }
+    var MyGuestDetail1 = document.getElementById("MyGuestDetail1");
+    if (MyGuestDetail1) {
+      MyGuestDetail1.addEventListener("click", function (e) {
+        window.location.href = "./MyGuestDetail1.html";
+      });
+    }
+    var MyGuestDetail2 = document.getElementById("MyGuestDetail2");
+    if (MyGuestDetail2) {
+      MyGuestDetail2.addEventListener("click", function (e) {
+        window.location.href = "./MyGuestDetail2.html";
+      });
+    }
+    var MyGuestDetail3 = document.getElementById("MyGuestDetail3");
+    if (MyGuestDetail3) {
+      MyGuestDetail3.addEventListener("click", function (e) {
+        window.location.href = "./MyGuestDetail3.html";
+      });
+    }
+  </script>
 </body>
 
 </html>
