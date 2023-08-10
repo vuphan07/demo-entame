@@ -400,7 +400,7 @@
               </div>
             </div>
           </div>
-          <div class="frame" style="border: 1px solid #5E51FC;">
+          <div class="frame" style="border: 1px solid #5E51FC; cursor: pointer;" id="deactive">
             <div class="div299">退会</div>
           </div>
         </div>
@@ -427,6 +427,12 @@
     </div>
   </div>
   <script>
+    var deactive = document.getElementById("deactive");
+    if (deactive) {
+      deactive.addEventListener("click", function (e) {
+        window.location.href = "./DeactiveCast.html";
+      });
+    }
     var backStep = document.getElementById("backStep");
     if (backStep) {
       backStep.addEventListener("click", function (e) {

@@ -994,6 +994,10 @@ function insertHumbeger() {
       label: "ContactUsList1",
       link: "./ContactUsList1.html",
     },
+    {
+      label: "DeactiveCast",
+      link: "./DeactiveCast.html",
+    },
   ];
 
   const admin = [
