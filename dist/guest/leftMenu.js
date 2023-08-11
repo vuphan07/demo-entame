@@ -1351,6 +1351,26 @@ function insertHumbeger() {
       label: "ReportUser1",
       link: "ReportUser1.html",
     },
+    {
+      label: "ContactUsDetail",
+      link: "ContactUsDetail.html",
+    },
+    {
+      label: "ContactUsDetail1",
+      link: "ContactUsDetail1.html",
+    },
+    {
+      label: "ContactUsDetail11",
+      link: "ContactUsDetail11.html",
+    },
+    {
+      label: "ContactUsDetailAdmin",
+      link: "ContactUsDetailAdmin.html",
+    },
+    {
+      label: "ContactUsDetailAdmin2",
+      link: "ContactUsDetailAdmin2.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
