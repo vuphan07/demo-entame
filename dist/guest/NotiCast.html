@@ -685,8 +685,8 @@
             <i class="i3">1</i>
           </div>
         </div>
-        <div class="lv1-bars-navi-item-activ">
-          <div class="div174">ニュース</div>
+        <div class="lv1-bars-navi-item-activ" style="cursor: pointer;">
+          <div class="div174" id="noti1">ニュース</div>
           <div class="lv1-bars-navi-item-activ-child"></div>
         </div>
         <div class="lv0-icons-notice2">
@@ -704,6 +704,12 @@
     if (backStep) {
       backStep.addEventListener("click", function (e) {
         window.location.href = "./MyPageCast.html";
+      });
+    }
+    var noti1 = document.getElementById("noti1");
+    if (noti1) {
+      noti1.addEventListener("click", function (e) {
+        window.location.href = "./NotiCast1.html";
       });
     }
   </script>

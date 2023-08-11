@@ -1042,6 +1042,10 @@ function insertHumbeger() {
       label: "MyGuestDetailUnlockChat",
       link: "./MyGuestDetailUnlockChat.html",
     },
+    {
+      label: "NotiCast1",
+      link: "./NotiCast1.html",
+    },
   ];
 
   const admin = [
