@@ -1343,6 +1343,14 @@ function insertHumbeger() {
       label: "StaticPageSetting7",
       link: "StaticPageSetting7.html",
     },
+    {
+      label: "ReportUser",
+      link: "ReportUser.html",
+    },
+    {
+      label: "ReportUser1",
+      link: "ReportUser1.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
