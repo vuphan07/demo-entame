@@ -1391,6 +1391,26 @@ function insertHumbeger() {
       label: "CreatNewBanner",
       link: "CreatNewBanner.html",
     },
+    {
+      label: "Coupon1",
+      link: "Coupon1.html",
+    },
+    {
+      label: "Coupon2",
+      link: "Coupon2.html",
+    },
+    {
+      label: "Coupon3",
+      link: "Coupon3.html",
+    },
+    {
+      label: "Coupon4",
+      link: "Coupon4.html",
+    },
+    {
+      label: "Coupon5",
+      link: "Coupon5.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
