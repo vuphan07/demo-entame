@@ -1411,6 +1411,34 @@ function insertHumbeger() {
       label: "Coupon5",
       link: "Coupon5.html",
     },
+    {
+      label: "FAQAdmin",
+      link: "FAQAdmin.html",
+    },
+    {
+      label: "FAQAdmin1",
+      link: "FAQAdmin1.html",
+    },
+    {
+      label: "FAQAdmin2",
+      link: "FAQAdmin2.html",
+    },
+    {
+      label: "FAQAdmin3",
+      link: "FAQAdmin3.html",
+    },
+    {
+      label: "FAQAdmin4",
+      link: "FAQAdmin4.html",
+    },
+    {
+      label: "FAQAdmin5",
+      link: "FAQAdmin5.html",
+    },
+    {
+      label: "FAQAdmin6",
+      link: "FAQAdmin6.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
