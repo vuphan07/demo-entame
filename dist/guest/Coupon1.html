@@ -37,10 +37,10 @@
         </div>
       </div>
       <div class="modal-actions21">
-        <div class="stroke44" style="padding: 10px 10px;">
+        <div class="stroke44" style="padding: 10px 10px; cursor: pointer;" id="backStep">
           <div class="button262">キャンセル</div>
         </div>
-        <div class="default254">
+        <div class="default254" style="cursor: pointer;" id="nextStep">
           <b class="button263">削除</b>
         </div>
       </div>
@@ -48,19 +48,19 @@
   </div>
 
   <script>
-    var iconContainer = document.getElementById("iconContainer");
-    if (iconContainer) {
-      iconContainer.addEventListener("click", function (e) {
-        window.location.href = "./Coupon4.html";
+    var backStep = document.getElementById("backStep");
+    if (backStep) {
+      backStep.addEventListener("click", function (e) {
+        window.location.href = "./Coupon5.html";
       });
     }
 
-    var buttonapprovalContainer = document.getElementById(
-      "buttonapprovalContainer"
+    var nextStep = document.getElementById(
+      "nextStep"
     );
-    if (buttonapprovalContainer) {
-      buttonapprovalContainer.addEventListener("click", function (e) {
-        window.location.href = "./Coupon2.html";
+    if (nextStep) {
+      nextStep.addEventListener("click", function (e) {
+        window.location.href = "./Coupon5.html";
       });
     }
 
@@ -120,7 +120,7 @@
       });
     }
   </script>
-    <script src="leftMenu.js"></script>
+  <script src="leftMenu.js"></script>
 </body>
 
 </html>
