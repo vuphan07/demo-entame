@@ -1447,6 +1447,10 @@ function insertHumbeger() {
       label: "Purchase2",
       link: "Purchase2.html",
     },
+    {
+      label: "PointLog",
+      link: "PointLog.html",
+    },
   ];
   // delay render
   var leftMenuIcon = document.getElementById("iconLeftMenu");
